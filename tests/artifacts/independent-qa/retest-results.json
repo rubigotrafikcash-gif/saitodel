@@ -1,0 +1,223 @@
+{
+  "cycle": 1,
+  "time": "2026-11-08T18:26:38.389Z",
+  "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html",
+  "hashes": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101",
+    "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  "runs": [
+    {
+      "width": 320,
+      "height": 568,
+      "errors": [],
+      "geometry": {
+        "scrollWidth": 320,
+        "width": 320,
+        "targets": [
+          {
+            "text": "Услуги",
+            "width": 44,
+            "height": 44,
+            "left": 151.09375,
+            "right": 195.09375,
+            "top": 25.5
+          },
+          {
+            "text": "Процесс",
+            "width": 44,
+            "height": 44,
+            "left": 205.09375,
+            "right": 249.09375,
+            "top": 25.5
+          },
+          {
+            "text": "Вопросы",
+            "width": 44.90625,
+            "height": 44,
+            "left": 259.09375,
+            "right": 304,
+            "top": 25.5
+          }
+        ]
+      },
+      "navFocus": {
+        "text": "Услуги",
+        "outline": "rgb(153, 107, 18) solid 3px",
+        "visible": true
+      },
+      "navAction": {
+        "hash": "#services",
+        "top": 47.5
+      },
+      "pass": true
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "errors": [],
+      "geometry": {
+        "scrollWidth": 375,
+        "width": 375,
+        "targets": [
+          {
+            "text": "Услуги",
+            "width": 44,
+            "height": 44,
+            "left": 186.8125,
+            "right": 230.8125,
+            "top": 25.5
+          },
+          {
+            "text": "Процесс",
+            "width": 47.203125,
+            "height": 44,
+            "left": 244.8125,
+            "right": 292.015625,
+            "top": 25.5
+          },
+          {
+            "text": "Вопросы",
+            "width": 48.984375,
+            "height": 44,
+            "left": 306.015625,
+            "right": 355,
+            "top": 25.5
+          }
+        ]
+      },
+      "navFocus": {
+        "text": "Услуги",
+        "outline": "rgb(153, 107, 18) solid 3px",
+        "visible": true
+      },
+      "navAction": {
+        "hash": "#services",
+        "top": 48.15625
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "errors": [],
+      "geometry": {
+        "scrollWidth": 768,
+        "width": 768,
+        "targets": [
+          {
+            "text": "Услуги",
+            "width": 44,
+            "height": 44,
+            "left": 371.90625,
+            "right": 415.90625,
+            "top": 31.5
+          },
+          {
+            "text": "Процесс",
+            "width": 55.078125,
+            "height": 44,
+            "left": 437.90625,
+            "right": 492.984375,
+            "top": 31.5
+          },
+          {
+            "text": "Вопросы",
+            "width": 57.15625,
+            "height": 44,
+            "left": 514.984375,
+            "right": 572.140625,
+            "top": 31.5
+          },
+          {
+            "text": "Обсудить проект ↗",
+            "width": 141.859375,
+            "height": 44,
+            "left": 594.140625,
+            "right": 736,
+            "top": 31.5
+          }
+        ]
+      },
+      "navFocus": {
+        "text": "Услуги",
+        "outline": "rgb(153, 107, 18) solid 3px",
+        "visible": true
+      },
+      "navAction": {
+        "hash": "#services",
+        "top": 48.46875
+      },
+      "tabletValid": "Демонстрация завершена: поля заполнены корректно. Заявка не отправлена, данные не сохранены. Можно изменить поля и попробовать ещё раз.",
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "errors": [],
+      "geometry": {
+        "scrollWidth": 1440,
+        "width": 1440,
+        "targets": [
+          {
+            "text": "Услуги",
+            "width": 44,
+            "height": 44,
+            "left": 937.90625,
+            "right": 981.90625,
+            "top": 31.5
+          },
+          {
+            "text": "Процесс",
+            "width": 55.078125,
+            "height": 44,
+            "left": 1015.90625,
+            "right": 1070.984375,
+            "top": 31.5
+          },
+          {
+            "text": "Вопросы",
+            "width": 57.15625,
+            "height": 44,
+            "left": 1104.984375,
+            "right": 1162.140625,
+            "top": 31.5
+          },
+          {
+            "text": "Обсудить проект ↗",
+            "width": 141.859375,
+            "height": 44,
+            "left": 1218.140625,
+            "right": 1360,
+            "top": 31.5
+          }
+        ]
+      },
+      "navFocus": {
+        "text": "Услуги",
+        "outline": "rgb(153, 107, 18) solid 3px",
+        "visible": true
+      },
+      "navAction": {
+        "hash": "#services",
+        "top": 47.9375
+      },
+      "pass": true
+    }
+  ],
+  "scope": "Targeted header regression: geometry, tap dimensions, link action and visible keyboard focus. Extra settled tablet success screenshot. Other original checks retained against original hashes, not represented as rerun.",
+  "exactDelta": {
+    "onlyNavMinWidth": true,
+    "otherFilesUnchanged": true
+  },
+  "afterHashes": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101",
+    "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  }
+}

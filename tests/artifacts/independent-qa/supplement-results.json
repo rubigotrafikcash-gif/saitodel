@@ -1,0 +1,1251 @@
+{
+  "time": "2026-11-08T18:25:21.926Z",
+  "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/independent-qa/source-snapshot/index.html",
+  "keyboard": [
+    {
+      "width": 375,
+      "steps": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Перейти к содержанию",
+          "focusVisible": true,
+          "y": 12,
+          "bottom": 63.1875,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "линия↗",
+          "focusVisible": true,
+          "y": 25.5,
+          "bottom": 69.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Услуги",
+          "focusVisible": true,
+          "y": 25.5,
+          "bottom": 69.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Процесс",
+          "focusVisible": true,
+          "y": 25.5,
+          "bottom": 69.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Вопросы",
+          "focusVisible": true,
+          "y": 25.5,
+          "bottom": 69.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Обсудить проект ↗",
+          "focusVisible": true,
+          "y": 494.421875,
+          "bottom": 550.421875,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Что нужно для начала?+",
+          "focusVisible": true,
+          "y": 416.8125,
+          "bottom": 483.8125,
+          "scrollY": 2698,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "А если пока нет текстов и фотографий?+",
+          "focusVisible": true,
+          "y": 452.8125,
+          "bottom": 519.8125,
+          "scrollY": 2730,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Как определяются стоимость и сроки?+",
+          "focusVisible": true,
+          "y": 520.8125,
+          "bottom": 587.8125,
+          "scrollY": 2730,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Сайт будет работать на телефоне?+",
+          "focusVisible": true,
+          "y": 588.8125,
+          "bottom": 655.8125,
+          "scrollY": 2730,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Эта форма отправляет заявку?+",
+          "focusVisible": true,
+          "y": 656.8125,
+          "bottom": 723.8125,
+          "scrollY": 2730,
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "name",
+          "text": "",
+          "focusVisible": true,
+          "y": 408.578125,
+          "bottom": 464.578125,
+          "scrollY": 3654,
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "email",
+          "text": "",
+          "focusVisible": true,
+          "y": 516.578125,
+          "bottom": 572.578125,
+          "scrollY": 3654,
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "demo-button",
+          "text": "Проверить демоформу ↗",
+          "focusVisible": true,
+          "y": 594.578125,
+          "bottom": 650.578125,
+          "scrollY": 3654,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "линия↗",
+          "focusVisible": true,
+          "y": 737.578125,
+          "bottom": 781.578125,
+          "scrollY": 3654,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "В начало ↑",
+          "focusVisible": true,
+          "y": 737.578125,
+          "bottom": 781.578125,
+          "scrollY": 3654,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "steps": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Перейти к содержанию",
+          "focusVisible": true,
+          "y": 12,
+          "bottom": 63.1875,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "линия↗",
+          "focusVisible": true,
+          "y": 31.5,
+          "bottom": 75.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Услуги",
+          "focusVisible": true,
+          "y": 31.5,
+          "bottom": 75.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Процесс",
+          "focusVisible": true,
+          "y": 31.5,
+          "bottom": 75.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Вопросы",
+          "focusVisible": true,
+          "y": 31.5,
+          "bottom": 75.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Обсудить проект ↗",
+          "focusVisible": true,
+          "y": 31.5,
+          "bottom": 75.5,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "Обсудить проект ↗",
+          "focusVisible": true,
+          "y": 525.0625,
+          "bottom": 583.0625,
+          "scrollY": 0,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Что нужно для начала?+",
+          "focusVisible": true,
+          "y": 439.203125,
+          "bottom": 512.203125,
+          "scrollY": 2393,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "А если пока нет текстов и фотографий?+",
+          "focusVisible": true,
+          "y": 499.203125,
+          "bottom": 572.203125,
+          "scrollY": 2407,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Как определяются стоимость и сроки?+",
+          "focusVisible": true,
+          "y": 573.203125,
+          "bottom": 646.203125,
+          "scrollY": 2407,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Сайт будет работать на телефоне?+",
+          "focusVisible": true,
+          "y": 647.203125,
+          "bottom": 720.203125,
+          "scrollY": 2407,
+          "visible": true
+        },
+        {
+          "tag": "SUMMARY",
+          "id": "",
+          "text": "Эта форма отправляет заявку?+",
+          "focusVisible": true,
+          "y": 721.203125,
+          "bottom": 794.203125,
+          "scrollY": 2407,
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "name",
+          "text": "",
+          "focusVisible": true,
+          "y": 433.59375,
+          "bottom": 489.59375,
+          "scrollY": 3061,
+          "visible": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "email",
+          "text": "",
+          "focusVisible": true,
+          "y": 541.59375,
+          "bottom": 597.59375,
+          "scrollY": 3061,
+          "visible": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "demo-button",
+          "text": "Проверить демоформу ↗",
+          "focusVisible": true,
+          "y": 619.59375,
+          "bottom": 677.59375,
+          "scrollY": 3061,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "линия↗",
+          "focusVisible": true,
+          "y": 855.6875,
+          "bottom": 899.6875,
+          "scrollY": 3094,
+          "visible": true
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "В начало ↑",
+          "focusVisible": true,
+          "y": 855.6875,
+          "bottom": 899.6875,
+          "scrollY": 3094,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "motion": [
+    {
+      "width": 375,
+      "log": [
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "hero-intro",
+          "k": [
+            {
+              "transform": "translateY(6px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 380,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "H1",
+          "id": "hero-title",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(16px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 620,
+            "delay": 40,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "hero-bottom",
+          "k": [
+            {
+              "transform": "translateY(10px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 480,
+            "delay": 120,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "business-strip",
+          "k": [
+            {
+              "transform": "translateY(6px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 400,
+            "delay": 200,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "cls": "eyebrow",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "route",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "section-heading",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 45,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "section-heading",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 45,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "faq-list",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "contact-copy",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "FORM",
+          "id": "contact-form",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "log": [
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "hero-intro",
+          "k": [
+            {
+              "transform": "translateY(6px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 380,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "H1",
+          "id": "hero-title",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(16px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 620,
+            "delay": 40,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "hero-bottom",
+          "k": [
+            {
+              "transform": "translateY(10px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 480,
+            "delay": 120,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "business-strip",
+          "k": [
+            {
+              "transform": "translateY(6px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 400,
+            "delay": 200,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "P",
+          "id": "",
+          "cls": "eyebrow",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "route",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "section-heading",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 45,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "ARTICLE",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "section-heading",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 45,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "LI",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 90,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "faq-list",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "",
+          "cls": "contact-copy",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        },
+        {
+          "tag": "FORM",
+          "id": "contact-form",
+          "cls": "",
+          "k": [
+            {
+              "transform": "translateY(14px)"
+            },
+            {
+              "transform": "none"
+            }
+          ],
+          "o": {
+            "duration": 520,
+            "delay": 0,
+            "easing": "cubic-bezier(.22,1,.36,1)",
+            "fill": "backwards"
+          }
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "width": 375,
+      "action": "skip-enter-then-tab",
+      "result": {
+        "hash": "#main",
+        "active": "Обсудить проект ↗"
+      }
+    },
+    {
+      "width": 375,
+      "action": "nav-services",
+      "result": {
+        "hash": "#services",
+        "targetTop": 48.15625
+      }
+    },
+    {
+      "width": 375,
+      "action": "nav-process",
+      "result": {
+        "hash": "#process",
+        "targetTop": 48.484375
+      }
+    },
+    {
+      "width": 375,
+      "action": "nav-faq",
+      "result": {
+        "hash": "#faq",
+        "targetTop": 48.296875
+      }
+    },
+    {
+      "width": 375,
+      "action": "browser-back",
+      "result": {
+        "hash": "#process",
+        "top": 48.484375
+      }
+    },
+    {
+      "width": 1440,
+      "action": "skip-enter-then-tab",
+      "result": {
+        "hash": "#main",
+        "active": "Обсудить проект ↗"
+      }
+    },
+    {
+      "width": 1440,
+      "action": "nav-services",
+      "result": {
+        "hash": "#services",
+        "targetTop": 47.9375
+      }
+    },
+    {
+      "width": 1440,
+      "action": "nav-process",
+      "result": {
+        "hash": "#process",
+        "targetTop": 47.875
+      }
+    },
+    {
+      "width": 1440,
+      "action": "nav-faq",
+      "result": {
+        "hash": "#faq",
+        "targetTop": 48.203125
+      }
+    },
+    {
+      "width": 1440,
+      "action": "browser-back",
+      "result": {
+        "hash": "#process",
+        "top": 47.875
+      }
+    }
+  ],
+  "contrast": [
+    {
+      "label": "body",
+      "ratio": 10.920297475535255,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "label": "muted",
+      "ratio": 5.515623309315791,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "label": "muted-on-soft",
+      "ratio": 5.101393726622846,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "label": "light-on-dark",
+      "ratio": 8.85939339533255,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "label": "error",
+      "ratio": 7.74719505197783,
+      "threshold": 4.5,
+      "pass": true
+    },
+    {
+      "label": "focus-on-paper",
+      "ratio": 4.2270969346618115,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "label": "focus-on-soft",
+      "ratio": 3.9096371479700336,
+      "threshold": 3,
+      "pass": true
+    },
+    {
+      "label": "input-border",
+      "ratio": 3.1766400468008853,
+      "threshold": 3,
+      "pass": true
+    }
+  ],
+  "note": "Initial raw-results motion assertions sampled after reload and keyboard focus, so contact animation was intentionally skipped. This independent scroll check supersedes those assertions; original evidence retained."
+}

@@ -1,0 +1,1927 @@
+{
+  "version": 1,
+  "assessed_at": "2026-11-08T18:31:00.710Z",
+  "assessor": "/root/acceptance_design",
+  "candidate": {
+    "plugin_version": "1.0.2",
+    "plugin_id": "plugins_6af0b6fc62bc81918d18cb8ee0227cea",
+    "release_id": "pluginrel_6af0b95fcb5481919996104dea84dd10",
+    "package_path": "build/v1.0.2/saitodel",
+    "skill_sha256": "595a969335fd9d7c655f6fd041adc857a41bbcfe5f95212b6d3a2a229a9ecef9",
+    "source_lock_sha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18",
+    "account_scope": "Новая аккаунтная поставка; обновление неизвестного исторического персонального навыка не подтверждено."
+  },
+  "criteria": {
+    "path": "tests/acceptance.json",
+    "version": 1,
+    "sha256": "f1cfce37b0df1a54575ae39b2dbd309054177ed7eefc980a3ab68e69e0e70339",
+    "unchanged": true,
+    "threshold": 97,
+    "denominator": 34,
+    "minimum_passes": 33,
+    "all_critical_required": true
+  },
+  "summary": {
+    "counts": {
+      "PASS": 13,
+      "FAIL": 0,
+      "BLOCKED": 21,
+      "NOT_RUN": 0
+    },
+    "passed": 13,
+    "total": 34,
+    "percent": 38.23529411764706,
+    "display_percent": "38.24",
+    "threshold": 97,
+    "threshold_met": false,
+    "critical_total": 30,
+    "critical_passed": 11,
+    "missing_critical": [
+      "B05",
+      "B06",
+      "B07",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R10",
+      "I02",
+      "I03",
+      "I04",
+      "I05",
+      "I06",
+      "I07",
+      "I08"
+    ],
+    "all_critical_passed": false,
+    "accepted": false,
+    "verdict": "BLOCKED_NOT_ACCEPTED"
+  },
+  "scope": {
+    "work_tests": "P1/P2/P3 выполнены отдельными source-level Work-агентами; P4 — свежим fork_none без веб-проекта.",
+    "work_native_discovery": "Не подтверждено.",
+    "codex_native_execution": "Заблокировано до ответа модели; отдельного сайта Codex нет.",
+    "website_surface": "Локальный file:// в Chrome, не опубликованный HTTP.",
+    "browser_tests_executed_by_this_assessor": false
+  },
+  "evidence_limitations": [
+    "Отдельные чтения инструкций P1/P2/P3, ответ P4, Plugin Management и реальные отказы Codex сохранены как наблюдения текущей сессии/координатора. Сырые tool transcripts не экспортированы; этот отчёт не создаёт их из пересказа.",
+    "PASS B01/B02/B03 основан на наблюдениях о реальных чтениях плюс проверяемых артефактах и применении. Одних строк в SOURCES.md/RUN-RECORD.md для этого было бы недостаточно.",
+    "Source-level Work fork_none не подменяет новую нативную клиентскую сессию и не закрывает I02–I04.",
+    "Для каждого R требуется Work и отдельный Codex. Успешная Work-часть не даёт дробного балла и не уменьшает знаменатель.",
+    "Финальная Work-версия принята на основании исходного независимого QA, доказанной единственной правки min-width и целевого ретеста. Полный первоначальный прогон не объявляется повторённым на финальной версии.",
+    "Не заявляются реальные мобильные устройства, Safari/Firefox, screen reader, системный 200% zoom, человеческий пятисекундный тест, production, Core Web Vitals или визуальная приёмка каждого созданного PNG.",
+    "38.24% относится к выполнению frozen34, а не к качеству дизайна. Порог 97% не достигнут."
+  ],
+  "checks": [
+    {
+      "id": "S01",
+      "critical": true,
+      "criterion": "Для четырёх источников указаны точные URL, ревизии, выбранные пути и условия использования; локальное содержимое сопоставлено с ними.",
+      "status": "PASS",
+      "reason": "Для четырёх источников зафиксированы repository/ref, пути, контрольные суммы и условия распространения. В текущей сборке 1.0.2 независимо перепроверены 55 bundled файлов; во внешнем кэше — 4 файла.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_EXTERNAL",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S02",
+      "critical": true,
+      "criterion": "Полный содержательный пакет web-design-engineer и необходимые ему материалы доступны через внешний источник с закреплённой ревизией. Копирование в поставку не требуется и не допускается без разрешения правообладателя. Одна ссылка или пересказ без подтверждённого получения полного содержимого и необходимых материалов проверку не закрывает; фактическое применение отдельно подтверждается B01 и B05.",
+      "status": "PASS",
+      "reason": "Четыре полных файла web-design-engineer получены по закреплённой ревизии; Git blob SHA совпадают. SKILL.md и advanced-patterns.md доступны. Содержимое не включено в распространяемый пакет.",
+      "evidence": [
+        "E_STATIC",
+        "E_EXTERNAL",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S03",
+      "critical": true,
+      "criterion": "Подключён содержательный пакет motionsites-skill и необходимые ему материалы; одной ссылки или пересказа недостаточно.",
+      "status": "PASS",
+      "reason": "Полный выбранный пакет MotionSites и обязательные материалы присутствуют: 23 закреплённых файла соответствуют lock.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S04",
+      "critical": true,
+      "criterion": "Зафиксированы конкретные выбранные пакеты TheGoat395 и назначение каждого; проверены их содержимое и необходимые материалы.",
+      "status": "PASS",
+      "reason": "Семь выбранных пакетов TheGoat и их назначения зафиксированы; 28 файлов с лицензией соответствуют lock. Обязательные локальные ссылки проверены.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S05",
+      "critical": true,
+      "criterion": "Подключены действующие web-interface-guidelines либо проверяемый способ получения правил, предусмотренный источником.",
+      "status": "PASS",
+      "reason": "Четыре файла закреплённого Vercel Web Interface Guidelines, включая AGENTS.md и command.md, доступны и соответствуют lock.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S06",
+      "critical": true,
+      "criterion": "Все обязательные ссылки, ресурсы и зависимости выбранных пакетов разрешаются из поставляемого комплекта, включая предусмотренное в S02 получение внешнего источника с закреплённой ревизией.",
+      "status": "PASS",
+      "reason": "Обязательные локальные ссылки и материалы разрешаются. Исправленная база относительных путей, orchestration, шаблон записи и ресурсы включены в сборку 1.0.2; внешний источник доступен и проверен.",
+      "evidence": [
+        "E_STATIC",
+        "E_LOCK",
+        "E_SOURCE_REVIEW"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S07",
+      "critical": true,
+      "criterion": "Поставки Work и Codex соответствуют одной заявленной версии и одному содержательному набору источников.",
+      "status": "PASS",
+      "reason": "Независимо пересчитаны SHA-256 всех 68 файлов локальной поставки skills/saitodel/: они совпали с localSha256 и remoteSha256 полного обратного чтения аккаунтной поставки 1.0.2. Пропусков и расхождений не обнаружено.",
+      "evidence": [
+        "E_STATIC",
+        "E_ACCOUNT",
+        "E_WORK_ACCOUNT_SESSION"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S08",
+      "critical": false,
+      "criterion": "Нет лишних пакетов, противоречащих правил, дублирующихся входных точек и обещаний неподтверждённых возможностей.",
+      "status": "PASS",
+      "reason": "Подтверждённых лишних пакетов, конфликтов маршрутизации и обещаний отсутствующих возможностей не обнаружено. Загрузка входов TheGoat сохраняет их условные правила и не требует заново создавать согласованную дизайн-систему.",
+      "evidence": [
+        "E_SOURCE_REVIEW",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B01",
+      "critical": true,
+      "criterion": "Work: по P1 наблюдаемо применены web-design-engineer и соответствующие заранее выбранные пакеты TheGoat395; создан запускаемый сайт.",
+      "status": "PASS",
+      "reason": "В отдельном Work fork_none /root/website_work_p1 выполнен P1; создан и открыт реальный автономный сайт. Применение WDE и шести соответствующих TheGoat подтверждено сохранёнными наблюдениями координатора о чтениях инструментами, источниками и артефактами. Это испытание исходника по явному пути, а не проверка нативного обнаружения плагина.",
+      "evidence": [
+        "E_WORK_P1_SESSION",
+        "E_P1_SOURCES",
+        "E_P1_CHECKS",
+        "E_P1_INITIAL",
+        "E_P1_REPEAT",
+        "E_P1_TARGETED"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B02",
+      "critical": true,
+      "criterion": "Work: по P2 наблюдаемо применён motionsites; изменение выполнено в реальном сайте.",
+      "status": "PASS",
+      "reason": "В отдельном Work fork_none /root/website_work_p2 выполнен P2: реальному сайту добавлены entrance/reveal/button motion и reduced motion. Чтение MotionSites, применимых recipes, browser-inspection и visual-regression подтверждено наблюдениями координатора; артефакты и 285+9 компонентных проверок сохранены.",
+      "evidence": [
+        "E_WORK_P2_SESSION",
+        "E_P2_RUN",
+        "E_P2_MAIN",
+        "E_P2_EDGE"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B03",
+      "critical": true,
+      "criterion": "Work: по P3 наблюдаемо применены web-interface-guidelines; выводы привязаны к фактам сайта.",
+      "status": "PASS",
+      "reason": "Независимый Work P3 /root/website_independent_qa применил полные Vercel AGENTS.md/command.md: воспроизведена QA-01 о сенсорной зоне «Услуги», координатор добавил min-width:44px, независимый целевой ретест 320/375/768/1440 прошёл. Выводы связаны с реальными исходниками, геометрией и просмотренными снимками.",
+      "evidence": [
+        "E_WORK_P3_SESSION",
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B04",
+      "critical": false,
+      "criterion": "Work: по P4 выполнена только требуемая редактура без запуска ненужного полного веб-процесса.",
+      "status": "PASS",
+      "reason": "Свежий Work fork_none /root/work_copy_scope вернул только требуемое исправленное предложение. По наблюдению координатора вызовов инструментов не было; завершённый ответ также прочитан оценщиком через список агентов. Сырой transcript не экспортирован.",
+      "evidence": [
+        "E_WORK_P4_SESSION"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B05",
+      "critical": true,
+      "criterion": "Codex: по P1 наблюдаемо применены web-design-engineer и соответствующие заранее выбранные пакеты TheGoat395; создан запускаемый сайт. Это самостоятельный запуск в Codex.",
+      "status": "BLOCKED",
+      "reason": "Самостоятельный Codex P1 не состоялся: реальный codex exec завершился Access denied при инициализации app-server до ответа модели. Сайт Codex отсутствует.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B06",
+      "critical": true,
+      "criterion": "Codex: по P2 наблюдаемо применён motionsites; изменение выполнено в реальном сайте. Это самостоятельный запуск в Codex.",
+      "status": "BLOCKED",
+      "reason": "Самостоятельный Codex P2 не выполнен: клиент не смог начать модельную сессию, отсутствует обязательный исходный сайт Codex P1.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B07",
+      "critical": true,
+      "criterion": "Codex: по P3 наблюдаемо применены web-interface-guidelines; выводы привязаны к фактам сайта. Это самостоятельный запуск в Codex.",
+      "status": "BLOCKED",
+      "reason": "Самостоятельный Codex P3 не выполнен: запуск клиента заблокирован Access denied, сайт Codex отсутствует.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B08",
+      "critical": false,
+      "criterion": "Codex: по P4 выполнена только требуемая редактура без запуска ненужного полного веб-процесса. Это самостоятельный запуск в Codex.",
+      "status": "BLOCKED",
+      "reason": "Самостоятельный Codex P4 не выполнен: запуск клиентской модельной сессии заблокирован. Ответ Work не подменяет проверку Codex.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "R01",
+      "critical": true,
+      "criterion": "Оба сайта действительно открыты в браузере; обязательная сборка проекта, если она предусмотрена, завершилась успешно.",
+      "status": "BLOCKED",
+      "reason": "Work: реальная страница открыта в Chrome 156.0.8078.80 через file://; автономный HTML не требует сборки. Доступность HTTP localhost не подтверждена, ERR_NETWORK_ACCESS_DENIED сохранён. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: реальная страница открыта в Chrome 156.0.8078.80 через file://; автономный HTML не требует сборки. Доступность HTTP localhost не подтверждена, ERR_NETWORK_ACCESS_DENIED сохранён."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R02",
+      "critical": true,
+      "criterion": "Оба сайта содержат все согласованные разделы и сведения P1; отсутствуют выдуманные отзывы, клиенты и показатели.",
+      "status": "BLOCKED",
+      "reason": "Work: проверены hero, услуги, этапы, FAQ, форма, молочно-зелёная концепция и честный деморежим. Выдуманных клиентов, цен, показателей и отзывов не обнаружено. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены hero, услуги, этапы, FAQ, форма, молочно-зелёная концепция и честный деморежим. Выдуманных клиентов, цен, показателей и отзывов не обнаружено."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R03",
+      "critical": true,
+      "criterion": "Оба сайта проверены при ширине 375, 768 и 1440 px: нет горизонтального переполнения, перекрытия текста и недоступных элементов.",
+      "status": "BLOCKED",
+      "reason": "Work: проверены 375/768/1440, дополнительные размеры; переполнения и перекрытий в проверенном объёме не обнаружено. После правки header выполнен целевой ретест 320/375/768/1440. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены 375/768/1440, дополнительные размеры; переполнения и перекрытий в проверенном объёме не обнаружено. После правки header выполнен целевой ретест 320/375/768/1440."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R04",
+      "critical": true,
+      "criterion": "Навигация и CTA обоих сайтов доводят до заявленной формы или раздела; нет пустых ссылок и мёртвых кнопок.",
+      "status": "BLOCKED",
+      "reason": "Work: CTA ведёт к contact, меню/якоря и возврат работают; после правки отдельно перепроверена ссылка services и её keyboard activation. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: CTA ведёт к contact, меню/якоря и возврат работают; после правки отдельно перепроверена ссылка services и её keyboard activation."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R05",
+      "critical": true,
+      "criterion": "Реально проверены пустой ввод, ошибочный email и корректный ввод; сообщения понятны, серверная отправка не имитируется.",
+      "status": "BLOCKED",
+      "reason": "Work: проверены пустые поля, неверный email, корректный ввод/Enter, сообщения и фокус. Демоформа не заявляет реальную отправку, сетевых запросов отправки не наблюдалось. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены пустые поля, неверный email, корректный ввод/Enter, сообщения и фокус. Демоформа не заявляет реальную отправку, сетевых запросов отправки не наблюдалось."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R06",
+      "critical": true,
+      "criterion": "Оба сайта полностью проходимы клавиатурой: видимый фокус, логичный порядок, работающие интерактивные элементы, отсутствие ловушек.",
+      "status": "BLOCKED",
+      "reason": "Work: проверены skip-link, последовательность Tab, видимость фокуса после завершения прокрутки, FAQ через Enter/Space и элементы формы. Header отдельно перепроверен после правки. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены skip-link, последовательность Tab, видимость фокуса после завершения прокрутки, FAQ через Enter/Space и элементы формы. Header отдельно перепроверен после правки."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R07",
+      "critical": true,
+      "criterion": "При включённом reduced motion на обоих сайтах прекращаются необязательные значительные перемещения; контент и действия доступны.",
+      "status": "BLOCKED",
+      "reason": "Work: при reduced motion на 375/1440 нет запусков WAAPI, кнопочные transition 0s, прокрутка auto; текст и действия доступны. Исходный P2 также содержит проверку динамической смены preference. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: при reduced motion на 375/1440 нет запусков WAAPI, кнопочные transition 0s, прокрутка auto; текст и действия доступны. Исходный P2 также содержит проверку динамической смены preference."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R08",
+      "critical": true,
+      "criterion": "Основной сценарий в обоих сайтах не вызывает необработанных исключений, отсутствующих обязательных ресурсов и ошибок загрузки страницы.",
+      "status": "BLOCKED",
+      "reason": "Work: первоначальные локальные прогоны без console warning/error, pageerror, failed requests и ошибок загрузки; целевой ретест без pageerror. Это проверка file://, не опубликованного HTTP. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: первоначальные локальные прогоны без console warning/error, pageerror, failed requests и ошибок загрузки; целевой ретест без pageerror. Это проверка file://, не опубликованного HTTP."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R09",
+      "critical": false,
+      "criterion": "Независимый просмотр всех контрольных размеров подтверждает читаемую иерархию, заметный главный CTA, последовательные отступы и отсутствие визуальных дефектов. Каждый пункт подтверждён скриншотом.",
+      "status": "BLOCKED",
+      "reason": "Work: независимый QA просмотрел 29 снимков, включая основные 375/768/1440 и изменённый header; подтверждены иерархия, CTA, читаемость и отсутствие дефектов в проверенном объёме. Ultra-wide снят, но визуально не принят. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: независимый QA просмотрел 29 снимков, включая основные 375/768/1440 и изменённый header; подтверждены иерархия, CTA, читаемость и отсутствие дефектов в проверенном объёме. Ultra-wide снят, но визуально не принят."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R10",
+      "critical": true,
+      "criterion": "Для каждого критического/высокого замечания P3 есть воспроизведение; исправления повторно проверены. Нет объявленных выполненными непроведённых проверок.",
+      "status": "BLOCKED",
+      "reason": "Work: единственная подтверждённая P1-находка QA-01 воспроизведена, исправлена и повторно проверена; exactDelta подтверждает узкую правку. Исходные неудачи и ошибки измерителя сохранены и объяснены, непроведённые проверки не объявлены выполненными. Полный критерий требует также отдельный результат Codex; сайта и соответствующих проверок Codex нет.",
+      "evidence": [
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST",
+        "E_NATIVE_SESSION"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: единственная подтверждённая P1-находка QA-01 воспроизведена, исправлена и повторно проверена; exactDelta подтверждает узкую правку. Исходные неудачи и ошибки измерителя сохранены и объяснены, непроведённые проверки не объявлены выполненными."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "I01",
+      "critical": true,
+      "criterion": "Work: есть подтверждение фактической установки/обновления нужного Сайтодела с идентификатором и версией.",
+      "status": "PASS",
+      "reason": "Создана новая аккаунтная поставка plugins_6af0b6fc62bc81918d18cb8ee0227cea версии 1.0.2, выполнено полное обратное чтение 68 файлов; Plugin Management сообщил already_installed. Ответ Management сохранён только в наблюдениях текущей сессии и документации, не как сырой ответ инструмента.",
+      "evidence": [
+        "E_ACCOUNT",
+        "E_WORK_ACCOUNT_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I02",
+      "critical": true,
+      "criterion": "В новой сессии Work установленный Сайтодел обнаруживается штатным способом, без передачи его инструкций вручную.",
+      "status": "BLOCKED",
+      "reason": "Нативное обнаружение в новой Work-сессии не подтверждено: в доступном каталоге новая поставка не появилась, прямое чтение пакета недоступно. Исходники, backend readback и fork_none агенты не заменяют этот запуск.",
+      "evidence": [
+        "E_WORK_DISCOVERY_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I03",
+      "critical": true,
+      "criterion": "Новая сессия Work принимает явный вызов Сайтодела и получает доступ к его настоящим материалам.",
+      "status": "BLOCKED",
+      "reason": "Явный вызов установленного Сайтодела в новой нативной Work-сессии не проверен: такая сессия/доступ к обнаруженному пакету не подтверждены. Вызов исходника по пути не засчитан.",
+      "evidence": [
+        "E_WORK_DISCOVERY_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I04",
+      "critical": true,
+      "criterion": "В новой сессии Work подходящий запрос без названия Сайтодела действительно приводит к его применению; это подтверждено трассировкой.",
+      "status": "BLOCKED",
+      "reason": "Автоматическое применение установленного Сайтодела по обычному запросу в новой нативной Work-сессии не подтверждено. Source-level P1 не засчитан как native discovery.",
+      "evidence": [
+        "E_WORK_DISCOVERY_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I05",
+      "critical": true,
+      "criterion": "Codex: есть подтверждение фактической установки/обновления нужного Сайтодела с идентификатором и версией.",
+      "status": "BLOCKED",
+      "reason": "Фактическая установка в Codex не подтверждена: регистрация marketplace завершилась отказом записи user config.toml. Подготовленные исходники, manifest и установщик не означают установку.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I06",
+      "critical": true,
+      "criterion": "В новой сессии Codex установленный Сайтодел обнаруживается штатным способом, без передачи его инструкций вручную.",
+      "status": "BLOCKED",
+      "reason": "Новая Codex-сессия не запустилась из-за Access denied; штатное обнаружение установленного навыка не проверено.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I07",
+      "critical": true,
+      "criterion": "Новая сессия Codex принимает явный вызов Сайтодела и получает доступ к его настоящим материалам.",
+      "status": "BLOCKED",
+      "reason": "Явный вызов навыка в новой Codex-сессии не выполнен: клиент завершился до ответа модели.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I08",
+      "critical": true,
+      "criterion": "В новой сессии Codex подходящий запрос без названия Сайтодела действительно приводит к его применению; это подтверждено трассировкой.",
+      "status": "BLOCKED",
+      "reason": "Автоматическое применение навыка в новой Codex-сессии не выполнено: клиент завершился до ответа модели.",
+      "evidence": [
+        "E_NATIVE_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    }
+  ],
+  "static_reverification": {
+    "observedAt": "2026-11-08T18:28:46.233Z",
+    "acceptanceSha256": "f1cfce37b0df1a54575ae39b2dbd309054177ed7eefc980a3ab68e69e0e70339",
+    "skillSha256": "595a969335fd9d7c655f6fd041adc857a41bbcfe5f95212b6d3a2a229a9ecef9",
+    "sourceLockSha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18",
+    "bundled": [
+      {
+        "path": "vendor/motionsites/LICENSE",
+        "actualGitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/NOTICE.md",
+        "actualGitBlobSha": "e98688a99657c09f6a143b71f545299b2fcf6f8d",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/UPSTREAM_LICENSE",
+        "actualGitBlobSha": "a3d8ddfaa8798fbd4d12b91b10701e4da1124ac4",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/LICENSE",
+        "actualGitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/SKILL.md",
+        "actualGitBlobSha": "8264d608270e0a3e6ee84aded70eca3bb597ecd6",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/agents/openai.yaml",
+        "actualGitBlobSha": "babcc6490a6d9685f55eafac9afee476e825cee5",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/assets.md",
+        "actualGitBlobSha": "08f26124af757d8e59bf139ea529adf540d87f69",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/builders.md",
+        "actualGitBlobSha": "c6b4c6d306dea29c1a5a3264ad961aacc4e30688",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/craft.md",
+        "actualGitBlobSha": "be79172c61b2723e7781aef25b31bf1a0a0c9acd",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/resources.md",
+        "actualGitBlobSha": "46edf0e51fd740e9b4f586515c7b1430646a453d",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/review.md",
+        "actualGitBlobSha": "8a446399cc6337e854886ed7bdde4d5c4146aaa4",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/spec-template.md",
+        "actualGitBlobSha": "32365e7055daee20ef5497d35d25faf72b6cfca7",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/3d-and-webgl.md",
+        "actualGitBlobSha": "6498725c43df43a1a1f48272a8193e1d77fc6957",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/INDEX.md",
+        "actualGitBlobSha": "e42e5b3b189fda171867171574e21116843a45be",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/depth-and-interaction.md",
+        "actualGitBlobSha": "ef1b1ef1ab2861cda4216d4fd2acabd2fe461ccb",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/layout-and-ui.md",
+        "actualGitBlobSha": "b4993ed295c1aebdc9cd7bf780eb38e69c85fe75",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/scroll.md",
+        "actualGitBlobSha": "307105e60aca9d290518cbefb06bc3df16cc6f39",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/surfaces-and-buttons.md",
+        "actualGitBlobSha": "fa6c8a5c259ac615d70d9e42fce5a36a3eab95d0",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/type-and-text-motion.md",
+        "actualGitBlobSha": "6a820d903e0ffca669963af532eef3f99ffeb182",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/video-and-media.md",
+        "actualGitBlobSha": "22b70cf5c5477988fde6c7f9dc137cacfad2badb",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/references/upstream.json",
+        "actualGitBlobSha": "16146c4ccfe755381ea6c1d0f38dbb81bc552cf0",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/scripts/fetch_resources.py",
+        "actualGitBlobSha": "cc3615e31e771d195369844e2adc8cc423b95dae",
+        "equal": true
+      },
+      {
+        "path": "vendor/motionsites/skills/motionsites-web-builder/scripts/shoot.py",
+        "actualGitBlobSha": "13c8a0266b45962babfa782b097e83f5890d26c8",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/LICENSE",
+        "actualGitBlobSha": "50962414b3b617579f06fc51a2e3135cfcc0da15",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/THIRD_PARTY_NOTICES.md",
+        "actualGitBlobSha": "bbb6ea936726274c98ce576773994602651864c8",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/browser-inspection-workflow/SKILL.md",
+        "actualGitBlobSha": "957fd6c2f2df903b96e100c0492846de623f8bee",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/browser-inspection-workflow/agents/openai.yaml",
+        "actualGitBlobSha": "d3dbfaf2c5ae14b295cf4d246bee5a151e7f5586",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/browser-inspection-workflow/references/browser-inspection-workflow-guide.md",
+        "actualGitBlobSha": "d609212cf6399fa156ba78f0137e4cf5dd534df5",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/frontend-quality-auditor/SKILL.md",
+        "actualGitBlobSha": "169fa2ef02afa1feecd0678d639aa8b8f3125b0b",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/frontend-quality-auditor/agents/openai.yaml",
+        "actualGitBlobSha": "a242a801d10b11756f6c2f9f66a107247545ae74",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/frontend-quality-auditor/references/audit-checklist.md",
+        "actualGitBlobSha": "45f8fd6727820817928c0ea0baeb577f61aaf23b",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/visual-regression-lab/SKILL.md",
+        "actualGitBlobSha": "b6daf422b9b27fd6be0deaaa62d55188d6fa213f",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/visual-regression-lab/agents/openai.yaml",
+        "actualGitBlobSha": "e3711c465e0d7c4eeceb9d414c5a1a4b10567d31",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/visual-regression-lab/references/baseline-contract.md",
+        "actualGitBlobSha": "0c5749a552413a5245cec8aed666090791745155",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/visual-regression-lab/references/stitched-full-page-capture.md",
+        "actualGitBlobSha": "1693d7547fa059ddd55a0e3c1a5f22f5918f3eb6",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/visual-regression-lab/scripts/capture-settled-baseline.mjs",
+        "actualGitBlobSha": "c5e785a1ad2d55fd98d95891ed9feaa431525b97",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/visual-regression-lab/scripts/capture-stitched-full-page.mjs",
+        "actualGitBlobSha": "48b5bd9e1ce4ae4de974b43bc6d347e5e752fe01",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/web-design-direction-system/SKILL.md",
+        "actualGitBlobSha": "635f05254b2fa9bc38af5deea337fb9911768f81",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/web-design-direction-system/agents/openai.yaml",
+        "actualGitBlobSha": "f919530227a7f857e35a3ba93a6db5f85ebe639e",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/web-design-direction-system/references/design-guidance-evidence-loop-guide.md",
+        "actualGitBlobSha": "e1ad1e6a3b5aef59c712bf9172da7b1059b02339",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/web-design-vocabulary/SKILL.md",
+        "actualGitBlobSha": "ddb936e74df0c974b5df44ee1c22d1758d6083f6",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/web-design-vocabulary/agents/openai.yaml",
+        "actualGitBlobSha": "bd5af7a523d5e0202d278635d82d9e70ebc6612b",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/web-design-vocabulary/references/web-design-vocabulary-guide.md",
+        "actualGitBlobSha": "268083f77452518a8ad89b55cf3db941ddd3170d",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-blueprint-first/SKILL.md",
+        "actualGitBlobSha": "f3f6a9f5eb7af6b464ad7cba7fa1d546f85c5f8e",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-blueprint-first/agents/openai.yaml",
+        "actualGitBlobSha": "7331668c460dd75673af02d1b61bb5a227e59d47",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-blueprint-first/references/website-blueprint-first-guide.md",
+        "actualGitBlobSha": "a48ed96ba26036a8702b8fbafbb219c5a474f718",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-operating-rules/SKILL.md",
+        "actualGitBlobSha": "4e94ced24fec993080012037b74d37bdd967d37b",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-operating-rules/agents/openai.yaml",
+        "actualGitBlobSha": "d79b17bf2a9bfb10c2f1a7420034032942e47124",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-operating-rules/references/scoped-web-contract.md",
+        "actualGitBlobSha": "e4bb6568d55c97192c899d59c43f90e4fb3599df",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-operating-rules/references/website-operating-rules-guide.md",
+        "actualGitBlobSha": "3cb7f2e96f6512cfee462574ccc87ff220d8f347",
+        "equal": true
+      },
+      {
+        "path": "vendor/thegoat/skills/website-operating-rules/references/website-quality-tiers.md",
+        "actualGitBlobSha": "4ec7e7126202fe427a604bb48261f1d0cd9b7cd6",
+        "equal": true
+      },
+      {
+        "path": "vendor/vercel/LICENSE",
+        "actualGitBlobSha": "b3575a3c1358eac4b9ee36a4c851872d81417760",
+        "equal": true
+      },
+      {
+        "path": "vendor/vercel/README.md",
+        "actualGitBlobSha": "50a75237d11f9ea6d6ed576d4e494759e67b48f4",
+        "equal": true
+      },
+      {
+        "path": "vendor/vercel/command.md",
+        "actualGitBlobSha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5",
+        "equal": true
+      },
+      {
+        "path": "vendor/vercel/AGENTS.md",
+        "actualGitBlobSha": "2785de041ab86453abcdbedd999084e6c207d6df",
+        "equal": true
+      }
+    ],
+    "external": [
+      {
+        "path": "web-design-engineer/SKILL.md",
+        "actualGitBlobSha": "f4503b5d0238481128fdfbf8ab9256c26f890531",
+        "equal": true
+      },
+      {
+        "path": "web-design-engineer/agents/openai.yaml",
+        "actualGitBlobSha": "5b367b14908e79335cc81cb067cc66b799dbd181",
+        "equal": true
+      },
+      {
+        "path": "web-design-engineer/explanation.html",
+        "actualGitBlobSha": "721184a0424e49ff46439db2e278573a3b740787",
+        "equal": true
+      },
+      {
+        "path": "web-design-engineer/references/advanced-patterns.md",
+        "actualGitBlobSha": "43c775c1a962e544814edef83815ea672d26fd63",
+        "equal": true
+      }
+    ],
+    "accountReadback": [
+      {
+        "path": "skills/saitodel/SKILL.md",
+        "actualLocalSha256": "595a969335fd9d7c655f6fd041adc857a41bbcfe5f95212b6d3a2a229a9ecef9",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/agents/openai.yaml",
+        "actualLocalSha256": "f2721592854a703294618b58e18bbd304f61192ced15ea22a8beb3ecbfbcee15",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/assets/icon.svg",
+        "actualLocalSha256": "4c7332aed02234040bbeefb618865c04e2ef855cc32c8688d100fc19fff7db15",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/assets/run-record-template.md",
+        "actualLocalSha256": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/architecture-and-copy.md",
+        "actualLocalSha256": "2762809b123c666bfa0b0e446e31dbfb70440edbcd777a398a93f04f7bcd81b3",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/brief-and-approvals.md",
+        "actualLocalSha256": "eb0738d8c76b5add7781dd0347a4ca6c134057e9e485d2a956ee3d48129a49d3",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/delivery-and-governance.md",
+        "actualLocalSha256": "853950ab491caa2bdec597204f18a1626d20ba8acffcf9e314e548df28e15d67",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/design-motion-and-qa.md",
+        "actualLocalSha256": "336204fe6b9af3f09852e00ec300798a8f1280cdf6756b4f430ca403b24726c8",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/integrated-skills.md",
+        "actualLocalSha256": "f008a2dd580d284c77ea096060cd25d209c468ba72346b140b90b096255edff3",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/multi-agent-regulation.md",
+        "actualLocalSha256": "799e68a270e2c68ddc1be8ec17bd6e48387f32ce955546762b463d58460c7ee2",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/references/orchestration.md",
+        "actualLocalSha256": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/scripts/source-manager.mjs",
+        "actualLocalSha256": "230d16f2c885ac2934209eb526e76ea3286cb8c3d534d63c3a38c169bbdf1a81",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/sources.lock.json",
+        "actualLocalSha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/LICENSE",
+        "actualLocalSha256": "cd278c29907afd70e1658447bb5cc200564cf306365b421f117f03ae593799ed",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/NOTICE.md",
+        "actualLocalSha256": "30b3ee0f63b569675693106e1553ae0085fd1e63f515120d8bf9e6d48303ecc4",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/UPSTREAM_LICENSE",
+        "actualLocalSha256": "6cd724256c3089086ad084e840fc9de970e59a9f1a72acf776ef937cec53a806",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/LICENSE",
+        "actualLocalSha256": "cd278c29907afd70e1658447bb5cc200564cf306365b421f117f03ae593799ed",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/SKILL.md",
+        "actualLocalSha256": "06c684e9d15180d89119efd53df482e565fed1a3bdffc780e6eb833bb03e309c",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/agents/openai.yaml",
+        "actualLocalSha256": "2b1d199d8a5b7b6bf66cd0ba1614d0eb33c5c33fcb9eb2a1911f6fba4b727864",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/assets.md",
+        "actualLocalSha256": "feeaf6a763e3bb169f991e35bce421ed08e84c385a5dcf50d4dab1efeaba7c47",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/builders.md",
+        "actualLocalSha256": "d7f6e7d719513b51dadc2b1913241e028b655d099c1cadeb0fd205640bb5cec6",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/craft.md",
+        "actualLocalSha256": "30650c2c7e922a77204b8ee36720a790d665be65bbbbbb3e8374e6f5d5b900c7",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/resources.md",
+        "actualLocalSha256": "7d45ffc02d28fc5624c6a6e1e88729e72bff4a5f140207576aad0b15a0a25e7a",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/review.md",
+        "actualLocalSha256": "97584e0ef75b6da4ab478a5c6c87d89a7e10d1f3f23f8ceab775c41d13380ed5",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/spec-template.md",
+        "actualLocalSha256": "e38f4069284e361201fa32d6171b6184a5051d3c7f8b138c5df79a3a805c3c7d",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/3d-and-webgl.md",
+        "actualLocalSha256": "ce8fdd7f79d2a2793393589305c5f00200a23427767f232aadd3c7c6d374af5e",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/INDEX.md",
+        "actualLocalSha256": "5bb76f0e2abcf27178f7356ec0f67a2038efd0d88b050f7d2186d14cf54d6c86",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/depth-and-interaction.md",
+        "actualLocalSha256": "76af94cdc8b6491e54f47c3690df93f6ae31321fb4c6606670c573a73e44c2eb",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/layout-and-ui.md",
+        "actualLocalSha256": "31f976e7c11f41a27f5692838fd246b33307ebd806783b9581aae5abe3dd9738",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/scroll.md",
+        "actualLocalSha256": "5e0c8ee2da9decd8f0014259ce86384b64642d0e0b7a56a54d13675a2fac5423",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/surfaces-and-buttons.md",
+        "actualLocalSha256": "2923de3d50f4971a8c7a7c5abe8e57813831efe2baa9194061dcefd8b83e8936",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/type-and-text-motion.md",
+        "actualLocalSha256": "c1c8fedfe88ba0a85a1612ef3ae6f18909aac040e78dbd77451d548fd687bff7",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/video-and-media.md",
+        "actualLocalSha256": "7f1ab104b64539de041018f7d915ecb8e3a4d9c8a18b3181592814bff3af05cf",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/upstream.json",
+        "actualLocalSha256": "24e9e3102f845e71af6581b9a041f45020bd646b763f2eab6f40972eb4d96cf9",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/scripts/fetch_resources.py",
+        "actualLocalSha256": "8e70853fd9dd8dafbdcc341f6cd53a63fec7b8364c2932f2557869a6993ff430",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/scripts/shoot.py",
+        "actualLocalSha256": "0f3966f7a055044222d3583614c077ed46969109d801ee33aceb63850cf57eb0",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/LICENSE",
+        "actualLocalSha256": "f819c99baed06580a7ac29b8e4b7dbd685471470a7acf96f26d38be181611749",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/THIRD_PARTY_NOTICES.md",
+        "actualLocalSha256": "440728ea886e72ba733dff99154aba0ef594706ee79dc69a7987e1559ce292f6",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/browser-inspection-workflow/SKILL.md",
+        "actualLocalSha256": "fc1e557a8acb776f66683860e63f038adb225c8089b4a7f2f6e6a1cd29790ed0",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/browser-inspection-workflow/agents/openai.yaml",
+        "actualLocalSha256": "f19694984aa893d4d971afbac8c3bac917ae773a05871b6fe5baaddbf97c7027",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/browser-inspection-workflow/references/browser-inspection-workflow-guide.md",
+        "actualLocalSha256": "7b3225898ffd91306da63069ab638c7f80ed0fd62370505ca2262f685b102206",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/frontend-quality-auditor/SKILL.md",
+        "actualLocalSha256": "0616f5c19b5ad85a13bac485a0e2c9bc6c8cce5ed549e4387f1513777009ecf4",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/frontend-quality-auditor/agents/openai.yaml",
+        "actualLocalSha256": "b346936002c2ecbfe570365b68533eb7c7c6a36390839c9e6af64c63861f1fb5",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/frontend-quality-auditor/references/audit-checklist.md",
+        "actualLocalSha256": "7c0048d72e05e4fa16f392a1daaa822a8e130ab63f93876a139a2747eb9d0f34",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/SKILL.md",
+        "actualLocalSha256": "80e2e679c415ab35190960661456992bbfe4bdd063c17e7ea492e979f99e3b32",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/agents/openai.yaml",
+        "actualLocalSha256": "4c8e58d51e50a80b73cf319a06aaebee3b29062589b1b6981707db0c04ad7fad",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/references/baseline-contract.md",
+        "actualLocalSha256": "e18258ce112f59e45cd4aceb923b95a5f691c611751e0f8b2cdb08d6f1550672",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/references/stitched-full-page-capture.md",
+        "actualLocalSha256": "03d25921086d183d654974e79bfb5a2623eec0b70910b714b8a759ae8538d3c7",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/scripts/capture-settled-baseline.mjs",
+        "actualLocalSha256": "275e0c876403a8000b4b221d4cccde8a0c16fa80d3915ce6e722bc595dbac809",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/scripts/capture-stitched-full-page.mjs",
+        "actualLocalSha256": "ad953cec69b57ce5f4eb9af1973a9f60ed06ab90935092030ea06950eb13eca9",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/web-design-direction-system/SKILL.md",
+        "actualLocalSha256": "e131161512748ea4437b3fde76569827216716df22d89b59de9313e0869fbf5a",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/web-design-direction-system/agents/openai.yaml",
+        "actualLocalSha256": "99b45c835698dd3b89981e91ae32a8ac7508835e29c0edd30719182e998fa4fb",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/web-design-direction-system/references/design-guidance-evidence-loop-guide.md",
+        "actualLocalSha256": "82427822e3cf801d12bbfe4cca9d34325451a48d3bbbfc16544476427ec98762",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/web-design-vocabulary/SKILL.md",
+        "actualLocalSha256": "48aac26ea43befbe5635c58974594466cea3d9ccfa5d9a78bbafcecb55f6f728",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/web-design-vocabulary/agents/openai.yaml",
+        "actualLocalSha256": "5c4371ccf7d27e98490c2ffd436275a35f8b1ca34c938f78be4455ddc10265c8",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/web-design-vocabulary/references/web-design-vocabulary-guide.md",
+        "actualLocalSha256": "952ebcf624835e1622c505d2e8f6b651e7cccaf501a58bd3c94840dcfa4f2059",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-blueprint-first/SKILL.md",
+        "actualLocalSha256": "893cb109955a7c5f8a621c022d84be7faa57d80ac738d1d2ed2463877193ca00",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-blueprint-first/agents/openai.yaml",
+        "actualLocalSha256": "fca4476710cc8b5ad31a9e4a6bcb343e21c72b861b3b04d0e28697a8dcaf8f2b",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-blueprint-first/references/website-blueprint-first-guide.md",
+        "actualLocalSha256": "8ee6c4e6cef4f439c2e59f684bf66ec96669ca40d82c21ea73c19a5a8f18b808",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/SKILL.md",
+        "actualLocalSha256": "4cf3607e6471d77178faab9df159be68c4c1d1632bfe5e0b575408c8cc0a628e",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/agents/openai.yaml",
+        "actualLocalSha256": "16b5fbbf5aee10e14f38f52c4034be165f98cd1392002bcc9d920d37601ede63",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/references/scoped-web-contract.md",
+        "actualLocalSha256": "f3c0e6a56c3d5986075181d16228c75d32ecdbf61254ab5f4d54a301bfa2b7a8",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/references/website-operating-rules-guide.md",
+        "actualLocalSha256": "09c889bd0a952db5e3ec3853fc75bba491fd8ca608e16e712be1d42316c964e9",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/references/website-quality-tiers.md",
+        "actualLocalSha256": "e7b95a5130fdc87229229d329c608318c2cabdc081afdd8883785013b228de36",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/vercel/AGENTS.md",
+        "actualLocalSha256": "35411b4a2dcfa651fd33706a92cc860947364b521643107fbf3116abe3826d44",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/vercel/LICENSE",
+        "actualLocalSha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/vercel/README.md",
+        "actualLocalSha256": "eda7dfa9998215267c7f920475d1773ea4129cb08ed088276ca598dd45d20aa5",
+        "equal": true
+      },
+      {
+        "path": "skills/saitodel/vendor/vercel/command.md",
+        "actualLocalSha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234",
+        "equal": true
+      }
+    ]
+  },
+  "website_qa": {
+    "reviewer": "/root/website_independent_qa",
+    "verdict": "ACCEPTED_LOCAL_DEMO_SCOPED",
+    "initial_review_done": true,
+    "fix_cycles_used": 1,
+    "initial_findings": [
+      {
+        "id": "QA-01",
+        "priority": "P1",
+        "file": "work-motion-site/styles.css:2",
+        "actual": {
+          "width375": 36.046875,
+          "height375": 44,
+          "width768": 42.0625,
+          "height768": 44
+        },
+        "expected": "mobile hit target >=44x44",
+        "evidence": [
+          "raw-results.json",
+          "375-hero.png",
+          "source-snapshot/styles.css"
+        ],
+        "resolution": "coordinator added min-width:44px; targeted cycle 1 passed"
+      }
+    ],
+    "retest": {
+      "cycle": 1,
+      "time": "2026-11-08T18:26:38.389Z",
+      "widths": [
+        320,
+        375,
+        768,
+        1440
+      ],
+      "allPassed": true,
+      "exactDelta": {
+        "onlyNavMinWidth": true,
+        "otherFilesUnchanged": true
+      }
+    },
+    "hash_initial": {
+      "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+      "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+      "styles.css": "b7dee39db6a657e0a4f32bb4ea5afa3111017c5c8b9b247d5d60df15592662c3",
+      "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+      "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+    },
+    "hash_final": {
+      "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+      "styles.css": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101",
+      "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+      "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+      "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+    },
+    "current_files_reverified": [
+      {
+        "file": "index.html",
+        "expected": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+        "actual": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+        "matches": true
+      },
+      {
+        "file": "styles.css",
+        "expected": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101",
+        "actual": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101",
+        "matches": true
+      },
+      {
+        "file": "app.js",
+        "expected": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+        "actual": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+        "matches": true
+      },
+      {
+        "file": "favicon.svg",
+        "expected": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+        "actual": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+        "matches": true
+      },
+      {
+        "file": "social-preview.svg",
+        "expected": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654",
+        "actual": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654",
+        "matches": true
+      }
+    ],
+    "personally_viewed_by_qa_count": 29,
+    "personally_viewed_by_qa": [
+      {
+        "file": "375-hero.png",
+        "sha256": "9b88aaa94328f7e9d3c476eaf6cbc273c1a330e549f9fa7780b10b73c31c514d",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-hero.png",
+        "sha256": "72e7e0209be83b7205db697e955ceb65352a4e6b870af7d0bb5c733e2edca74f",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "768-hero.png",
+        "sha256": "2b8d4ffca3411365afe7a0063cfc6c80ddf2a612bc442322eb9b61e406151bdc",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-form-errors.png",
+        "sha256": "6d6016626686efd1a6cf70759c956aaa4d131f623dd292a0ff300f16ee7726d1",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-form-success.png",
+        "sha256": "4b31147dd3e8bd4514035e9e8d84092c14cea4e1b1878384e0fa8ee4e0fa0d78",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-services.png",
+        "sha256": "980199085a186637faac80ff1586a9307ad04bd7d8a0ab95657d9f075a3102dc",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-process.png",
+        "sha256": "913f00f0f4430ecf52f78b16d20571e1f8073fda096857904b90b63b82453b68",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-faq.png",
+        "sha256": "9e96d92342ff3eb205372b1bd2d21416793e15b6c43b2e625c4b85015a8ba72d",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-form-success.png",
+        "sha256": "3b1a54e30fa32a09711c68c70f1ed69e62e609f9f26497d3e059f9db7b4705db",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "768-services.png",
+        "sha256": "bd88aaf7ccc87c5720e5a1125f770dfa9d37faa5f92a6b7ce747197ad3e010a2",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "768-process.png",
+        "sha256": "38606417297c52abc143e04a739925b0c86dcb97dfc81704b8c9a373ac566f5b",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "768-form-success.png",
+        "sha256": "d841b0b5d1f2f12459de9ab3b4bb4c4ec5abcf99f62c357cbd907dbfd93bcd60",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-services.png",
+        "sha256": "4f5fba49decac3d19f1d503c5fe1bc73ad267dc58cd7ee36da54ec29a1c08aa3",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-process.png",
+        "sha256": "ac57c0de06db9c08e671df79fa8973852a188ed3acdfaed2a0e6731aef9e192d",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "320x568-hero.png",
+        "sha256": "bac10ace03661cfd64a24a3716c2210d2a949208f51e1b4a5ac47ce806cdad03",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "844x390-hero.png",
+        "sha256": "4506af0bc4ff0f29d377b4e158d8ac0328b50addb95014b479bef73b035a12f8",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-no-js-form.png",
+        "sha256": "b88d79d72072d30ea91a10276c98facd950e9edb0a0b5d8e0db0bdd96720e045",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-text200-form.png",
+        "sha256": "cfd7cfc256e8a76a7127b635d32ac91d2a573806fd6e17f0ceb8c2c051512a09",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-reduced-hero.png",
+        "sha256": "9b88aaa94328f7e9d3c476eaf6cbc273c1a330e549f9fa7780b10b73c31c514d",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-baseline-hero.png",
+        "sha256": "9b88aaa94328f7e9d3c476eaf6cbc273c1a330e549f9fa7780b10b73c31c514d",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "320-cycle1-hero.png",
+        "sha256": "c76d14dd384a7b52244beb717236aecfcf80da5ce7300978dec3af4d68503e66",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-cycle1-nav-focus.png",
+        "sha256": "8536a5683ad26bb501993f62edba82abf2c59277171e477a862593f100204ed8",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "768-cycle1-hero.png",
+        "sha256": "b74de28c30d5e92a05c2203f2fb676395c57a1d1d4c52f8829efd60e4742ba24",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-cycle1-nav-focus.png",
+        "sha256": "84f21134306be1f4b68e8a1db11a14767b0b60c8d7f7594c12ef18568e26a8c1",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "768-cycle1-form-success-settled.png",
+        "sha256": "122b1da50a1477ceba518061a01cbcd990a9c918647ca2f09dae9f2ff73bbbd6",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-baseline-hero.png",
+        "sha256": "72e7e0209be83b7205db697e955ceb65352a4e6b870af7d0bb5c733e2edca74f",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "1440-reduced-hero.png",
+        "sha256": "72e7e0209be83b7205db697e955ceb65352a4e6b870af7d0bb5c733e2edca74f",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-settled-tab-6.png",
+        "sha256": "c4b86c75ecf92bec78ea005e20cc439b3d3c16cd3ee200ae143b057514194609",
+        "reviewedBy": "/root/website_independent_qa"
+      },
+      {
+        "file": "375-settled-tab-12.png",
+        "sha256": "8be7166a6d209dcad2d23bb42d225f5b3ce43044f404f45fa4d4682c387a2455",
+        "reviewedBy": "/root/website_independent_qa"
+      }
+    ],
+    "harness_limitations": [
+      "Three initial motion assertions invalidated by reload/tab sequence; retained raw and superseded by natural-scroll supplement at 375 and1440",
+      "Initial rapid Tab positions sampled before smooth-scroll settled; supplement waits700ms",
+      "Initial768success image captured before scroll settled; final settled image in cycle1"
+    ],
+    "not_claimed": [
+      "production deployment",
+      "separate Codex session",
+      "skill discovery/install",
+      "real device/Safari",
+      "human five-second test",
+      "full WCAG certification",
+      "97percent integration score"
+    ]
+  },
+  "history": [
+    {
+      "phase": "P1 initial",
+      "result": "18 PASS, 1 FAIL",
+      "evidence": "E_P1_INITIAL",
+      "note": "Переполнение при искусственном увеличении текста; сохранено, не скрыто."
+    },
+    {
+      "phase": "P1 repeat",
+      "result": "19 PASS, 0 FAIL",
+      "evidence": "E_P1_REPEAT",
+      "note": "После исправления адаптива."
+    },
+    {
+      "phase": "P1 targeted",
+      "result": "2 PASS",
+      "evidence": "E_P1_TARGETED",
+      "note": "Пробел заголовка FAQ и положение/фокус результата формы; отдельный узкий прогон."
+    },
+    {
+      "phase": "P2 motion-1",
+      "result": "285 PASS и 9 PASS дополнительных проверок",
+      "evidence": [
+        "E_P2_MAIN",
+        "E_P2_EDGE"
+      ],
+      "note": "Самопроверки исполнителя, не 294 балла приёмки."
+    },
+    {
+      "phase": "P3 independent initial",
+      "result": "QA-01 P1 подтверждён; три motion assertions измерителя уточнены дополнительным сценарием",
+      "evidence": [
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT"
+      ],
+      "note": "Начальные данные сохранены."
+    },
+    {
+      "phase": "P3 cycle 1",
+      "result": "QA-01 исправлен; целевой ретест всех четырёх размеров PASS",
+      "evidence": [
+        "E_QA_RETEST",
+        "E_QA_SUMMARY"
+      ],
+      "note": "Открытых подтверждённых дефектов локального демо в проверенном объёме нет."
+    }
+  ],
+  "excluded_from_score": [
+    {
+      "suite": "source-manager component",
+      "counts": {
+        "PASS": 5,
+        "NOT_RUN": 1
+      },
+      "path": "tests/evidence/source-manager-tests.json",
+      "reason": "Отдельные компонентные проверки, не элементы frozen34; symlink-сценарий не выполнен из-за EPERM."
+    },
+    {
+      "suite": "PowerShell process helper",
+      "mock_checks_passed": 3,
+      "path": "tests/evidence/powershell-process-tests.json",
+      "reason": "Безопасные mocks проверяют helper, а не реальную установку или ответ Codex."
+    },
+    {
+      "suite": "Windows PowerShell 5 parser",
+      "static_checks_passed": 3,
+      "path": "tests/evidence/powershell5-parser-tests.json",
+      "reason": "Разбор скриптов не доказывает runtime; WinPS5 runtime NOT_RUN при Restricted."
+    },
+    {
+      "suite": "Browser subchecks",
+      "reason": "19+2, 285+9 и детальные QA-проверки поддерживают фиксированные критерии; самостоятельных баллов и нового знаменателя не создают."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E_STATIC",
+      "kind": "independent_readonly_verification",
+      "assessor": "/root/acceptance_design",
+      "observedAt": "2026-11-08T18:28:46.233Z",
+      "data_pointer": "#/static_reverification",
+      "note": "Реальное независимое вычисление Git blob SHA 55 файлов сборки 1.0.2 и 4 внешних файлов; SHA-256 68 файлов сопоставлен с account-readback. Браузерные прогоны оценщиком не повторялись."
+    },
+    {
+      "id": "E_LOCK",
+      "kind": "saved_artifact",
+      "path": "sources.lock.json",
+      "sha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18",
+      "bytes": 15719,
+      "note": "Закреплённые репозитории, ревизии, пути и условия распространения."
+    },
+    {
+      "id": "E_BUNDLED",
+      "kind": "saved_artifact",
+      "path": "tests/evidence/bundled-integrity.json",
+      "sha256": "a3fb38d29e42d43084827a0c459965099f2a47881bf7d8fddb7ffbbd9baac99c",
+      "bytes": 18034,
+      "note": "Первичный отчёт указывает build/v1.0.1. Для оценки 1.0.2 использована дополнительная независимая перепроверка текущих 55 файлов в static_reverification, а не предположение о неизменности."
+    },
+    {
+      "id": "E_EXTERNAL",
+      "kind": "saved_artifact",
+      "path": "tests/evidence/external-integrity.json",
+      "sha256": "4ecaac771cfe39c28d65516eed2ad87549ef1cb39bfed4b2bbd4e4f64e05aed4",
+      "bytes": 1636,
+      "note": "Четыре файла внешнего пакета; повторно сопоставлены с текущим lock."
+    },
+    {
+      "id": "E_ACCOUNT",
+      "kind": "saved_artifact",
+      "path": "tests/evidence/account-readback.json",
+      "sha256": "b6206c7140d77f67189b44dad137c00260544d29aad7e617204c264166407f67",
+      "bytes": 20841,
+      "note": "Полное обратное чтение 68 файлов аккаунтной версии 1.0.2. Оценщик независимо пересчитал локальные SHA-256 и проверил полноту списка; повторный вызов удалённого API оценщиком не выполнялся."
+    },
+    {
+      "id": "E_SOURCE_REVIEW",
+      "kind": "independent_source_review",
+      "assessor": "/root/acceptance_design",
+      "supporting_reviewer": "/root/acceptance_design/required_links",
+      "date": "2026-11-08",
+      "paths": [
+        "SKILL.md",
+        "references/integrated-skills.md",
+        "references/orchestration.md",
+        "assets/run-record-template.md",
+        "scripts/source-manager.mjs",
+        "scripts/package.mjs",
+        "sources.lock.json"
+      ],
+      "note": "Проверены упаковка, маршрутизация и обязательные материалы. 25 относительных Markdown-ссылок выбранных пакетов и дополнительные текстовые пути разрешаются. Optional specialists и необязательные example/media библиотеки не требовались. Выводы source review не заменяют B/R/I."
+    },
+    {
+      "id": "E_WORK_P1_SESSION",
+      "kind": "coordinator_observation_summary",
+      "agent": "/root/website_work_p1",
+      "environment": "Work",
+      "context": "fork_none",
+      "date": "2026-11-08",
+      "raw_transcript_exported": false,
+      "reported_by": "/root",
+      "note": "В сохранённом описании наблюдений координатора зафиксированы реальные чтения всех 4 файлов внешнего WDE по pinned ref, дочитывание усечённого вывода, полные 6 TheGoat с обязательными references и Vercel. Это описание наблюдений, не сырой tool log; повторно воспроизвести загрузку инструкций только по локальным файлам отчёта нельзя. SOURCES.md служит дополнительной картой применения, не единственным доказательством."
+    },
+    {
+      "id": "E_P1_SOURCES",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-site/SOURCES.md",
+      "sha256": "550d21d8fbd507e4b195636e22c6adf33abcd1759295710f1c97fea6fc9731db",
+      "bytes": 6313,
+      "note": "Самоотчёт исполнителя о прочитанных источниках и связи с решениями; используется вместе с наблюдениями координатора и реальными артефактами."
+    },
+    {
+      "id": "E_P1_CHECKS",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-site/CHECKS.md",
+      "sha256": "549fd9efd4e045869e094e6a74e9cf8570916b5e5859ba595c8cf610ae78ddcc",
+      "bytes": 7415,
+      "note": "История самопроверок, просмотренных снимков и ограничений."
+    },
+    {
+      "id": "E_P1_INITIAL",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-site/checks/browser-report.json",
+      "sha256": "a17105046914e735213f441cfaa81f46052e76b79bc083a2348476564c7a77e7",
+      "bytes": 21071,
+      "note": "Первый прогон: 18 PASS, 1 FAIL; исходный отказ сохранён."
+    },
+    {
+      "id": "E_P1_REPEAT",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-site/checks-final/browser-report.json",
+      "sha256": "e0a413378edc58362c4b60cf9f021056d1a4640d8c37d1f93abb0929a8e30e13",
+      "bytes": 21082,
+      "note": "После исправления адаптива: 19 PASS, 0 FAIL."
+    },
+    {
+      "id": "E_P1_TARGETED",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-site/checks-final/regression-report.json",
+      "sha256": "edaa6d0f31f8b15b0ff57d045c603d90fe7283abbc53b8595a72f001036576be",
+      "bytes": 865,
+      "note": "Две последующие точечные проверки и SHA-256 финального P1; это не повтор всего прогона."
+    },
+    {
+      "id": "E_WORK_P2_SESSION",
+      "kind": "coordinator_observation_summary",
+      "agent": "/root/website_work_p2",
+      "environment": "Work",
+      "context": "fork_none",
+      "date": "2026-11-08",
+      "raw_transcript_exported": false,
+      "reported_by": "/root",
+      "note": "Сохранённые наблюдения координатора подтверждают чтение полного MotionSites SKILL, craft/index/review, выбранных recipes, browser-inspection, visual-regression и Vercel. Не выдаётся за экспортированный raw tool transcript."
+    },
+    {
+      "id": "E_P2_RUN",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-motion-site/RUN-RECORD.md",
+      "sha256": "9cd9863f509983b81ab7542700426e6e27e97144396bb25c04efc009399f560a",
+      "bytes": 17778,
+      "note": "Бриф P2, карта применения и исходная ведомость motion-1. Документ не заменяет независимый QA; его hashes относятся к версии до P3 min-width."
+    },
+    {
+      "id": "E_P2_MAIN",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-motion-site/evidence/verification.json",
+      "sha256": "16ed6441cf6de276521cb822808e911ce1f3746f4370db0ea1a9fff9f930d68d",
+      "bytes": 104451,
+      "note": "285 PASS самопроверки motion-1; отдельные низкоуровневые проверки не становятся отдельными баллами frozen34."
+    },
+    {
+      "id": "E_P2_EDGE",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/work-motion-site/evidence/edge-verification.json",
+      "sha256": "cde77659b6d9247fd5951107b5917ce1a971f88569b96f71172d9c11492b7eef",
+      "bytes": 2445,
+      "note": "9 PASS дополнительных сценариев motion-1; не добавляют баллы сверх B02."
+    },
+    {
+      "id": "E_WORK_P3_SESSION",
+      "kind": "independent_reviewer_session_observation",
+      "agent": "/root/website_independent_qa",
+      "environment": "Work",
+      "date": "2026-11-08",
+      "raw_transcript_exported": false,
+      "note": "Независимый QA сообщил реальные tool reads полных Vercel AGENTS.md/command.md; применение подтверждается конкретной QA-01, измерениями, исходниками и повторной проверкой. Сырые чтения не экспортированы в отдельный файл."
+    },
+    {
+      "id": "E_QA_REPORT",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/independent-qa/report.md",
+      "sha256": "cf45241b69b6642de8222297974b1726ca1b06d1ad351e20790caf9b14967f60",
+      "bytes": 17385,
+      "note": "Независимый P3: ACCEPTED_LOCAL_DEMO_SCOPED после цикла 1. Критерии сайта не подменяют полную приёмку интеграции."
+    },
+    {
+      "id": "E_QA_SUMMARY",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/independent-qa/qa-summary.json",
+      "sha256": "ebe4d5fa2ec3ab5ba40f57bdf20ecac9d4135ce5359427d16d23c5bf629395bf",
+      "bytes": 7892,
+      "note": "Начальная/финальная ведомости, находка QA-01, целевой ретест и 29 действительно просмотренных QA снимков."
+    },
+    {
+      "id": "E_QA_RAW",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/independent-qa/raw-results.json",
+      "sha256": "58df36363f185ba9c99ce982aea211cf16b0e29274f7d095a3425b6099f46121",
+      "bytes": 163183,
+      "note": "Исходные измерения сохранены вместе с тремя позднее признанными некорректными motion assertions измерителя."
+    },
+    {
+      "id": "E_QA_SUPPLEMENT",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/independent-qa/supplement-results.json",
+      "sha256": "c8ade561739fee881daa66a672454fad2107afc722b1e6ff3db0196669d8da5e",
+      "bytes": 28812,
+      "note": "Естественная прокрутка на неизменённом snapshot и settled-фокус уточнили измерения; не скрывают первоначальный raw report."
+    },
+    {
+      "id": "E_QA_RETEST",
+      "kind": "saved_artifact",
+      "path": "tests/artifacts/independent-qa/retest-results.json",
+      "sha256": "2d79c86d6e52c6fd59634e9239358c75550a5ee1f79ae75ae7e12eb5ba912b03",
+      "bytes": 6438,
+      "note": "Цикл 1: nav >=44x44, focus/Enter/overflow на 320/375/768/1440, exactDelta только min-width:44px, остальные файлы неизменны."
+    },
+    {
+      "id": "E_WORK_P4_SESSION",
+      "kind": "session_response_and_coordinator_observation",
+      "agent": "/root/work_copy_scope",
+      "environment": "Work",
+      "context": "fork_none без веб-проекта",
+      "date": "2026-11-08",
+      "prompt_pointer": "tests/acceptance.json#/prompts/P4",
+      "response": "Мы создаем сайты, которые помогают бизнесу работать понятнее, быстрее и удобнее.",
+      "response_observed_by_assessor_via": "collaboration.list_agents: завершённый ответ /root/work_copy_scope",
+      "tool_call_absence_reported_by": "/root",
+      "raw_transcript_exported": false,
+      "note": "Ответ наблюдался в сессии; отсутствие tool calls подтверждено координатором. Отдельного сохранённого сырого transcript нет."
+    },
+    {
+      "id": "E_WORK_ACCOUNT_SESSION",
+      "kind": "coordinator_tool_observation_summary",
+      "date": "2026-11-08",
+      "reported_by": "/root",
+      "plugin_id": "plugins_6af0b6fc62bc81918d18cb8ee0227cea",
+      "release_id": "pluginrel_6af0b95fcb5481919996104dea84dd10",
+      "version": "1.0.2",
+      "management_result": "already_installed",
+      "raw_transcript_exported": false,
+      "note": "Ответ Plugin Management наблюдал координатор. Результат полного обратного чтения 68 файлов (пути и контрольные суммы) сохранён в E_ACCOUNT. Это новая аккаунтная поставка; идентичность исторического персонального навыка неизвестна, его обновление не заявляется."
+    },
+    {
+      "id": "E_WORK_DISCOVERY_SESSION",
+      "kind": "coordinator_tool_observation_summary",
+      "date": "2026-11-08",
+      "reported_by": "/root",
+      "raw_transcript_exported": false,
+      "note": "Текущий native cloud skills list не обнаружил новую поставку; direct package read недоступен. Нативное обнаружение/запуск в новой Work-сессии не подтверждены. Из этого не делается вывод об отсутствии backend-установки."
+    },
+    {
+      "id": "E_NATIVE_SESSION",
+      "kind": "coordinator_tool_observation_summary",
+      "date": "2026-11-08",
+      "reported_by": "/root",
+      "codex_version": "0.167.0-alpha.3.2",
+      "raw_transcript_exported": false,
+      "observations": [
+        {
+          "operation": "codex exec",
+          "reported_flags": [
+            "--ephemeral",
+            "--sandbox",
+            "read-only"
+          ],
+          "result": "До ответа модели: failed to initialize in-process app-server client; Access denied."
+        },
+        {
+          "operation": "codex plugin marketplace add . --json",
+          "result": "Отказ записи user config.toml; фактическая установка не подтверждена."
+        }
+      ],
+      "note": "Это сохранённое описание реальных отказов из текущей сессии, не заново созданные stdout/stderr логи. Mock-тесты PowerShell не используются как свидетельство этих реальных запусков."
+    },
+    {
+      "id": "E_INTEGRATION_STATUS",
+      "kind": "saved_artifact",
+      "path": "docs/INTEGRATION_STATUS.md",
+      "sha256": "a64989e8d5f4c912f5317ae0cd903f6a5dc696f471f80898a0a2ff70d2562e09",
+      "bytes": 15867,
+      "note": "Дополнительная сводка среды и ограничений; сырой transcript не заменяет. SHA фиксирует прочитанную редакцию документа, которая может обновляться отдельным изменением."
+    }
+  ],
+  "remaining_actions": [
+    {
+      "ids": [
+        "I02",
+        "I03",
+        "I04"
+      ],
+      "action": "Подтвердить обнаружение, явный и обычный вызов установленной версии в новой нативной Work-сессии."
+    },
+    {
+      "ids": [
+        "I05",
+        "I06",
+        "I07",
+        "I08",
+        "B05",
+        "B06",
+        "B07",
+        "B08"
+      ],
+      "action": "После восстановления штатного доступа Codex подтвердить установку/обнаружение и выполнить самостоятельные P1–P4. Не повторять тот же Access denied без изменения условия."
+    },
+    {
+      "ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R08",
+        "R09",
+        "R10"
+      ],
+      "action": "Получить и проверить отдельный сайт Codex по тем же frozen критериям; сопоставить обе среды. До этого каждый R остаётся BLOCKED."
+    }
+  ]
+}
+

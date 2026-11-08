@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-08T18:38:01.247Z",
+  "scope": "Report arithmetic, frozen criteria and saved evidence hashes; no new behavioral claims",
+  "reportSha256": "6d126d3b073cee824cc7e2ae6aa4d2729f88c17f70edf54bdcf551a9163cd396",
+  "criteriaSha256": "f1cfce37b0df1a54575ae39b2dbd309054177ed7eefc980a3ab68e69e0e70339",
+  "uniqueIds": 34,
+  "criteriaCount": 34,
+  "changedCriteria": [],
+  "counts": {
+    "PASS": 13,
+    "BLOCKED": 21
+  },
+  "percent": 38.23529411764706,
+  "criticalPassed": 11,
+  "evidenceHashMismatches": [],
+  "status": "PASS_REPORT_CONSISTENCY_ONLY"
+}

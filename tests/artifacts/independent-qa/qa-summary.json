@@ -1,0 +1,220 @@
+{
+  "verdict": "ACCEPTED_LOCAL_DEMO_SCOPED",
+  "reviewer": "/root/website_independent_qa",
+  "initial_review_done": true,
+  "fix_cycles_used": 1,
+  "hashInitial": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+    "styles.css": "b7dee39db6a657e0a4f32bb4ea5afa3111017c5c8b9b247d5d60df15592662c3",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  "hashFinal": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101",
+    "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  "initialFindings": [
+    {
+      "id": "QA-01",
+      "priority": "P1",
+      "file": "work-motion-site/styles.css:2",
+      "actual": {
+        "width375": 36.046875,
+        "height375": 44,
+        "width768": 42.0625,
+        "height768": 44
+      },
+      "expected": "mobile hit target >=44x44",
+      "evidence": [
+        "raw-results.json",
+        "375-hero.png",
+        "source-snapshot/styles.css"
+      ],
+      "resolution": "coordinator added min-width:44px; targeted cycle 1 passed"
+    }
+  ],
+  "retest": {
+    "file": "retest-results.json",
+    "pass": true,
+    "exactDelta": {
+      "onlyNavMinWidth": true,
+      "otherFilesUnchanged": true
+    },
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ]
+  },
+  "rawEvidence": [
+    "raw-results.json",
+    "supplement-results.json",
+    "retest-results.json"
+  ],
+  "harnessLimitations": [
+    "Three initial motion assertions invalidated by reload/tab sequence; retained raw and superseded by natural-scroll supplement at 375 and1440",
+    "Initial rapid Tab positions sampled before smooth-scroll settled; supplement waits700ms",
+    "Initial768success image captured before scroll settled; final settled image in cycle1"
+  ],
+  "visuallyInspected": [
+    {
+      "file": "375-hero.png",
+      "sha256": "9b88aaa94328f7e9d3c476eaf6cbc273c1a330e549f9fa7780b10b73c31c514d",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-hero.png",
+      "sha256": "72e7e0209be83b7205db697e955ceb65352a4e6b870af7d0bb5c733e2edca74f",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "768-hero.png",
+      "sha256": "2b8d4ffca3411365afe7a0063cfc6c80ddf2a612bc442322eb9b61e406151bdc",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-form-errors.png",
+      "sha256": "6d6016626686efd1a6cf70759c956aaa4d131f623dd292a0ff300f16ee7726d1",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-form-success.png",
+      "sha256": "4b31147dd3e8bd4514035e9e8d84092c14cea4e1b1878384e0fa8ee4e0fa0d78",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-services.png",
+      "sha256": "980199085a186637faac80ff1586a9307ad04bd7d8a0ab95657d9f075a3102dc",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-process.png",
+      "sha256": "913f00f0f4430ecf52f78b16d20571e1f8073fda096857904b90b63b82453b68",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-faq.png",
+      "sha256": "9e96d92342ff3eb205372b1bd2d21416793e15b6c43b2e625c4b85015a8ba72d",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-form-success.png",
+      "sha256": "3b1a54e30fa32a09711c68c70f1ed69e62e609f9f26497d3e059f9db7b4705db",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "768-services.png",
+      "sha256": "bd88aaf7ccc87c5720e5a1125f770dfa9d37faa5f92a6b7ce747197ad3e010a2",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "768-process.png",
+      "sha256": "38606417297c52abc143e04a739925b0c86dcb97dfc81704b8c9a373ac566f5b",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "768-form-success.png",
+      "sha256": "d841b0b5d1f2f12459de9ab3b4bb4c4ec5abcf99f62c357cbd907dbfd93bcd60",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-services.png",
+      "sha256": "4f5fba49decac3d19f1d503c5fe1bc73ad267dc58cd7ee36da54ec29a1c08aa3",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-process.png",
+      "sha256": "ac57c0de06db9c08e671df79fa8973852a188ed3acdfaed2a0e6731aef9e192d",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "320x568-hero.png",
+      "sha256": "bac10ace03661cfd64a24a3716c2210d2a949208f51e1b4a5ac47ce806cdad03",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "844x390-hero.png",
+      "sha256": "4506af0bc4ff0f29d377b4e158d8ac0328b50addb95014b479bef73b035a12f8",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-no-js-form.png",
+      "sha256": "b88d79d72072d30ea91a10276c98facd950e9edb0a0b5d8e0db0bdd96720e045",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-text200-form.png",
+      "sha256": "cfd7cfc256e8a76a7127b635d32ac91d2a573806fd6e17f0ceb8c2c051512a09",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-reduced-hero.png",
+      "sha256": "9b88aaa94328f7e9d3c476eaf6cbc273c1a330e549f9fa7780b10b73c31c514d",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-baseline-hero.png",
+      "sha256": "9b88aaa94328f7e9d3c476eaf6cbc273c1a330e549f9fa7780b10b73c31c514d",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "320-cycle1-hero.png",
+      "sha256": "c76d14dd384a7b52244beb717236aecfcf80da5ce7300978dec3af4d68503e66",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-cycle1-nav-focus.png",
+      "sha256": "8536a5683ad26bb501993f62edba82abf2c59277171e477a862593f100204ed8",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "768-cycle1-hero.png",
+      "sha256": "b74de28c30d5e92a05c2203f2fb676395c57a1d1d4c52f8829efd60e4742ba24",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-cycle1-nav-focus.png",
+      "sha256": "84f21134306be1f4b68e8a1db11a14767b0b60c8d7f7594c12ef18568e26a8c1",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "768-cycle1-form-success-settled.png",
+      "sha256": "122b1da50a1477ceba518061a01cbcd990a9c918647ca2f09dae9f2ff73bbbd6",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-baseline-hero.png",
+      "sha256": "72e7e0209be83b7205db697e955ceb65352a4e6b870af7d0bb5c733e2edca74f",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "1440-reduced-hero.png",
+      "sha256": "72e7e0209be83b7205db697e955ceb65352a4e6b870af7d0bb5c733e2edca74f",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-settled-tab-6.png",
+      "sha256": "c4b86c75ecf92bec78ea005e20cc439b3d3c16cd3ee200ae143b057514194609",
+      "reviewedBy": "/root/website_independent_qa"
+    },
+    {
+      "file": "375-settled-tab-12.png",
+      "sha256": "8be7166a6d209dcad2d23bb42d225f5b3ce43044f404f45fa4d4682c387a2455",
+      "reviewedBy": "/root/website_independent_qa"
+    }
+  ],
+  "notClaimed": [
+    "production deployment",
+    "separate Codex session",
+    "skill discovery/install",
+    "real device/Safari",
+    "human five-second test",
+    "full WCAG certification",
+    "97percent integration score"
+  ]
+}
