@@ -106,11 +106,40 @@
     "performed_by": "coordinator_and_architecture_author",
     "source_comparison": "issue_1_and_approved_regulation",
     "result": "facts_and_DRAFT_BLOCKED_NOT_PERFORMED_boundaries_preserved",
-    "core_warning_review": "UNRESOLVED_PLACEHOLDER_DETECTED refers to explicit DRAFT/BLOCKED/PENDING status labels and prospective contracts; no invented completion. Core does not validate these facts.",
+    "core_warning_review": {
+      "warning": "UNRESOLVED_PLACEHOLDER_DETECTED",
+      "cause_verified_in": "slovodel_core/workflow.py PLACEHOLDER regex matches square-bracket text",
+      "matches": {
+        "plugin-architecture-proposal.md": [
+          "[#1 — установить регламент и развить плагин]",
+          "[SKILL.md]",
+          "[регламент v1.0]",
+          "[Бриф]",
+          "[QA]",
+          "[передача результата]",
+          "[OpenAI: Build skills]",
+          "[OpenAI: Subagents]",
+          "[OpenAI: Plugins]",
+          "[Build plugins]"
+        ],
+        "installation-status-2026-11-08.md": [
+          "[#1]",
+          "[проекту]"
+        ]
+      },
+      "assessment": "All matched spans are Markdown link labels, not missing website facts. Draft statuses are deliberate. Core does not validate source facts."
+    },
     "limitations": [
       "Core schema validation unavailable because jsonschema is not installed",
       "Core publication_ready remains false",
       "No human usability test"
     ]
+  },
+  "github_source_preservation": {
+    "base_commit": "674d9f9365acf1a434167d69ebdd486653cbc311",
+    "checked_branch_commit": "f44e9c7bb892eb51a201aada4006caa9ce2cd904",
+    "original_files": 8,
+    "unchanged_original_blob_shas": 8,
+    "new_paths_only": "docs/"
   }
 }
