@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-08T18:38:50.179Z",
+  "method": "GitHub recursive tree readback; every listed remote Git blob SHA equals the locally computed Git blob SHA",
+  "scope": "160 current site artifacts, independent QA files, launch scripts and reports. This is persistence verification, not behavioral acceptance.",
+  "commit": "5fd9464f8d139dd1c36a75322995d2c83ceb5ec6",
+  "tree": "eeb1c0d56148e5ee199010d4405e97290cff2d9c",
+  "checked": 160,
+  "differences": [],
+  "entries": [
+    {
+      "path": "tests/artifacts/work-site/app.js",
+      "gitBlobSha": "242562095a9761d5fb398c6e083d4f6faaf8c0d1"
+    },
+    {
+      "path": "tests/artifacts/work-site/BRIEF.md",
+      "gitBlobSha": "52ca4a5c11b3149a6583faa90a3387365118200a"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/browser-report.json",
+      "gitBlobSha": "7f7a6f298ad188e3d12d1e2ea366a83ccc2b4b4c"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/copy-1/core.json",
+      "gitBlobSha": "75ecccff6611bf28aa37af0346bc4900a77f23b1"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/copy-1/core.stderr.txt",
+      "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/copy-1/execution.json",
+      "gitBlobSha": "b69b99257877e5b67f432e9bb5f75ae12f5c4f03"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/copy-1/verification.json",
+      "gitBlobSha": "6135a9b5dd3471f0bad7d4d7221273a3100aa2f7"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/desktop-hero.png",
+      "gitBlobSha": "39426e70d495085a837236624268ce61ad1ef5ee"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/desktop.png",
+      "gitBlobSha": "aebb46008a3b3046e53630069c507d708f9e8e10"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/form-errors.png",
+      "gitBlobSha": "00634d003ee2445b0273441e5c50eee3e3d4cd7f"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/form-success.png",
+      "gitBlobSha": "c082583461392dfc675366ffdfa518ecd28910c5"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/laptop.png",
+      "gitBlobSha": "429ffabebb7925fd461cb3c55649abd6b8f2019c"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/mobile-hero.png",
+      "gitBlobSha": "796dc86b114d1b865f72ea768ede438b17533c12"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/mobile.png",
+      "gitBlobSha": "ec048175b85e2d854a2b1df32eefb6f77e9ff0bf"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/narrow-hero.png",
+      "gitBlobSha": "1fa19cef49dbb2f81250aec9fbeaa4440e212549"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/narrow.png",
+      "gitBlobSha": "463caf3e4ef8a18eccf32c699a60bd9aab7852f3"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/no-js.png",
+      "gitBlobSha": "a45c0beb2c3007d1f4217e30aa4b29575ec1e681"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/short-hero.png",
+      "gitBlobSha": "5cd56ad628fcee3932eca9bd310391654fe91a85"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/short.png",
+      "gitBlobSha": "3d08228675b7ecdf420592b948441795fd055a9c"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/site-copy.txt",
+      "gitBlobSha": "b0d342267f6f23b0088f464a9b8fc79d302a1669"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/tablet.png",
+      "gitBlobSha": "65d797725f77aea93acc78f52b05135666f5f4ea"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks/wide.png",
+      "gitBlobSha": "3ad8ea070239ea2f3f027ef5f62b68abde83aa45"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/browser-report.json",
+      "gitBlobSha": "8645c10231a700c9c43e1478bbaf480e712146f7"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final/core.json",
+      "gitBlobSha": "b878c24e799bb57ab5d05438ed768c12011b0f6a"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final/core.stderr.txt",
+      "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final/execution.json",
+      "gitBlobSha": "e68b7361404e78e93e6e368901daeacb5c4be760"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final/verification.json",
+      "gitBlobSha": "1dab132ca3c2a1f4b9113b11c6c8b2de495e5e75"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final-2/core.json",
+      "gitBlobSha": "7813097810878f096ee5e887b36fe5e2b41a31bf"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final-2/core.stderr.txt",
+      "gitBlobSha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final-2/execution.json",
+      "gitBlobSha": "6db38e4531b58c0b7c9ddf71b85177e2dd0d171e"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/copy-final-2/verification.json",
+      "gitBlobSha": "a83df54dc843c041bb2633f4724d6e27cae1d83a"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/desktop-hero.png",
+      "gitBlobSha": "39426e70d495085a837236624268ce61ad1ef5ee"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/desktop.png",
+      "gitBlobSha": "aebb46008a3b3046e53630069c507d708f9e8e10"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/form-errors.png",
+      "gitBlobSha": "00634d003ee2445b0273441e5c50eee3e3d4cd7f"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/form-success-final.png",
+      "gitBlobSha": "fe992aa3f3ba649be2e6e961778744bace737e5d"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/form-success.png",
+      "gitBlobSha": "c082583461392dfc675366ffdfa518ecd28910c5"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/laptop.png",
+      "gitBlobSha": "429ffabebb7925fd461cb3c55649abd6b8f2019c"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/mobile-final.png",
+      "gitBlobSha": "84bfef545520fb196120a4211f6747789c8e1202"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/mobile-hero.png",
+      "gitBlobSha": "0f5d8612d62a2ba6247c2e20e7c03c74b97887c7"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/mobile.png",
+      "gitBlobSha": "00b8c447ee66f0f857e2d8d913343309bf834571"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/narrow-hero.png",
+      "gitBlobSha": "37f8b5fa10c54a3be2a3e3bcb66c1d7ee42d0fe0"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/narrow.png",
+      "gitBlobSha": "efefb55c462466aaacfbd178ddf2f5f0902f4a76"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/no-js.png",
+      "gitBlobSha": "e76d0bfff03f421e508e1bc501302aade180ba4c"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/regression-report.json",
+      "gitBlobSha": "3715f0e0ef627c954cd3804263adf4ccce3cd831"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/short-hero.png",
+      "gitBlobSha": "5cd56ad628fcee3932eca9bd310391654fe91a85"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/short.png",
+      "gitBlobSha": "3d08228675b7ecdf420592b948441795fd055a9c"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/site-copy-final.txt",
+      "gitBlobSha": "10283d1947e2332ec5207b768d1ccc496230ef53"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/site-copy.txt",
+      "gitBlobSha": "68af91f2a8222772b1d793c10fd33ca0291cd7c8"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/tablet.png",
+      "gitBlobSha": "65d797725f77aea93acc78f52b05135666f5f4ea"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/text-200.png",
+      "gitBlobSha": "feeedbcb8f26a4161bf6107a4441f8ed31c721d0"
+    },
+    {
+      "path": "tests/artifacts/work-site/checks-final/wide.png",
+      "gitBlobSha": "3ad8ea070239ea2f3f027ef5f62b68abde83aa45"
+    },
+    {
+      "path": "tests/artifacts/work-site/CHECKS.md",
+      "gitBlobSha": "6d2e3d36d72f93b5b337939771285d2a79eaaabd"
+    },
+    {
+      "path": "tests/artifacts/work-site/favicon.svg",
+      "gitBlobSha": "74949700d08f741823a2a0b446de852c95c8e52b"
+    },
+    {
+      "path": "tests/artifacts/work-site/index.html",
+      "gitBlobSha": "2f1e3cdcfd3672d3cacb6f42a15e5954fa176e1e"
+    },
+    {
+      "path": "tests/artifacts/work-site/README.md",
+      "gitBlobSha": "5d8ee4d755ab5d2f571a242b51b2318518045785"
+    },
+    {
+      "path": "tests/artifacts/work-site/server.cjs",
+      "gitBlobSha": "15f14503ea9441d6a14f74e39423c20b7ca38052"
+    },
+    {
+      "path": "tests/artifacts/work-site/social-preview.svg",
+      "gitBlobSha": "0ef441e7694d4df1731965381bc61f79b11da1b7"
+    },
+    {
+      "path": "tests/artifacts/work-site/SOURCES.md",
+      "gitBlobSha": "c0620836e6036f89e9162923e715218678679c96"
+    },
+    {
+      "path": "tests/artifacts/work-site/styles.css",
+      "gitBlobSha": "13b0acd37e4a71a2aba5ed217052e19015b0a920"
+    },
+    {
+      "path": "tests/artifacts/work-site/verify-final.cjs",
+      "gitBlobSha": "fc8a1b9882d76767d7124ab9e46642553e4d2455"
+    },
+    {
+      "path": "tests/artifacts/work-site/verify.cjs",
+      "gitBlobSha": "35fe379b35268492a0fc7f4a4a4fe162fcaf3c74"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/app.js",
+      "gitBlobSha": "fe3978aaf64caf2fff3bc4e80ec792cda6b740f4"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-desktop-no-preference.png",
+      "gitBlobSha": "0e89fb1504d88efc9bcfb66bff63a645d12e3a35"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-desktop-reduce.png",
+      "gitBlobSha": "0e89fb1504d88efc9bcfb66bff63a645d12e3a35"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-mobile-no-preference.png",
+      "gitBlobSha": "0f5d8612d62a2ba6247c2e20e7c03c74b97887c7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-mobile-reduce.png",
+      "gitBlobSha": "0f5d8612d62a2ba6247c2e20e7c03c74b97887c7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-narrow.png",
+      "gitBlobSha": "7ef8184b14be45558c2e53c3dcd8618fd57964c7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-short-no-preference.png",
+      "gitBlobSha": "f2c25645aaeb148b6aa8074623ea1fee30f666b4"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-short-reduce.png",
+      "gitBlobSha": "f2c25645aaeb148b6aa8074623ea1fee30f666b4"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-tablet.png",
+      "gitBlobSha": "de58c8374b71247abc2eb2a18fe565095537bcb4"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/after-wide.png",
+      "gitBlobSha": "a77a1373fe48ed2c49844a5533f6a4bd7c32b244"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/before-desktop.png",
+      "gitBlobSha": "0e89fb1504d88efc9bcfb66bff63a645d12e3a35"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/before-mobile.png",
+      "gitBlobSha": "0f5d8612d62a2ba6247c2e20e7c03c74b97887c7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/early-desktop-no-preference.png",
+      "gitBlobSha": "8c69727353da654a7f783b580829f624d3f18c7e"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/early-desktop-reduce.png",
+      "gitBlobSha": "0e89fb1504d88efc9bcfb66bff63a645d12e3a35"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/edge-verification.json",
+      "gitBlobSha": "8425ab5efdd1adf2e3ca906e4ec3285fd9a700b7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/focus-hover-desktop-no-preference.png",
+      "gitBlobSha": "8382c351e5dfbfd150b273b54eb3231b955f8c4f"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/focus-hover-desktop-reduce.png",
+      "gitBlobSha": "043769cee5c2b39a41f30fd85d1936b7ea8c4eae"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/form-errors-desktop.png",
+      "gitBlobSha": "496a21cee670b0040c5633fd3e09d32bb64c8f24"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/form-success-desktop.png",
+      "gitBlobSha": "baac8bf912c1b4bc666fcc39c7ed0a7d17a662b6"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/no-js-mobile.png",
+      "gitBlobSha": "0f5d8612d62a2ba6247c2e20e7c03c74b97887c7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/process-desktop.png",
+      "gitBlobSha": "bc54f4b1be27730eaea96d0c7dd41ee6fb7f8d48"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/section-desktop-no-preference.png",
+      "gitBlobSha": "68372b8d462379db5e45a159ddea43f568e337a9"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/section-desktop-reduce.png",
+      "gitBlobSha": "68372b8d462379db5e45a159ddea43f568e337a9"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/evidence/verification.json",
+      "gitBlobSha": "1687114f36066d873ce1c8475bb2a34a47c9bc5d"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/favicon.svg",
+      "gitBlobSha": "74949700d08f741823a2a0b446de852c95c8e52b"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/index.html",
+      "gitBlobSha": "2f1e3cdcfd3672d3cacb6f42a15e5954fa176e1e"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/RUN-RECORD.md",
+      "gitBlobSha": "fb86d552e95e9aad345a21329a1b11e56ff1ece0"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/social-preview.svg",
+      "gitBlobSha": "0ef441e7694d4df1731965381bc61f79b11da1b7"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/styles.css",
+      "gitBlobSha": "61047aa6fdb8fb333cce2645a3f4553e6c5fd449"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/verify-edge.cjs",
+      "gitBlobSha": "b5f8df9a1f7a6206b1f53b6c72f79b3cd4d2c483"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/verify.cjs",
+      "gitBlobSha": "12ba957b11463672c018a9d5cd4eae245f4633c2"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha": "050c5088a08b8da5387680459fb9a500a9d251ee"
+    },
+    {
+      "path": "scripts/Install-Saitodel.ps1",
+      "gitBlobSha": "fe2ef6214db0f3623fc5b527e427db4204f94d74"
+    },
+    {
+      "path": "scripts/Test-Codex-Saitodel.ps1",
+      "gitBlobSha": "b92c038256eceaff2e67b1cb6b0561770ffd63a8"
+    },
+    {
+      "path": "scripts/powershell-native-process.ps1",
+      "gitBlobSha": "2729c03a89aeea99fef5692a02ecb2d9b82c9e81"
+    },
+    {
+      "path": "tests/evidence/powershell-process-tests.json",
+      "gitBlobSha": "8b53337b8b065cb7d77372e9e3b9dd33f7fef565"
+    },
+    {
+      "path": "tests/evidence/powershell5-parser-tests.json",
+      "gitBlobSha": "8c987072199e9c624355ea951f1c61e443ea9578"
+    },
+    {
+      "path": "tests/artifacts/work-motion-site/FIX-RECORD.md",
+      "gitBlobSha": "b6ee1a659dd1ff887db7bb3d57704f81dec1e250"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-baseline-hero.png",
+      "gitBlobSha": "f04e9ae52a2830c8d4c7888d549fe0f1d19505f8"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-cycle1-hero.png",
+      "gitBlobSha": "2806134c7ae3d0cfdc04a347ce158600fc5cebb4"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-cycle1-nav-focus.png",
+      "gitBlobSha": "eb6977e2a82062448987bd4f7efeeb0acfce3a8f"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-faq.png",
+      "gitBlobSha": "e28cec4b0ef404d12c9156bb4c43f8db1b177ced"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-form-errors.png",
+      "gitBlobSha": "6ba9fd501d4e94a47d026b19bbd190de6d9145fc"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-form-success.png",
+      "gitBlobSha": "5d023cefa1ae0ea228cadd8091c18929400c349a"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-hero.png",
+      "gitBlobSha": "f04e9ae52a2830c8d4c7888d549fe0f1d19505f8"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-process.png",
+      "gitBlobSha": "752652c9ad2103ccd17852e8da497bd290b6d029"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-reduced-hero.png",
+      "gitBlobSha": "f04e9ae52a2830c8d4c7888d549fe0f1d19505f8"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-services.png",
+      "gitBlobSha": "a4cd8c32dd023cc22774b19cf57b76015d01c4b1"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-settled-tab-12.png",
+      "gitBlobSha": "f73b2148770ed786ae5941d29bfd5b71ffa95cb8"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-settled-tab-6.png",
+      "gitBlobSha": "19df34a6c725e86ca2f0ae41673abf06292a25f4"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/1440-skip-focus.png",
+      "gitBlobSha": "254213a93b011b386fb37e0a73713946794ceece"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/2560x1440-hero.png",
+      "gitBlobSha": "1b80705e53a9dbc7b907abe91668c514f1ff3ea7"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/320-cycle1-hero.png",
+      "gitBlobSha": "23fb157606a085dac83785d453c8cc7a2217f0ef"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/320-cycle1-nav-focus.png",
+      "gitBlobSha": "42db7e01360a05150ec14f489ba962fb39a450f5"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/320x568-hero.png",
+      "gitBlobSha": "37f8b5fa10c54a3be2a3e3bcb66c1d7ee42d0fe0"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-baseline-hero.png",
+      "gitBlobSha": "3cbce13fbf7ec30e97e8a99aca38a4507c389b28"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-cycle1-hero.png",
+      "gitBlobSha": "05fbe9c6e3ed57b7286b40ea8736fe20d92e6b0f"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-cycle1-nav-focus.png",
+      "gitBlobSha": "b9baa80aadcfaf6c0f4154e183e7cffee61abf53"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-faq.png",
+      "gitBlobSha": "86a4bcd44c737748daae8410ac0dbb76124f09c3"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-form-errors.png",
+      "gitBlobSha": "d92ac8e05215300e89aaf500a2262fc01df3dfee"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-form-success.png",
+      "gitBlobSha": "49b5d9cb972e2af3840cb740d36b05280aa1144e"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-hero.png",
+      "gitBlobSha": "3cbce13fbf7ec30e97e8a99aca38a4507c389b28"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-no-js-form.png",
+      "gitBlobSha": "75c0b471f66f3ac58157f7d26ce83bd854746045"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-process.png",
+      "gitBlobSha": "355a729b59d8ba8639079afd7c268016d058a28b"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-reduced-hero.png",
+      "gitBlobSha": "3cbce13fbf7ec30e97e8a99aca38a4507c389b28"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-services.png",
+      "gitBlobSha": "cdef13cb04ea745e59dcf4d8a29b6228a2c4a386"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-settled-tab-12.png",
+      "gitBlobSha": "1bc85d1fc707cee30864af8615910123f9b15c4f"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-settled-tab-6.png",
+      "gitBlobSha": "1ae0d98c7b45478e5f3d0b22d7274ad8a9331502"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-skip-focus.png",
+      "gitBlobSha": "9569151ea03d31548f108fbff0c2818ff3135e03"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-text200-form.png",
+      "gitBlobSha": "f2af7925dd421cfa3b58393986d9da973a8e83cd"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/375-text200-hero.png",
+      "gitBlobSha": "3f00b6cc39fd8422dd7531fdde57e878b1c55ff4"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-cycle1-form-success-settled.png",
+      "gitBlobSha": "4fd43f64b66499115a080eae1839c3fc3b810769"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-cycle1-hero.png",
+      "gitBlobSha": "7b9c0caf66e032fa6fa949c027508d37534eaaea"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-cycle1-nav-focus.png",
+      "gitBlobSha": "22255a77c06cfd95e3da383402441270a6ecdbf5"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-faq.png",
+      "gitBlobSha": "f476014bb0fa8a49a8fec8f596d2ae730e85d984"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-form-errors.png",
+      "gitBlobSha": "0aceca7081999cca5f0555a48ba01b9416a02a87"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-form-success.png",
+      "gitBlobSha": "fc5b2ff36a2e379e7c5134d5c9a8b5cd09ce2fef"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-hero.png",
+      "gitBlobSha": "de58c8374b71247abc2eb2a18fe565095537bcb4"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-process.png",
+      "gitBlobSha": "59c5d3f9b6542d3f1e566e57d399f5f5dd8db955"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-services.png",
+      "gitBlobSha": "76f1c6448e2d6b96fd80092d554316ebd65355ef"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/768-skip-focus.png",
+      "gitBlobSha": "a2cde8b360e51dcfff0e8e55fb2ca24aa8b1cb76"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/844x390-hero.png",
+      "gitBlobSha": "5cd56ad628fcee3932eca9bd310391654fe91a85"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/qa-summary.json",
+      "gitBlobSha": "c403ec6a7616d99799ccc55faeed771c550abc2e"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/qa.cjs",
+      "gitBlobSha": "9c37b60036a621c86cd0d14978e03654a22fa75c"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/raw-results.json",
+      "gitBlobSha": "680d96a70e6d4208bf0aa1279d4c9b2ef0a98231"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/report.md",
+      "gitBlobSha": "4b1d25a427c92a2a9836c0c201306b704701bf0e"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/retest-results.json",
+      "gitBlobSha": "8d4f355ff42b4b3ba6ed9b64e63bb2c666d2262f"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/retest.cjs",
+      "gitBlobSha": "4de1f3ff40e4719391aeb75f853116e7436d7a30"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/source-snapshot/app.js",
+      "gitBlobSha": "fe3978aaf64caf2fff3bc4e80ec792cda6b740f4"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/source-snapshot/favicon.svg",
+      "gitBlobSha": "74949700d08f741823a2a0b446de852c95c8e52b"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/source-snapshot/index.html",
+      "gitBlobSha": "2f1e3cdcfd3672d3cacb6f42a15e5954fa176e1e"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/source-snapshot/social-preview.svg",
+      "gitBlobSha": "0ef441e7694d4df1731965381bc61f79b11da1b7"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/source-snapshot/styles.css",
+      "gitBlobSha": "eb0ce1cb29ecddc83559509d32e2153c552f98fa"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/supplement-results.json",
+      "gitBlobSha": "2132531458bb36d343d7de8680371f5e6768299a"
+    },
+    {
+      "path": "tests/artifacts/independent-qa/supplement.cjs",
+      "gitBlobSha": "ad8dbd8a436ada61334e8702e30b86c5b02e1572"
+    },
+    {
+      "path": "docs/INTEGRATION_STATUS.md",
+      "gitBlobSha": "6efa8b65833549f0aae060f2fded6d8210cab28c"
+    },
+    {
+      "path": "tests/evidence/final-acceptance.json",
+      "gitBlobSha": "5052c1cc3b31b21f50b22d7524f0eed1f67de8f7"
+    },
+    {
+      "path": "tests/evidence/final-acceptance.md",
+      "gitBlobSha": "028fae2ead503352405ded96ae316c7c901c56f6"
+    },
+    {
+      "path": "tests/evidence/report-consistency.json",
+      "gitBlobSha": "3395357ae2cf07abed8ebc1df7c56c0aad17b255"
+    }
+  ]
+}
