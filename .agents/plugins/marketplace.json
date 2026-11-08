@@ -9,7 +9,7 @@
       },
       "source": {
         "source": "local",
-        "path": "./build/v1.0.2/saitodel"
+        "path": "./build/v1.0.3/saitodel"
       },
       "interface": {
         "displayName": "Сайтодел"
