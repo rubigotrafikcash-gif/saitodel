@@ -1,32 +1,44 @@
-param()
+﻿param([string]$CodexPath)
 $ErrorActionPreference = 'Stop'
-[Console]::OutputEncoding = [System.Text.UTF8Encoding]::new()
-$OutputEncoding = [System.Text.UTF8Encoding]::new()
+. (Join-Path $PSScriptRoot 'powershell-native-process.ps1')
 $repoRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
-$codexExe = (Get-Command codex -ErrorAction SilentlyContinue).Source
-if (-not $codexExe) {
-  $codexExe = Get-ChildItem -LiteralPath (Join-Path $env:LOCALAPPDATA 'OpenAI\Codex\bin') -Filter codex.exe -File -Recurse | Sort-Object LastWriteTime -Descending | Select-Object -First 1 -ExpandProperty FullName
-}
-if (-not $codexExe) { throw 'Codex CLI not found' }
-$spec = Get-Content -LiteralPath (Join-Path $repoRoot 'tests\acceptance.json') -Raw -Encoding UTF8 | ConvertFrom-Json
-$runRoot = Join-Path $repoRoot ('tests\artifacts\codex-run-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
+$codexExe = Resolve-SaitodelExecutable -ExplicitPath $CodexPath -Name codex
+$specPath = Join-Path $repoRoot 'tests\acceptance.json'
+$spec = Get-Content -LiteralPath $specPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$runId = (Get-Date -Format 'yyyyMMdd-HHmmss') + '-' + [guid]::NewGuid().ToString('N').Substring(0,8)
+$runRoot = Join-Path $repoRoot ('tests\artifacts\codex-run-' + $runId)
 $siteRoot = Join-Path $runRoot 'site'
 $copyRoot = Join-Path $runRoot 'copy'
-New-Item -ItemType Directory -Path $siteRoot,$copyRoot -Force | Out-Null
-$phases = @('P1','P2','P3','P4')
-foreach ($phase in $phases) {
-  $taskDir = if ($phase -eq 'P4') { $copyRoot } else { $siteRoot }
-  $prompt = $spec.prompts.$phase
-  if ($phase -ne 'P4') { $prompt += [Environment]::NewLine + 'Работай только в текущей папке. Разработка локального демонстрационного сайта разрешена до результата. Не публикуй сайт, не меняй права и инструкции самого плагина. Сохрани источники и фактические проверки.' }
-  $logFile = Join-Path $runRoot ($phase + '.jsonl')
-  $answerFile = Join-Path $runRoot ($phase + '-answer.txt')
-  $prompt | & $codexExe exec --ephemeral --sandbox workspace-write --cd $taskDir --json --output-last-message $answerFile - 2>&1 | Tee-Object -FilePath $logFile
-  $phaseExitCode = $LASTEXITCODE
-  [pscustomobject]@{phase=$phase;exitCode=$phaseExitCode;log=$logFile;answer=$answerFile;scored=$false} | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $runRoot ($phase + '-process.json')) -Encoding utf8
-  if ($phaseExitCode -ne 0) { throw ('Phase ' + $phase + ' failed; evidence: ' + $logFile) }
+New-Item -ItemType Directory -Path $siteRoot,$copyRoot | Out-Null
+$summary = [ordered]@{status='IN_PROGRESS_NOT_SCORED';evidence=$runRoot;scored=$false;
+  acceptanceSha256=(Get-FileHash -LiteralPath $specPath -Algorithm SHA256).Hash.ToLowerInvariant();
+  phases=@();error=$null;required='Independent scoring against tests/acceptance.json; process completion is not acceptance PASS.'}
+try {
+  foreach ($phase in @('P1','P2','P3','P4')) {
+    $taskDir = if ($phase -eq 'P4') { $copyRoot } else { $siteRoot }
+    $prompt = $spec.prompts.$phase
+    if ($prompt -isnot [string] -or [string]::IsNullOrWhiteSpace($prompt)) { throw ('Missing string prompt: '+$phase) }
+    if ($phase -ne 'P4') { $prompt += [Environment]::NewLine + 'Работай только в текущей папке. Разработка локального демонстрационного сайта разрешена до результата. Не публикуй сайт, не меняй права и инструкции самого плагина. Сохрани источники и фактические проверки.' }
+    $answerFile = Join-Path $runRoot ($phase+'-answer.txt')
+    Write-Host ('Running '+$phase+'; preserving actual prompt, stdout, stderr and exit code.')
+    $result = Invoke-SaitodelNativeProcess -Executable $codexExe -ArgumentList @('exec','--ephemeral','--sandbox','workspace-write','--cd',$taskDir,'--json','--output-last-message',$answerFile,'-') -WorkingDirectory $taskDir -LogPrefix (Join-Path $runRoot $phase) -InputText $prompt
+    $summary.phases += [pscustomobject]@{phase=$phase;processStatus=$result.status;exitCode=$result.exitCode;
+      process=(Join-Path $runRoot ($phase+'-process.json'));answer=$answerFile;answerExists=(Test-Path -LiteralPath $answerFile -PathType Leaf);scored=$false}
+    Assert-SaitodelProcessCompleted $result ('Phase '+$phase)
+    if (-not (Test-Path -LiteralPath $answerFile -PathType Leaf)) { throw ('Phase '+$phase+' completed without its expected answer file.') }
+  }
+  $explicitPrompt = 'Используй Сайтодел. Посмотри доступный тебе состав навыка и предложи краткий порядок работы над мобильной версией существующего лендинга. Пока ничего не изменяй.'
+  $answerFile = Join-Path $runRoot 'explicit-answer.txt'
+  $result = Invoke-SaitodelNativeProcess -Executable $codexExe -ArgumentList @('exec','--ephemeral','--sandbox','read-only','--cd',$siteRoot,'--json','--output-last-message',$answerFile,'-') -WorkingDirectory $siteRoot -LogPrefix (Join-Path $runRoot 'explicit') -InputText $explicitPrompt
+  $summary.phases += [pscustomobject]@{phase='explicit';processStatus=$result.status;exitCode=$result.exitCode;
+    process=(Join-Path $runRoot 'explicit-process.json');answer=$answerFile;answerExists=(Test-Path -LiteralPath $answerFile -PathType Leaf);scored=$false}
+  Assert-SaitodelProcessCompleted $result 'Explicit invocation'
+  if (-not (Test-Path -LiteralPath $answerFile -PathType Leaf)) { throw 'Explicit invocation completed without its expected answer file.' }
+  $summary.status='PROCESSES_COMPLETED_NOT_SCORED'
+} catch {
+  $summary.status='BLOCKED_NOT_SCORED'; $summary.error=$_.Exception.Message
+  throw
+} finally {
+  Write-SaitodelUtf8 -Path (Join-Path $runRoot 'run-summary.json') -Text ($summary | ConvertTo-Json -Depth 8)
+  $summary | ConvertTo-Json -Depth 8
 }
-$explicitPrompt = 'Используй Сайтодел. Посмотри доступный тебе состав навыка и предложи краткий порядок работы над мобильной версией существующего лендинга. Пока ничего не изменяй.'
-$explicitPrompt | & $codexExe exec --ephemeral --sandbox read-only --cd $siteRoot --json --output-last-message (Join-Path $runRoot 'explicit-answer.txt') - 2>&1 | Tee-Object -FilePath (Join-Path $runRoot 'explicit.jsonl')
-if ($LASTEXITCODE -ne 0) { throw 'Explicit invocation process failed' }
-[pscustomobject]@{status='PROCESSES_COMPLETED_NOT_SCORED';evidence=$runRoot;required='Independent scoring against tests/acceptance.json; no automatic PASS'} | ConvertTo-Json
-

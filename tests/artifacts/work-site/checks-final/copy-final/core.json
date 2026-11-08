@@ -1,0 +1,875 @@
+{
+  "ai_text_generation": "external_to_this_workflow",
+  "comparison": null,
+  "decision": "draft_requires_review",
+  "execution": "local_core_executed",
+  "fact_guard": null,
+  "mode": "create",
+  "post_analysis": {
+    "errors": [],
+    "historical_compatibility": "not_verified",
+    "language": "ru",
+    "language_detection": "not_performed",
+    "measurements": [
+      {
+        "dataset_id": null,
+        "id": "token_count",
+        "method_id": "slovodel.a1.tokens",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 392,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_token_count",
+        "method_id": "slovodel.a1.russian_tokens",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 384,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "sentence_count",
+        "method_id": "slovodel.a1.sentence_heuristic",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "sentences",
+        "value": 54,
+        "warnings": [
+          "HEURISTIC_ABBREVIATIONS"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "unicode_codepoint_count",
+        "method_id": "slovodel.a1.codepoints",
+        "method_version": "0.8.0",
+        "n": 2938,
+        "status": "reproducible",
+        "unit": "codepoints",
+        "value": 2938,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "base_mark_cluster_count",
+        "method_id": "slovodel.a1.base_mark_clusters",
+        "method_version": "0.8.0",
+        "n": 2938,
+        "status": "reproducible",
+        "unit": "clusters",
+        "value": 2938,
+        "warnings": [
+          "NOT_UAX29_GRAPHEMES"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_letter_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 2409,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "invisible_format_char_count",
+        "method_id": "slovodel.a1.script_hygiene",
+        "method_version": "0.8.0",
+        "n": 2938,
+        "status": "reproducible",
+        "unit": "codepoints",
+        "value": 0,
+        "warnings": [
+          "SOFT_HYPHEN_AND_ZERO_WIDTH_JOINED_INSIDE_WORDS"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "mixed_script_token_count",
+        "method_id": "slovodel.a1.script_hygiene",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 0,
+        "warnings": [
+          "CYRILLIC_LATIN_IN_ONE_TOKEN"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "homoglyph_folded_token_count",
+        "method_id": "slovodel.a1.script_hygiene",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 0,
+        "warnings": [
+          "LATIN_LOOKALIKES_READ_AS_RUSSIAN"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_а_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 241,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_б_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 33,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_в_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 94,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_г_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 32,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_д_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 79,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_е_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 204,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ё_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 6,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ж_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 16,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_з_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 36,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_и_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 154,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_й_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 43,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_к_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 78,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_л_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 92,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_м_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 87,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_н_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 140,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_о_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 240,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_п_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 68,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_р_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 123,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_с_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 145,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_т_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 173,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_у_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 74,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ф_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 21,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_х_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 11,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ц_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 7,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ч_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 27,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ш_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 15,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_щ_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 7,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ъ_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 2,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ы_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 41,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ь_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 40,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_э_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 5,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_ю_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 19,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_я_count",
+        "method_id": "slovodel.a1.letters",
+        "method_version": "0.8.0",
+        "n": 2409,
+        "status": "reproducible",
+        "unit": "letters",
+        "value": 56,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_2gram_repeat_types",
+        "method_id": "slovodel.a3.letter_ngrams",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "types",
+        "value": 227,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_2gram_excess_occurrences",
+        "method_id": "slovodel.a3.letter_ngrams",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "occurrences",
+        "value": 1705,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_3gram_repeat_types",
+        "method_id": "slovodel.a3.letter_ngrams",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "types",
+        "value": 354,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "letter_3gram_excess_occurrences",
+        "method_id": "slovodel.a3.letter_ngrams",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "occurrences",
+        "value": 932,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "onset_window_count",
+        "method_id": "slovodel.a3.onset_5_tokens",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "windows",
+        "value": 380,
+        "warnings": [
+          "ORTHOGRAPHIC_NOT_PHONETIC"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "onset_repetition_window_count",
+        "method_id": "slovodel.a3.onset_5_tokens",
+        "method_version": "0.8.0",
+        "n": 380,
+        "status": "reproducible",
+        "unit": "windows",
+        "value": 210,
+        "warnings": [
+          "ORTHOGRAPHIC_NOT_PHONETIC"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_orthographic_syllable_total",
+        "method_id": "slovodel.a4.orthographic_vowel_count",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "syllables",
+        "value": 1040,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_zero_vowel_token_count",
+        "method_id": "slovodel.a4.orthographic_vowel_count",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 17,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_syllables_per_token_mean",
+        "method_id": "slovodel.a4.orthographic_vowel_count",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "syllables/token",
+        "value": 2.70833333,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_syllables_per_token_median",
+        "method_id": "slovodel.a4.orthographic_vowel_count",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "syllables/token",
+        "value": 3.0,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_wordform_type_count",
+        "method_id": "slovodel.a6.wordforms",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "types",
+        "value": 266,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_hapax_type_count",
+        "method_id": "slovodel.a6.wordforms",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "types",
+        "value": 213,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_repeated_wordform_type_count",
+        "method_id": "slovodel.a6.wordforms",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "types",
+        "value": 53,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_repeated_wordform_excess",
+        "method_id": "slovodel.a6.wordforms",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 118,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_max_wordform_frequency",
+        "method_id": "slovodel.a6.wordforms",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "occurrences",
+        "value": 24,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "russian_ttr",
+        "method_id": "slovodel.a6.wordforms",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "ratio",
+        "value": 0.69270833,
+        "warnings": [
+          "TTR_LENGTH_SENSITIVE"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "golden_section_token_index",
+        "method_id": "slovodel.a7.geometric_fraction",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "token_index_1_based",
+        "value": 242,
+        "warnings": [
+          "NO_PSYCHOLOGICAL_EFFECT_INFERRED"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "pos_distribution",
+        "method_id": null,
+        "method_version": null,
+        "n": null,
+        "status": "unavailable",
+        "unit": null,
+        "value": null,
+        "warnings": [
+          "MORPHOLOGY_OPT_IN_REQUIRED"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a9_final_voiced_letter_review_candidates",
+        "method_id": "slovodel.a9.spelling_final_voiced",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 8,
+        "warnings": [
+          "SPELLING_HEURISTIC_NOT_IPA",
+          "NOT_A_PHONETIC_TRANSCRIPTION",
+          "EXCEPTIONS_AND_CONTEXT_NOT_RESOLVED",
+          "PROCLITICS_EXCLUDED"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a4_words_3plus_vowels_count",
+        "method_id": "slovodel.a4.vowels_3plus",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 196,
+        "warnings": [
+          "ORTHOGRAPHIC_NOT_PHONETIC"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a4_words_with_vowels_count",
+        "method_id": "slovodel.a4.nonzero_vowel_tokens",
+        "method_version": "0.8.0",
+        "n": 384,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 367,
+        "warnings": []
+      },
+      {
+        "dataset_id": null,
+        "id": "a4_vowels_per_nonzero_word_mean",
+        "method_id": "slovodel.a4.nonzero_vowel_mean",
+        "method_version": "0.8.0",
+        "n": 367,
+        "status": "reproducible",
+        "unit": "vowels/token",
+        "value": 2.83378747,
+        "warnings": [
+          "DIFFERENT_DENOMINATOR_FROM_A4",
+          "NOT_HISTORICAL_CHEREPANOVA"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a7_sentence_count_by_segmentation",
+        "method_id": "slovodel.a7.sentence_windows",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "sentences",
+        "value": 54,
+        "warnings": [
+          "PUNCTUATION_HEURISTIC_NOT_SEMANTIC"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a7_max_sentence_length_tokens",
+        "method_id": "slovodel.a7.sentence_windows",
+        "method_version": "0.8.0",
+        "n": 54,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 20,
+        "warnings": [
+          "PUNCTUATION_HEURISTIC_NOT_SEMANTIC"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a7_sentences_over_25_tokens",
+        "method_id": "slovodel.a7.sentence_windows",
+        "method_version": "0.8.0",
+        "n": 54,
+        "status": "reproducible",
+        "unit": "sentences",
+        "value": 0,
+        "warnings": [
+          "EDITORIAL_THRESHOLD_NOT_QUALITY_SCORE"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a7_golden_section_sentence_ordinal",
+        "method_id": "slovodel.a7.sentence_position",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "sentence_index_1_based",
+        "value": 31,
+        "warnings": [
+          "ORTHOGRAPHIC_POSITION_NOT_AUTHOR_INTENTION",
+          "NO_PSYCHOLOGICAL_EFFECT_INFERRED"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "a7_golden_section_sentence_length_tokens",
+        "method_id": "slovodel.a7.sentence_position",
+        "method_version": "0.8.0",
+        "n": 392,
+        "status": "reproducible",
+        "unit": "tokens",
+        "value": 5,
+        "warnings": [
+          "PUNCTUATION_HEURISTIC_NOT_SEMANTIC"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "norm_letter_deviation",
+        "method_id": null,
+        "method_version": null,
+        "n": null,
+        "status": "unavailable",
+        "unit": null,
+        "value": null,
+        "warnings": [
+          "NORMATIVE_CORPUS_NOT_AVAILABLE"
+        ]
+      },
+      {
+        "dataset_id": null,
+        "id": "historical_suggestive_score",
+        "method_id": null,
+        "method_version": null,
+        "n": null,
+        "status": "unavailable",
+        "unit": null,
+        "value": null,
+        "warnings": [
+          "HISTORICAL_METHOD_NOT_VERIFIED"
+        ]
+      }
+    ],
+    "mode": "audit",
+    "schema_version": "1.0.0",
+    "source": {
+      "normalization": "NFC",
+      "normalization_changed": false,
+      "offset_map_status": "not_implemented",
+      "sha256": "e4e96a8cd7fc99bcf88a830b526ed834620eb3329039c9dc481702253a7b64ee",
+      "size_bytes": 5361
+    },
+    "source_policy": {
+      "network_access": false,
+      "raw_text_in_report": false,
+      "storage": "memory_only_unless_output_selected"
+    },
+    "source_sha256": "e4e96a8cd7fc99bcf88a830b526ed834620eb3329039c9dc481702253a7b64ee",
+    "tool_version": "0.8.5",
+    "warnings": [
+      "ORTHOGRAPHIC_NOT_PHONETIC",
+      "URL_EMAIL_EXCLUSION_HEURISTIC",
+      "NO_NORMATIVE_CORPUS"
+    ]
+  },
+  "pre_analysis": null,
+  "publication_ready": false,
+  "steps_executed": [
+    "analyze_agent_draft"
+  ],
+  "tool_version": "0.8.5",
+  "warnings": [
+    "NO_AUTO_PUBLICATION",
+    "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+    "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+  ],
+  "workflow_schema_version": "1.0.0"
+}

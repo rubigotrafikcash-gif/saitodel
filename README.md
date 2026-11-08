@@ -30,10 +30,10 @@ node --test tests/source-manager.test.mjs
 Для установки на Windows из обычного PowerShell пользователя:
 
 ```powershell
-powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File .\scripts\Install-Saitodel.ps1
+& 'C:\Users\rust\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell\pwsh.exe' -NoProfile -File .\scripts\Install-Saitodel.ps1 -CodexPath 'C:\Users\rust\AppData\Local\OpenAI\Codex\bin\f71a721e0e6193a9\codex.exe' -NodePath 'C:\Program Files\nodejs\node.exe' -RunTests
 ```
 
-После успешной установки отдельные процессы Codex P1–P4 можно запустить scripts/Test-Codex-Saitodel.ps1. Скрипт сохраняет процессы/ответы и exit codes; не присваивает им PASS. Итог оценивается независимо по замороженным критериям, включая реально прочитанные навыки и браузерные действия.
+Команда выполняется из корня этого репозитория на ноутбуке, пользователем rust. Путь PowerShell7 найден и проверен в текущей среде. Политика Windows PowerShell5 запрещает запуск скриптов; установщик её не меняет. После подтверждения установки флаг -RunTests запускает отдельные процессы Codex P1–P4. Скрипт сохраняет точные промпты, ответы, stdout/stderr и exit codes; не присваивает им PASS. Итог оценивается независимо по замороженным критериям, включая реально прочитанные навыки и браузерные действия. Старый/неоднозначный установленный Сайтодел останавливает установку до выяснения личности пакета, без создания дубля.
 
 ## Предыдущая работа
 

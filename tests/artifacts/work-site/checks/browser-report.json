@@ -1,0 +1,433 @@
+{
+  "testedAt": "2026-11-08T18:04:27.003Z",
+  "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+  "httpPreview": "http://127.0.0.1:4173",
+  "httpLimitation": "Chrome localhost navigation returned ERR_NETWORK_ACCESS_DENIED; Node fetch also failed. Rendering and interactions are checked using the authorized local file.",
+  "runtime": "C:\\Program Files\\nodejs\\node.exe",
+  "browser": "156.0.8078.80",
+  "checks": [
+    {
+      "name": "Layout desktop 1440x960",
+      "status": "PASS",
+      "result": {
+        "viewport": 1440,
+        "body": 1440,
+        "root": 1440,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 1070,
+          "y": 525.0625,
+          "width": 234.734375,
+          "height": 58
+        }
+      }
+    },
+    {
+      "name": "Layout laptop 1280x720",
+      "status": "PASS",
+      "result": {
+        "viewport": 1280,
+        "body": 1280,
+        "root": 1280,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 934,
+          "y": 497.28125,
+          "width": 234.734375,
+          "height": 58
+        }
+      }
+    },
+    {
+      "name": "Layout mobile 390x844",
+      "status": "PASS",
+      "result": {
+        "viewport": 390,
+        "body": 390,
+        "root": 390,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 20,
+          "y": 494.421875,
+          "width": 250,
+          "height": 56
+        }
+      }
+    },
+    {
+      "name": "Layout narrow 320x568",
+      "status": "PASS",
+      "result": {
+        "viewport": 320,
+        "body": 320,
+        "root": 320,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 16,
+          "y": 504.4375,
+          "width": 250,
+          "height": 56
+        }
+      }
+    },
+    {
+      "name": "Layout tablet 768x1024",
+      "status": "PASS",
+      "result": {
+        "viewport": 768,
+        "body": 768,
+        "root": 768,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 474,
+          "y": 408.59375,
+          "width": 217.734375,
+          "height": 58
+        }
+      }
+    },
+    {
+      "name": "Layout short 844x390",
+      "status": "PASS",
+      "result": {
+        "viewport": 844,
+        "body": 844,
+        "root": 844,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 550,
+          "y": 306.09375,
+          "width": 217.734375,
+          "height": 58
+        }
+      }
+    },
+    {
+      "name": "Layout wide 2560x1440",
+      "status": "PASS",
+      "result": {
+        "viewport": 2560,
+        "body": 2560,
+        "root": 2560,
+        "h1": "Ваше дело.Понятный сайт.",
+        "cta": {
+          "x": 1630,
+          "y": 724.015625,
+          "width": 234.734375,
+          "height": 58
+        }
+      }
+    },
+    {
+      "name": "CTA opens demo form",
+      "status": "PASS",
+      "result": {
+        "hash": "#contact",
+        "formVisible": true
+      }
+    },
+    {
+      "name": "Empty form: inline errors and first error focused",
+      "status": "PASS",
+      "result": {
+        "nameError": "Введите имя — можно вымышленное.",
+        "emailError": "Введите email — например, test@example.com."
+      }
+    },
+    {
+      "name": "Malformed email rejected; name retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Valid form + Enter + no request/storage",
+      "status": "PASS",
+      "result": {
+        "requestsDuringSubmit": 0,
+        "storage": {
+          "local": 0,
+          "session": 0
+        }
+      }
+    },
+    {
+      "name": "Editing clears success; repeat validation works",
+      "status": "PASS"
+    },
+    {
+      "name": "FAQ mouse and keyboard",
+      "status": "PASS"
+    },
+    {
+      "name": "All anchors resolve",
+      "status": "PASS",
+      "result": [
+        {
+          "href": "#main",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#services",
+          "exists": true
+        },
+        {
+          "href": "#process",
+          "exists": true
+        },
+        {
+          "href": "#faq",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "name": "Keyboard skip link and visible focus",
+      "status": "PASS",
+      "result": {
+        "outline": "solid",
+        "width": "3px"
+      }
+    },
+    {
+      "name": "Reduced motion",
+      "status": "PASS",
+      "result": {
+        "scroll": "auto",
+        "transition": "0s"
+      }
+    },
+    {
+      "name": "200 percent text enlargement at 390px",
+      "status": "FAIL",
+      "error": "Document width 525"
+    },
+    {
+      "name": "No JavaScript: content/FAQ available, form cannot submit",
+      "status": "PASS",
+      "result": {
+        "requestsOnEnter": 0
+      }
+    },
+    {
+      "name": "No console warnings/errors or failed network",
+      "status": "PASS"
+    }
+  ],
+  "console": [],
+  "failedRequests": [],
+  "requests": [
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/index.html",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/styles.css",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/app.js",
+      "method": "GET"
+    },
+    {
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-site/favicon.svg",
+      "method": "GET"
+    }
+  ],
+  "hashes": {
+    "index.html": "b6e65477778185854ca111d62131496e094904800fa05a4cebc8473364ff1eaa",
+    "styles.css": "0ee5c42fd76d8b857fa80d19781de9dd296425b3d559889f1ea831f5a6f9a196",
+    "app.js": "ac4d858187e5a66a0da4cd07f3cd2c465a0854134a3d20c6f725067a77fa3579",
+    "server.cjs": "e1827999a98c7988c57e17fc138c8603cc3c2b039200e06b48a46a19a1476cc7"
+  },
+  "summary": {
+    "pass": 18,
+    "fail": 1
+  }
+}

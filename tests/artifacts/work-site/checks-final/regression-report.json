@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-08T18:07:39.214Z",
+  "checks": [
+    {
+      "name": "FAQ heading has separating whitespace",
+      "status": "PASS",
+      "text": "Есть вопросы?"
+    },
+    {
+      "name": "Success result focused and within mobile viewport",
+      "status": "PASS",
+      "bounds": {
+        "x": 20,
+        "y": 705.1875,
+        "width": 350,
+        "height": 96
+      }
+    }
+  ],
+  "hashes": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "1b472503dd802e7c3e51095bb3dcd7d7e385f71e8cea60e0ef95adb039a2bb0c",
+    "app.js": "fc8529c140a50d71954e3b7a836b5ab6e6b1ebbdb96c07f94de045b8de2f61d5",
+    "server.cjs": "e1827999a98c7988c57e17fc138c8603cc3c2b039200e06b48a46a19a1476cc7"
+  },
+  "reusedEvidence": "checks-final/browser-report.json; only FAQ whitespace and success focus changed"
+}

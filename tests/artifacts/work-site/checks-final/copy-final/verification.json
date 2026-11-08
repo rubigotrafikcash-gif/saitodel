@@ -1,0 +1,21 @@
+{
+  "verification_version": "1.0.0",
+  "tool_version": "0.8.5",
+  "mode": "create",
+  "structural_checks": "passed",
+  "input_hashes": {
+    "input": "e4e96a8cd7fc99bcf88a830b526ed834620eb3329039c9dc481702253a7b64ee"
+  },
+  "hash_checks": 1,
+  "core_exit_code": 0,
+  "core_decision": "draft_requires_review",
+  "schema_validation": "unavailable",
+  "schema_instances": [
+    "workflow",
+    "analysis"
+  ],
+  "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+  "semantic_review": "not_performed_by_verifier",
+  "publication_ready": false,
+  "report_sha256": "2ce41a4ce5003eba7cc4444aa69e69d3f9be643ed34d8547a58caf6eb0a4dc57"
+}

@@ -1,0 +1,103 @@
+{
+  "createdAt": "2026-11-08T18:16:42.919Z",
+  "checks": [
+    {
+      "name": "first entry runs step motion",
+      "status": "PASS",
+      "observed": 1
+    },
+    {
+      "name": "repeat entry does not replay",
+      "status": "PASS",
+      "observed": 0
+    },
+    {
+      "name": "focus interrupts ancestor entrance",
+      "status": "PASS",
+      "observed": {
+        "transform": "none",
+        "opacity": "1"
+      }
+    },
+    {
+      "name": "direct anchor contact is static",
+      "status": "PASS",
+      "observed": {
+        "count": 0,
+        "top": 180.453125
+      }
+    },
+    {
+      "name": "direct anchor reaches visible contact section",
+      "status": "PASS",
+      "observed": {
+        "count": 0,
+        "top": 180.453125
+      }
+    },
+    {
+      "name": "no-animate: visible static fallback and form",
+      "status": "PASS",
+      "observed": {
+        "opacity": "1",
+        "heading": "none",
+        "enabled": true
+      }
+    },
+    {
+      "name": "no-animate: no errors",
+      "status": "PASS",
+      "observed": []
+    },
+    {
+      "name": "no-observer: visible static fallback and form",
+      "status": "PASS",
+      "observed": {
+        "opacity": "1",
+        "heading": "none",
+        "enabled": true
+      }
+    },
+    {
+      "name": "no-observer: no errors",
+      "status": "PASS",
+      "observed": []
+    }
+  ],
+  "captures": [
+    {
+      "file": "after-narrow.png",
+      "sha256": "9c07cd2cfa85ee58036cd648679b5819366c911da169129818ef154a48e8e852",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-tablet.png",
+      "sha256": "2b8d4ffca3411365afe7a0063cfc6c80ddf2a612bc442322eb9b61e406151bdc",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-wide.png",
+      "sha256": "635dca26d65b592d3c35dc386bc28e2cb2fb74c5b39b8e9875b1a711c2c4ac0a",
+      "visuallyInspected": false
+    },
+    {
+      "file": "process-desktop.png",
+      "sha256": "59eda466f54ca6431c959acb60a2e9a6935411155b80903ae179a647462767e8",
+      "visuallyInspected": false
+    },
+    {
+      "file": "form-errors-desktop.png",
+      "sha256": "29fcdd0a2aef352c746cf4e83d69d12704335eb206aa0760c48fd6f2c43daf0b",
+      "visuallyInspected": false
+    },
+    {
+      "file": "form-success-desktop.png",
+      "sha256": "5d7aea39925ccd4f0e72598e100ad65e0394e6f94de9b1fc5d22d6c2adaac548",
+      "visuallyInspected": false
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0
+  }
+}

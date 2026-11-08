@@ -1,0 +1,34 @@
+{
+    "powershell":  "5.1.26100.9711",
+    "effectivePolicy":  "Restricted",
+    "scope":  "Static parser and UTF8 BOM only; scripts not executed",
+    "results":  [
+                    {
+                        "file":  "Install-Saitodel.ps1",
+                        "parserErrors":  [
+
+                                         ],
+                        "utf8Bom":  true,
+                        "sha256":  "cc9f61aeb6649451fde28769e7e26f287bff6dcf52dfda8e0c2757e8c43d0443",
+                        "status":  "PASS"
+                    },
+                    {
+                        "file":  "Test-Codex-Saitodel.ps1",
+                        "parserErrors":  [
+
+                                         ],
+                        "utf8Bom":  true,
+                        "sha256":  "6c225048fc64a346c4ba247d5d66befea6933de1b87318cba4ef456b3d58fd3a",
+                        "status":  "PASS"
+                    },
+                    {
+                        "file":  "powershell-native-process.ps1",
+                        "parserErrors":  [
+
+                                         ],
+                        "utf8Bom":  true,
+                        "sha256":  "b5ee14f32aa8af1fc63da6bfcf1449641ee024c37c7750b2a68196e69eac6704",
+                        "status":  "PASS"
+                    }
+                ]
+}

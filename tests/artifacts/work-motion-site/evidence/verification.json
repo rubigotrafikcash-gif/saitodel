@@ -1,0 +1,3720 @@
+{
+  "createdAt": "2026-11-08T18:13:28.899Z",
+  "mode": "file://, existing Chrome, no browser security overrides",
+  "sourceBefore": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "1b472503dd802e7c3e51095bb3dcd7d7e385f71e8cea60e0ef95adb039a2bb0c",
+    "app.js": "fc8529c140a50d71954e3b7a836b5ab6e6b1ebbdb96c07f94de045b8de2f61d5",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  "candidate": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "b7dee39db6a657e0a4f32bb4ea5afa3111017c5c8b9b247d5d60df15592662c3",
+    "app.js": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  "checks": [
+    {
+      "name": "desktop-no-preference: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "desktop-no-preference: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "desktop-no-preference: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "desktop-no-preference: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: hero animation runs",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "desktop-no-preference: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "desktop-no-preference: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "desktop-no-preference: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "desktop-no-preference: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "desktop-no-preference: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "desktop-no-preference: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-no-preference: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "desktop-no-preference: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "desktop-no-preference: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "desktop-reduce: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "desktop-reduce: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "desktop-reduce: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "desktop-reduce: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: zero running entrance animations",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "desktop-reduce: no smooth scrolling",
+      "status": "PASS",
+      "expected": "auto",
+      "actual": "auto"
+    },
+    {
+      "name": "desktop-reduce: static heading",
+      "status": "PASS",
+      "expected": "none",
+      "actual": "none"
+    },
+    {
+      "name": "desktop-reduce: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "desktop-reduce: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "desktop-reduce: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "desktop-reduce: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "desktop-reduce: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "desktop-reduce: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "desktop-reduce: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "desktop-reduce: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "desktop-reduce: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "desktop-reduce: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "mobile-no-preference: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "mobile-no-preference: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "mobile-no-preference: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "mobile-no-preference: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: hero animation runs",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "mobile-no-preference: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "mobile-no-preference: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "mobile-no-preference: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "mobile-no-preference: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "mobile-no-preference: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "mobile-no-preference: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-no-preference: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "mobile-no-preference: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "mobile-no-preference: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "mobile-reduce: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "mobile-reduce: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "mobile-reduce: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "mobile-reduce: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: zero running entrance animations",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "mobile-reduce: no smooth scrolling",
+      "status": "PASS",
+      "expected": "auto",
+      "actual": "auto"
+    },
+    {
+      "name": "mobile-reduce: static heading",
+      "status": "PASS",
+      "expected": "none",
+      "actual": "none"
+    },
+    {
+      "name": "mobile-reduce: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "mobile-reduce: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "mobile-reduce: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "mobile-reduce: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "mobile-reduce: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "mobile-reduce: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "mobile-reduce: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "mobile-reduce: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "mobile-reduce: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "mobile-reduce: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "narrow-no-preference: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "narrow-no-preference: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "narrow-no-preference: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "narrow-no-preference: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: hero animation runs",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "narrow-no-preference: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "narrow-no-preference: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "narrow-no-preference: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "narrow-no-preference: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "narrow-no-preference: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "narrow-no-preference: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-no-preference: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "narrow-no-preference: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "narrow-no-preference: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "narrow-reduce: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "narrow-reduce: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "narrow-reduce: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "narrow-reduce: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: zero running entrance animations",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "narrow-reduce: no smooth scrolling",
+      "status": "PASS",
+      "expected": "auto",
+      "actual": "auto"
+    },
+    {
+      "name": "narrow-reduce: static heading",
+      "status": "PASS",
+      "expected": "none",
+      "actual": "none"
+    },
+    {
+      "name": "narrow-reduce: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "narrow-reduce: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "narrow-reduce: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "narrow-reduce: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "narrow-reduce: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "narrow-reduce: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "narrow-reduce: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "narrow-reduce: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "narrow-reduce: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "narrow-reduce: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "short-no-preference: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "short-no-preference: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "short-no-preference: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "short-no-preference: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: hero animation runs",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "short-no-preference: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "short-no-preference: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "short-no-preference: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "short-no-preference: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "short-no-preference: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "short-no-preference: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-no-preference: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "short-no-preference: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "short-no-preference: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "short-reduce: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "short-reduce: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "short-reduce: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "short-reduce: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: zero running entrance animations",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "short-reduce: no smooth scrolling",
+      "status": "PASS",
+      "expected": "auto",
+      "actual": "auto"
+    },
+    {
+      "name": "short-reduce: static heading",
+      "status": "PASS",
+      "expected": "none",
+      "actual": "none"
+    },
+    {
+      "name": "short-reduce: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "short-reduce: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "short-reduce: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "short-reduce: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "short-reduce: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "short-reduce: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "short-reduce: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "short-reduce: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "short-reduce: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "short-reduce: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "tablet-no-preference: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "tablet-no-preference: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "tablet-no-preference: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "tablet-no-preference: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: hero animation runs",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "tablet-no-preference: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "tablet-no-preference: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "tablet-no-preference: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "tablet-no-preference: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "tablet-no-preference: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "tablet-no-preference: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-no-preference: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "tablet-no-preference: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "tablet-no-preference: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "tablet-reduce: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "tablet-reduce: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "tablet-reduce: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "tablet-reduce: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: zero running entrance animations",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "tablet-reduce: no smooth scrolling",
+      "status": "PASS",
+      "expected": "auto",
+      "actual": "auto"
+    },
+    {
+      "name": "tablet-reduce: static heading",
+      "status": "PASS",
+      "expected": "none",
+      "actual": "none"
+    },
+    {
+      "name": "tablet-reduce: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "tablet-reduce: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "tablet-reduce: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "tablet-reduce: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "tablet-reduce: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "tablet-reduce: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "tablet-reduce: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "tablet-reduce: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "tablet-reduce: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "tablet-reduce: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "wide-no-preference: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "wide-no-preference: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "wide-no-preference: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "wide-no-preference: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: hero animation runs",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "wide-no-preference: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "wide-no-preference: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "wide-no-preference: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "wide-no-preference: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "wide-no-preference: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "wide-no-preference: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-no-preference: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "wide-no-preference: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "wide-no-preference: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "wide-reduce: no horizontal overflow",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: full text contrast during entrance",
+      "status": "PASS",
+      "expected": [
+        "1",
+        "1"
+      ],
+      "actual": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "name": "wide-reduce: existing headings preserved",
+      "status": "PASS",
+      "expected": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ],
+      "actual": [
+        "Ваше дело.Понятный сайт.",
+        "Человек уже рядом.Помогите ему выбрать вас.",
+        "Сайт под вашу задачу.В нужном объёме.",
+        "Лендинг",
+        "Сайт компании",
+        "Обновление сайта",
+        "От разговорак работающему сайту.",
+        "Знакомимся",
+        "Находим форму",
+        "Собираем",
+        "Проверяем",
+        "Есть вопросы?",
+        "Найдёмвашу линию."
+      ]
+    },
+    {
+      "name": "wide-reduce: links preserved",
+      "status": "PASS",
+      "expected": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ],
+      "actual": [
+        "#main",
+        "#top",
+        "#services",
+        "#process",
+        "#faq",
+        "#contact",
+        "#contact",
+        "#top",
+        "#top"
+      ]
+    },
+    {
+      "name": "wide-reduce: form immediately available",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: zero running entrance animations",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "wide-reduce: no smooth scrolling",
+      "status": "PASS",
+      "expected": "auto",
+      "actual": "auto"
+    },
+    {
+      "name": "wide-reduce: static heading",
+      "status": "PASS",
+      "expected": "none",
+      "actual": "none"
+    },
+    {
+      "name": "wide-reduce: settled animation count",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "wide-reduce: section stays readable",
+      "status": "PASS",
+      "expected": "1",
+      "actual": "1"
+    },
+    {
+      "name": "wide-reduce: section motion follows preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: no overflow after reveals",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: CTA reaches contact",
+      "status": "PASS",
+      "expected": "#contact",
+      "actual": "#contact"
+    },
+    {
+      "name": "wide-reduce: empty form focuses name",
+      "status": "PASS",
+      "expected": "name",
+      "actual": "name"
+    },
+    {
+      "name": "wide-reduce: errors are visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: valid form shows local outcome",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: success gets focus",
+      "status": "PASS",
+      "expected": "form-status",
+      "actual": "form-status"
+    },
+    {
+      "name": "wide-reduce: keyboard opens FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: keyboard closes FAQ",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: visible keyboard focus",
+      "status": "PASS",
+      "expected": {
+        "width": "3px",
+        "style": "solid"
+      },
+      "actual": {
+        "width": "3px",
+        "style": "solid"
+      }
+    },
+    {
+      "name": "wide-reduce: hover follows motion preference",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "wide-reduce: no browser errors",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "wide-reduce: no failed resources",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "wide-reduce: no external requests or data sends",
+      "status": "PASS",
+      "expected": [],
+      "actual": []
+    },
+    {
+      "name": "live preference switch cancels motion",
+      "status": "PASS",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "live preference switch restores future section motion",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "no-JS: heading visible",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "no-JS: form stays disabled and no send enabled",
+      "status": "PASS",
+      "expected": true,
+      "actual": true
+    },
+    {
+      "name": "no-JS: all sections present",
+      "status": "PASS",
+      "expected": 6,
+      "actual": 6
+    },
+    {
+      "name": "original source unchanged",
+      "status": "PASS",
+      "expected": {
+        "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+        "styles.css": "1b472503dd802e7c3e51095bb3dcd7d7e385f71e8cea60e0ef95adb039a2bb0c",
+        "app.js": "fc8529c140a50d71954e3b7a836b5ab6e6b1ebbdb96c07f94de045b8de2f61d5",
+        "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+        "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+      },
+      "actual": {
+        "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+        "styles.css": "1b472503dd802e7c3e51095bb3dcd7d7e385f71e8cea60e0ef95adb039a2bb0c",
+        "app.js": "fc8529c140a50d71954e3b7a836b5ab6e6b1ebbdb96c07f94de045b8de2f61d5",
+        "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+        "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+      }
+    },
+    {
+      "name": "protected file byte-identical: index.html",
+      "status": "PASS",
+      "expected": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+      "actual": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c"
+    },
+    {
+      "name": "protected file byte-identical: favicon.svg",
+      "status": "PASS",
+      "expected": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+      "actual": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445"
+    },
+    {
+      "name": "protected file byte-identical: social-preview.svg",
+      "status": "PASS",
+      "expected": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654",
+      "actual": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+    }
+  ],
+  "matrix": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "reducedMotion": "no-preference",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "scrollHeight": 3951,
+        "animationCount": 6,
+        "scrollBehavior": "smooth",
+        "h1Transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "scrollHeight": 3951,
+        "animationCount": 0,
+        "scrollBehavior": "smooth",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 3,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "matrix(1, 0, 0, 1, 0, -0.0775162)",
+        "arrow": "matrix(1, 0, 0, 1, 2, -2)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "reducedMotion": "reduce",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "scrollHeight": 3951,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 1280,
+        "width": 1280,
+        "scrollHeight": 3951,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 0,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "none",
+        "arrow": "none"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reducedMotion": "no-preference",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 390,
+        "width": 390,
+        "scrollHeight": 4443,
+        "animationCount": 6,
+        "scrollBehavior": "smooth",
+        "h1Transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 390,
+        "width": 390,
+        "scrollHeight": 4443,
+        "animationCount": 0,
+        "scrollBehavior": "smooth",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 3,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "matrix(1, 0, 0, 1, 0, -0.549297)",
+        "arrow": "matrix(1, 0, 0, 1, 2, -2)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reducedMotion": "reduce",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 390,
+        "width": 390,
+        "scrollHeight": 4443,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 390,
+        "width": 390,
+        "scrollHeight": 4443,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 0,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "none",
+        "arrow": "none"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reducedMotion": "no-preference",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 320,
+        "width": 320,
+        "scrollHeight": 5144,
+        "animationCount": 4,
+        "scrollBehavior": "smooth",
+        "h1Transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 320,
+        "width": 320,
+        "scrollHeight": 5144,
+        "animationCount": 0,
+        "scrollBehavior": "smooth",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 3,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "matrix(1, 0, 0, 1, 0, -2)",
+        "arrow": "matrix(1, 0, 0, 1, 2, -2)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "narrow",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "reducedMotion": "reduce",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 320,
+        "width": 320,
+        "scrollHeight": 5144,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 320,
+        "width": 320,
+        "scrollHeight": 5144,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 0,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "none",
+        "arrow": "none"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "short",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "reducedMotion": "no-preference",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 667,
+        "width": 667,
+        "scrollHeight": 4017,
+        "animationCount": 4,
+        "scrollBehavior": "smooth",
+        "h1Transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 667,
+        "width": 667,
+        "scrollHeight": 4017,
+        "animationCount": 0,
+        "scrollBehavior": "smooth",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 3,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "matrix(1, 0, 0, 1, 0, -1.77766)",
+        "arrow": "matrix(1, 0, 0, 1, 2, -2)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "short",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "reducedMotion": "reduce",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 667,
+        "width": 667,
+        "scrollHeight": 4017,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 667,
+        "width": 667,
+        "scrollHeight": 4017,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 0,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "none",
+        "arrow": "none"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reducedMotion": "no-preference",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 768,
+        "width": 768,
+        "scrollHeight": 3949,
+        "animationCount": 7,
+        "scrollBehavior": "smooth",
+        "h1Transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 768,
+        "width": 768,
+        "scrollHeight": 3949,
+        "animationCount": 0,
+        "scrollBehavior": "smooth",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 3,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "matrix(1, 0, 0, 1, 0, -2)",
+        "arrow": "matrix(1, 0, 0, 1, 2, -2)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "tablet",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "reducedMotion": "reduce",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 768,
+        "width": 768,
+        "scrollHeight": 3949,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 768,
+        "width": 768,
+        "scrollHeight": 3949,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 0,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "none",
+        "arrow": "none"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "wide",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reducedMotion": "no-preference",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 1920,
+        "width": 1920,
+        "scrollHeight": 4247,
+        "animationCount": 6,
+        "scrollBehavior": "smooth",
+        "h1Transform": "matrix(1, 0, 0, 1, 0, 16)",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 1920,
+        "width": 1920,
+        "scrollHeight": 4247,
+        "animationCount": 0,
+        "scrollBehavior": "smooth",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 4,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "matrix(1, 0, 0, 1, 0, -2)",
+        "arrow": "matrix(1, 0, 0, 1, 2, -2)"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    },
+    {
+      "label": "wide",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "reducedMotion": "reduce",
+      "url": "file:///C:/Users/rust/Documents/ChatGPT/INBOX%20-%20%D0%B8%D0%B4%D0%B5%D0%B8,%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8,%20%D0%BF%D0%BE%D1%81%D1%82%D1%8B,%20%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8,%20%D1%84%D0%B0%D0%B9%D0%BB%D1%8B/work/saitodel/tests/artifacts/work-motion-site/index.html#contact",
+      "early": {
+        "scrollWidth": 1920,
+        "width": 1920,
+        "scrollHeight": 4247,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "settled": {
+        "scrollWidth": 1920,
+        "width": 1920,
+        "scrollHeight": 4247,
+        "animationCount": 0,
+        "scrollBehavior": "auto",
+        "h1Transform": "none",
+        "h1Opacity": "1",
+        "ctaOpacity": "1",
+        "formsEnabled": true,
+        "titles": [
+          "Ваше дело.Понятный сайт.",
+          "Человек уже рядом.Помогите ему выбрать вас.",
+          "Сайт под вашу задачу.В нужном объёме.",
+          "Лендинг",
+          "Сайт компании",
+          "Обновление сайта",
+          "От разговорак работающему сайту.",
+          "Знакомимся",
+          "Находим форму",
+          "Собираем",
+          "Проверяем",
+          "Есть вопросы?",
+          "Найдёмвашу линию."
+        ],
+        "links": [
+          "#main",
+          "#top",
+          "#services",
+          "#process",
+          "#faq",
+          "#contact",
+          "#contact",
+          "#top",
+          "#top"
+        ],
+        "fonts": "loaded"
+      },
+      "section": {
+        "animations": 0,
+        "opacity": "1"
+      },
+      "hover": {
+        "button": "none",
+        "arrow": "none"
+      },
+      "errors": [],
+      "failedRequests": [],
+      "requests": []
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "before-desktop.png",
+      "sha256": "0736e34c9ccec3319361af24e6b55e0ba65867404169ddf6eef936b5038c2a72",
+      "capturedAt": "2026-11-08T18:13:30.544Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "before-mobile.png",
+      "sha256": "29e3da029ef047123aefc7332cc68a6de11ad9cc72ea8595888af3bec7a76733",
+      "capturedAt": "2026-11-08T18:13:31.167Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "early-desktop-no-preference.png",
+      "sha256": "77dbdc1e6fb4a44e18e40d708c8d6f95e0950eb9b550037207e967e26e848bcb",
+      "capturedAt": "2026-11-08T18:13:31.892Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-desktop-no-preference.png",
+      "sha256": "0736e34c9ccec3319361af24e6b55e0ba65867404169ddf6eef936b5038c2a72",
+      "capturedAt": "2026-11-08T18:13:32.821Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "section-desktop-no-preference.png",
+      "sha256": "1c50b59f6788d4ad13e5bbdc1a99a2eab5cb1c07fca9ad78f010bfd396a4adae",
+      "capturedAt": "2026-11-08T18:13:33.700Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "focus-hover-desktop-no-preference.png",
+      "sha256": "83da673f82420ca8e8f8cc3f55c89c5d6e993de1a673d37d50bdbb5893addb21",
+      "capturedAt": "2026-11-08T18:13:39.454Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "early-desktop-reduce.png",
+      "sha256": "0736e34c9ccec3319361af24e6b55e0ba65867404169ddf6eef936b5038c2a72",
+      "capturedAt": "2026-11-08T18:13:40.136Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-desktop-reduce.png",
+      "sha256": "0736e34c9ccec3319361af24e6b55e0ba65867404169ddf6eef936b5038c2a72",
+      "capturedAt": "2026-11-08T18:13:41.051Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "section-desktop-reduce.png",
+      "sha256": "1c50b59f6788d4ad13e5bbdc1a99a2eab5cb1c07fca9ad78f010bfd396a4adae",
+      "capturedAt": "2026-11-08T18:13:41.925Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "focus-hover-desktop-reduce.png",
+      "sha256": "df76db391ec35c0eca87a60194112561b64004f1d7b26d480b8a58fc49e5a726",
+      "capturedAt": "2026-11-08T18:13:46.636Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-mobile-no-preference.png",
+      "sha256": "29e3da029ef047123aefc7332cc68a6de11ad9cc72ea8595888af3bec7a76733",
+      "capturedAt": "2026-11-08T18:13:48.014Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-mobile-reduce.png",
+      "sha256": "29e3da029ef047123aefc7332cc68a6de11ad9cc72ea8595888af3bec7a76733",
+      "capturedAt": "2026-11-08T18:13:55.703Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-short-no-preference.png",
+      "sha256": "4afc070601374b3a8d645c54fd86369b7eaa3435c0a18b19dd5f954ad373cac6",
+      "capturedAt": "2026-11-08T18:14:17.708Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "after-short-reduce.png",
+      "sha256": "4afc070601374b3a8d645c54fd86369b7eaa3435c0a18b19dd5f954ad373cac6",
+      "capturedAt": "2026-11-08T18:14:25.371Z",
+      "visuallyInspected": false
+    },
+    {
+      "file": "no-js-mobile.png",
+      "sha256": "29e3da029ef047123aefc7332cc68a6de11ad9cc72ea8595888af3bec7a76733",
+      "capturedAt": "2026-11-08T18:15:01.168Z",
+      "visuallyInspected": false
+    }
+  ],
+  "browser": "156.0.8078.80",
+  "sourceAfter": {
+    "index.html": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c",
+    "styles.css": "1b472503dd802e7c3e51095bb3dcd7d7e385f71e8cea60e0ef95adb039a2bb0c",
+    "app.js": "fc8529c140a50d71954e3b7a836b5ab6e6b1ebbdb96c07f94de045b8de2f61d5",
+    "favicon.svg": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445",
+    "social-preview.svg": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  "summary": {
+    "passed": 285,
+    "failed": 0
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "helperSha256": "b5ee14f32aa8af1fc63da6bfcf1449641ee024c37c7750b2a68196e69eac6704",
+  "scope": "Helper tests only; no installer or real Codex exec executed",
+  "powershell": "7.6.9",
+  "results": [
+    {
+      "test": "Mock exit 0 stderr, quoting, UTF8",
+      "status": "PASS",
+      "evidence": {
+        "executable": "C:\\Program Files\\nodejs\\node.exe",
+        "arguments": [
+          "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock.mjs",
+          "0",
+          "plain",
+          "with spaces",
+          "",
+          "quote\"inside",
+          "trailing\\",
+          "x\\\"y",
+          "$() ; & |",
+          "Рустам"
+        ],
+        "cwd": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69",
+        "startedAt": "2026-11-08T18:22:53.1954813Z",
+        "completedAt": "2026-11-08T18:22:53.5365118Z",
+        "exitCode": 0,
+        "status": "PROCESS_COMPLETED_NOT_SCORED",
+        "scored": false,
+        "stdout": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock-0-stdout.log",
+        "stderr": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock-0-stderr.log",
+        "prompt": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock-0-prompt.txt",
+        "promptSha256": "90d1f877e0fd70ea2d38f44dca526ebb2726ef480da6c8c1d49258d75e3eb663",
+        "error": null,
+        "inputError": null
+      },
+      "observed": {
+        "args": [
+          "plain",
+          "with spaces",
+          "",
+          "quote\"inside",
+          "trailing\\",
+          "x\\\"y",
+          "$() ; & |",
+          "Рустам"
+        ],
+        "input": "Русский текст: «Сайтодел», строка 1\r\nстрока 2"
+      },
+      "stdoutText": "{\"args\":[\"plain\",\"with spaces\",\"\",\"quote\\\"inside\",\"trailing\\\\\",\"x\\\\\\\"y\",\"$() ; & |\",\"Рустам\"],\"input\":\"Русский текст: «Сайтодел», строка 1\\r\\nстрока 2\"}",
+      "stderrText": "harmless warning: Русский текст: «Сайтодел», строка 1\r\nстрока 2",
+      "promptText": "Русский текст: «Сайтодел», строка 1\r\nстрока 2"
+    },
+    {
+      "test": "Mock exit 7 stderr, quoting, UTF8",
+      "status": "PASS",
+      "evidence": {
+        "executable": "C:\\Program Files\\nodejs\\node.exe",
+        "arguments": [
+          "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock.mjs",
+          "7",
+          "plain",
+          "with spaces",
+          "",
+          "quote\"inside",
+          "trailing\\",
+          "x\\\"y",
+          "$() ; & |",
+          "Рустам"
+        ],
+        "cwd": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69",
+        "startedAt": "2026-11-08T18:22:53.6335073Z",
+        "completedAt": "2026-11-08T18:22:53.8493020Z",
+        "exitCode": 7,
+        "status": "PROCESS_FAILED",
+        "scored": false,
+        "stdout": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock-7-stdout.log",
+        "stderr": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock-7-stderr.log",
+        "prompt": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\mock-7-prompt.txt",
+        "promptSha256": "90d1f877e0fd70ea2d38f44dca526ebb2726ef480da6c8c1d49258d75e3eb663",
+        "error": null,
+        "inputError": null
+      },
+      "observed": {
+        "args": [
+          "plain",
+          "with spaces",
+          "",
+          "quote\"inside",
+          "trailing\\",
+          "x\\\"y",
+          "$() ; & |",
+          "Рустам"
+        ],
+        "input": "Русский текст: «Сайтодел», строка 1\r\nстрока 2"
+      },
+      "stdoutText": "{\"args\":[\"plain\",\"with spaces\",\"\",\"quote\\\"inside\",\"trailing\\\\\",\"x\\\\\\\"y\",\"$() ; & |\",\"Рустам\"],\"input\":\"Русский текст: «Сайтодел», строка 1\\r\\nстрока 2\"}",
+      "stderrText": "harmless warning: Русский текст: «Сайтодел», строка 1\r\nстрока 2",
+      "promptText": "Русский текст: «Сайтодел», строка 1\r\nстрока 2"
+    },
+    {
+      "test": "Invalid executable preserves start error and null exitcode",
+      "status": "PASS",
+      "evidence": {
+        "executable": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\not-executable.exe",
+        "arguments": [],
+        "cwd": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69",
+        "startedAt": "2026-11-08T18:22:53.9403140Z",
+        "completedAt": "2026-11-08T18:22:53.9786346Z",
+        "exitCode": null,
+        "status": "PROCESS_FAILED",
+        "scored": false,
+        "stdout": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\start-failure-stdout.log",
+        "stderr": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\start-failure-stderr.log",
+        "prompt": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\start-failure-prompt.txt",
+        "promptSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "error": "Exception calling \"Start\" with \"0\" argument(s): \"An error occurred trying to start process 'C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69\\not-executable.exe' with working directory 'C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69'. The specified executable is not a valid application for this OS platform.\"",
+        "inputError": null
+      },
+      "stdoutText": "",
+      "stderrText": "",
+      "promptText": ""
+    }
+  ],
+  "temporaryEvidence": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\tests\\artifacts\\saitodel-native-tests-09ebecf546fb410b92973cf5368deb69",
+  "windowsPowerShell5Runtime": "NOT_RUN: execution policy rejected dot-source; policy not changed",
+  "correctedFinding": "Initial mock exposed rejection of empty argument; AllowEmptyString was added, then all mock cases rerun"
+}
