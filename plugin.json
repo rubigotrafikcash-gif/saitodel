@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "saitodel",
+  "version": "1.0.1",
+  "description": "Создание и проверка сайтов с подключёнными дизайн-навыками и независимой приёмкой.",
+  "author": {
+    "name": "TairPromo"
+  },
+  "repository": "https://github.com/rubigotrafikcash-gif/saitodel",
+  "keywords": [
+    "web",
+    "design",
+    "saitodel"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Сайтодел",
+        "shortDescription": "Сайты, дизайн и проверка",
+        "longDescription": "Бриф, дизайн, реализация, адаптив и доказательная проверка. Включает выбранные навыки TheGoat, MotionSites и Vercel; web-design-engineer загружается из закреплённого внешнего источника.",
+        "developerName": "TairPromo",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Используй Сайтодел, чтобы создать или улучшить сайт для моего проекта."
+      }
+    }
+  }
+}

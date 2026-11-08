@@ -1,0 +1,5 @@
+{
+  "repository": "https://github.com/Motionsites-AI/claude-skill.git",
+  "commit": "faa30d512e3973e58675c72101a7ef42ed37ae83",
+  "skill_path": "plugins/motionsites-web-builder/skills/motionsites-web-builder"
+}

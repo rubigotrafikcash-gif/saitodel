@@ -1,0 +1,20 @@
+{
+  "name": "personal-saitodel",
+  "plugins": [
+    {
+      "name": "saitodel",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "source": {
+        "source": "local",
+        "path": "./build/v1.0.1/saitodel"
+      },
+      "interface": {
+        "displayName": "Сайтодел"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

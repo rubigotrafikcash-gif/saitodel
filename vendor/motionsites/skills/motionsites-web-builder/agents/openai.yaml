@@ -1,0 +1,4 @@
+interface:
+  display_name: "MotionSites Web Builder"
+  short_description: "Cinematic web design with visual review"
+  default_prompt: "Use $motionsites-web-builder to build or improve a cinematic landing page in this project."

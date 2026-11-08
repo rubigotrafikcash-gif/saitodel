@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Regression Lab"
+  short_description: "Verify rendered UI and complex full-page captures"
+  default_prompt: "Use $visual-regression-lab to capture and inspect trustworthy visual evidence within the requested scope."

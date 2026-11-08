@@ -1,0 +1,336 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "motionsites",
+      "repository": "su-record/motionsites-skill",
+      "ref": "9a785681d760b7010ea9c8f36e2755628242621d",
+      "license": "MIT",
+      "distribution": "bundled",
+      "files": [
+        {
+          "path": "LICENSE",
+          "localPath": "vendor/motionsites/LICENSE",
+          "gitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48"
+        },
+        {
+          "path": "NOTICE.md",
+          "localPath": "vendor/motionsites/NOTICE.md",
+          "gitBlobSha": "e98688a99657c09f6a143b71f545299b2fcf6f8d"
+        },
+        {
+          "path": "UPSTREAM_LICENSE",
+          "localPath": "vendor/motionsites/UPSTREAM_LICENSE",
+          "gitBlobSha": "a3d8ddfaa8798fbd4d12b91b10701e4da1124ac4"
+        },
+        {
+          "path": "skills/motionsites-web-builder/LICENSE",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/LICENSE",
+          "gitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48"
+        },
+        {
+          "path": "skills/motionsites-web-builder/SKILL.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/SKILL.md",
+          "gitBlobSha": "8264d608270e0a3e6ee84aded70eca3bb597ecd6"
+        },
+        {
+          "path": "skills/motionsites-web-builder/agents/openai.yaml",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/agents/openai.yaml",
+          "gitBlobSha": "babcc6490a6d9685f55eafac9afee476e825cee5"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/assets.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/assets.md",
+          "gitBlobSha": "08f26124af757d8e59bf139ea529adf540d87f69"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/builders.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/builders.md",
+          "gitBlobSha": "c6b4c6d306dea29c1a5a3264ad961aacc4e30688"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/craft.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/craft.md",
+          "gitBlobSha": "be79172c61b2723e7781aef25b31bf1a0a0c9acd"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/resources.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/resources.md",
+          "gitBlobSha": "46edf0e51fd740e9b4f586515c7b1430646a453d"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/review.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/review.md",
+          "gitBlobSha": "8a446399cc6337e854886ed7bdde4d5c4146aaa4"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/spec-template.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/spec-template.md",
+          "gitBlobSha": "32365e7055daee20ef5497d35d25faf72b6cfca7"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/3d-and-webgl.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/3d-and-webgl.md",
+          "gitBlobSha": "6498725c43df43a1a1f48272a8193e1d77fc6957"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/INDEX.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/INDEX.md",
+          "gitBlobSha": "e42e5b3b189fda171867171574e21116843a45be"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/depth-and-interaction.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/depth-and-interaction.md",
+          "gitBlobSha": "ef1b1ef1ab2861cda4216d4fd2acabd2fe461ccb"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/layout-and-ui.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/layout-and-ui.md",
+          "gitBlobSha": "b4993ed295c1aebdc9cd7bf780eb38e69c85fe75"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/scroll.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/scroll.md",
+          "gitBlobSha": "307105e60aca9d290518cbefb06bc3df16cc6f39"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/surfaces-and-buttons.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/surfaces-and-buttons.md",
+          "gitBlobSha": "fa6c8a5c259ac615d70d9e42fce5a36a3eab95d0"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/type-and-text-motion.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/type-and-text-motion.md",
+          "gitBlobSha": "6a820d903e0ffca669963af532eef3f99ffeb182"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/techniques/video-and-media.md",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/video-and-media.md",
+          "gitBlobSha": "22b70cf5c5477988fde6c7f9dc137cacfad2badb"
+        },
+        {
+          "path": "skills/motionsites-web-builder/references/upstream.json",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/references/upstream.json",
+          "gitBlobSha": "16146c4ccfe755381ea6c1d0f38dbb81bc552cf0"
+        },
+        {
+          "path": "skills/motionsites-web-builder/scripts/fetch_resources.py",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/scripts/fetch_resources.py",
+          "gitBlobSha": "cc3615e31e771d195369844e2adc8cc423b95dae"
+        },
+        {
+          "path": "skills/motionsites-web-builder/scripts/shoot.py",
+          "localPath": "vendor/motionsites/skills/motionsites-web-builder/scripts/shoot.py",
+          "gitBlobSha": "13c8a0266b45962babfa782b097e83f5890d26c8"
+        }
+      ]
+    },
+    {
+      "id": "thegoat",
+      "repository": "TheGoat395/Codex-Skills",
+      "ref": "9922fa0af0aea32443cf7365ef5024dc7797382d",
+      "license": "MIT",
+      "distribution": "bundled",
+      "files": [
+        {
+          "path": "LICENSE",
+          "localPath": "vendor/thegoat/LICENSE",
+          "gitBlobSha": "50962414b3b617579f06fc51a2e3135cfcc0da15"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "localPath": "vendor/thegoat/THIRD_PARTY_NOTICES.md",
+          "gitBlobSha": "bbb6ea936726274c98ce576773994602651864c8"
+        },
+        {
+          "path": "skills/browser-inspection-workflow/SKILL.md",
+          "localPath": "vendor/thegoat/skills/browser-inspection-workflow/SKILL.md",
+          "gitBlobSha": "957fd6c2f2df903b96e100c0492846de623f8bee"
+        },
+        {
+          "path": "skills/browser-inspection-workflow/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/browser-inspection-workflow/agents/openai.yaml",
+          "gitBlobSha": "d3dbfaf2c5ae14b295cf4d246bee5a151e7f5586"
+        },
+        {
+          "path": "skills/browser-inspection-workflow/references/browser-inspection-workflow-guide.md",
+          "localPath": "vendor/thegoat/skills/browser-inspection-workflow/references/browser-inspection-workflow-guide.md",
+          "gitBlobSha": "d609212cf6399fa156ba78f0137e4cf5dd534df5"
+        },
+        {
+          "path": "skills/frontend-quality-auditor/SKILL.md",
+          "localPath": "vendor/thegoat/skills/frontend-quality-auditor/SKILL.md",
+          "gitBlobSha": "169fa2ef02afa1feecd0678d639aa8b8f3125b0b"
+        },
+        {
+          "path": "skills/frontend-quality-auditor/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/frontend-quality-auditor/agents/openai.yaml",
+          "gitBlobSha": "a242a801d10b11756f6c2f9f66a107247545ae74"
+        },
+        {
+          "path": "skills/frontend-quality-auditor/references/audit-checklist.md",
+          "localPath": "vendor/thegoat/skills/frontend-quality-auditor/references/audit-checklist.md",
+          "gitBlobSha": "45f8fd6727820817928c0ea0baeb577f61aaf23b"
+        },
+        {
+          "path": "skills/visual-regression-lab/SKILL.md",
+          "localPath": "vendor/thegoat/skills/visual-regression-lab/SKILL.md",
+          "gitBlobSha": "b6daf422b9b27fd6be0deaaa62d55188d6fa213f"
+        },
+        {
+          "path": "skills/visual-regression-lab/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/visual-regression-lab/agents/openai.yaml",
+          "gitBlobSha": "e3711c465e0d7c4eeceb9d414c5a1a4b10567d31"
+        },
+        {
+          "path": "skills/visual-regression-lab/references/baseline-contract.md",
+          "localPath": "vendor/thegoat/skills/visual-regression-lab/references/baseline-contract.md",
+          "gitBlobSha": "0c5749a552413a5245cec8aed666090791745155"
+        },
+        {
+          "path": "skills/visual-regression-lab/references/stitched-full-page-capture.md",
+          "localPath": "vendor/thegoat/skills/visual-regression-lab/references/stitched-full-page-capture.md",
+          "gitBlobSha": "1693d7547fa059ddd55a0e3c1a5f22f5918f3eb6"
+        },
+        {
+          "path": "skills/visual-regression-lab/scripts/capture-settled-baseline.mjs",
+          "localPath": "vendor/thegoat/skills/visual-regression-lab/scripts/capture-settled-baseline.mjs",
+          "gitBlobSha": "c5e785a1ad2d55fd98d95891ed9feaa431525b97"
+        },
+        {
+          "path": "skills/visual-regression-lab/scripts/capture-stitched-full-page.mjs",
+          "localPath": "vendor/thegoat/skills/visual-regression-lab/scripts/capture-stitched-full-page.mjs",
+          "gitBlobSha": "48b5bd9e1ce4ae4de974b43bc6d347e5e752fe01"
+        },
+        {
+          "path": "skills/web-design-direction-system/SKILL.md",
+          "localPath": "vendor/thegoat/skills/web-design-direction-system/SKILL.md",
+          "gitBlobSha": "635f05254b2fa9bc38af5deea337fb9911768f81"
+        },
+        {
+          "path": "skills/web-design-direction-system/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/web-design-direction-system/agents/openai.yaml",
+          "gitBlobSha": "f919530227a7f857e35a3ba93a6db5f85ebe639e"
+        },
+        {
+          "path": "skills/web-design-direction-system/references/design-guidance-evidence-loop-guide.md",
+          "localPath": "vendor/thegoat/skills/web-design-direction-system/references/design-guidance-evidence-loop-guide.md",
+          "gitBlobSha": "e1ad1e6a3b5aef59c712bf9172da7b1059b02339"
+        },
+        {
+          "path": "skills/web-design-vocabulary/SKILL.md",
+          "localPath": "vendor/thegoat/skills/web-design-vocabulary/SKILL.md",
+          "gitBlobSha": "ddb936e74df0c974b5df44ee1c22d1758d6083f6"
+        },
+        {
+          "path": "skills/web-design-vocabulary/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/web-design-vocabulary/agents/openai.yaml",
+          "gitBlobSha": "bd5af7a523d5e0202d278635d82d9e70ebc6612b"
+        },
+        {
+          "path": "skills/web-design-vocabulary/references/web-design-vocabulary-guide.md",
+          "localPath": "vendor/thegoat/skills/web-design-vocabulary/references/web-design-vocabulary-guide.md",
+          "gitBlobSha": "268083f77452518a8ad89b55cf3db941ddd3170d"
+        },
+        {
+          "path": "skills/website-blueprint-first/SKILL.md",
+          "localPath": "vendor/thegoat/skills/website-blueprint-first/SKILL.md",
+          "gitBlobSha": "f3f6a9f5eb7af6b464ad7cba7fa1d546f85c5f8e"
+        },
+        {
+          "path": "skills/website-blueprint-first/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/website-blueprint-first/agents/openai.yaml",
+          "gitBlobSha": "7331668c460dd75673af02d1b61bb5a227e59d47"
+        },
+        {
+          "path": "skills/website-blueprint-first/references/website-blueprint-first-guide.md",
+          "localPath": "vendor/thegoat/skills/website-blueprint-first/references/website-blueprint-first-guide.md",
+          "gitBlobSha": "a48ed96ba26036a8702b8fbafbb219c5a474f718"
+        },
+        {
+          "path": "skills/website-operating-rules/SKILL.md",
+          "localPath": "vendor/thegoat/skills/website-operating-rules/SKILL.md",
+          "gitBlobSha": "4e94ced24fec993080012037b74d37bdd967d37b"
+        },
+        {
+          "path": "skills/website-operating-rules/agents/openai.yaml",
+          "localPath": "vendor/thegoat/skills/website-operating-rules/agents/openai.yaml",
+          "gitBlobSha": "d79b17bf2a9bfb10c2f1a7420034032942e47124"
+        },
+        {
+          "path": "skills/website-operating-rules/references/scoped-web-contract.md",
+          "localPath": "vendor/thegoat/skills/website-operating-rules/references/scoped-web-contract.md",
+          "gitBlobSha": "e4bb6568d55c97192c899d59c43f90e4fb3599df"
+        },
+        {
+          "path": "skills/website-operating-rules/references/website-operating-rules-guide.md",
+          "localPath": "vendor/thegoat/skills/website-operating-rules/references/website-operating-rules-guide.md",
+          "gitBlobSha": "3cb7f2e96f6512cfee462574ccc87ff220d8f347"
+        },
+        {
+          "path": "skills/website-operating-rules/references/website-quality-tiers.md",
+          "localPath": "vendor/thegoat/skills/website-operating-rules/references/website-quality-tiers.md",
+          "gitBlobSha": "4ec7e7126202fe427a604bb48261f1d0cd9b7cd6"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "repository": "vercel-labs/web-interface-guidelines",
+      "ref": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "license": "MIT",
+      "distribution": "bundled",
+      "files": [
+        {
+          "path": "LICENSE",
+          "localPath": "vendor/vercel/LICENSE",
+          "gitBlobSha": "b3575a3c1358eac4b9ee36a4c851872d81417760"
+        },
+        {
+          "path": "README.md",
+          "localPath": "vendor/vercel/README.md",
+          "gitBlobSha": "50a75237d11f9ea6d6ed576d4e494759e67b48f4"
+        },
+        {
+          "path": "command.md",
+          "localPath": "vendor/vercel/command.md",
+          "gitBlobSha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5"
+        },
+        {
+          "path": "AGENTS.md",
+          "localPath": "vendor/vercel/AGENTS.md",
+          "gitBlobSha": "2785de041ab86453abcdbedd999084e6c207d6df"
+        }
+      ]
+    },
+    {
+      "id": "web-design-engineer",
+      "repository": "XiaoZhen-Y/codex_skills",
+      "ref": "b4ccd4f7aa2f8c640b3da7035fd854852bf54f8d",
+      "license": "NO_LICENSE_DECLARED",
+      "distribution": "external",
+      "files": [
+        {
+          "path": "web-design-engineer/SKILL.md",
+          "localPath": "web-design-engineer/SKILL.md",
+          "gitBlobSha": "f4503b5d0238481128fdfbf8ab9256c26f890531"
+        },
+        {
+          "path": "web-design-engineer/agents/openai.yaml",
+          "localPath": "web-design-engineer/agents/openai.yaml",
+          "gitBlobSha": "5b367b14908e79335cc81cb067cc66b799dbd181"
+        },
+        {
+          "path": "web-design-engineer/explanation.html",
+          "localPath": "web-design-engineer/explanation.html",
+          "gitBlobSha": "721184a0424e49ff46439db2e278573a3b740787"
+        },
+        {
+          "path": "web-design-engineer/references/advanced-patterns.md",
+          "localPath": "web-design-engineer/references/advanced-patterns.md",
+          "gitBlobSha": "43c775c1a962e544814edef83815ea672d26fd63"
+        }
+      ]
+    }
+  ]
+}

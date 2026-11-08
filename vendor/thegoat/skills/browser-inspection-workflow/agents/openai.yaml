@@ -1,0 +1,4 @@
+interface:
+  display_name: "Browser Inspection Workflow"
+  short_description: "Coordinate rendered behavior and state evidence."
+  default_prompt: "Use $browser-inspection-workflow to inspect changed behavior in a browser within the requested scope."

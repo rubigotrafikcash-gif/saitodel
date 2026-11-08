@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0.0",
+  "suite": "source-manager CLI negative and integrity tests",
+  "scope": "Six component tests; excluded from the separate 34-case acceptance denominator.",
+  "startedAt": "2026-11-08T17:56:20.556Z",
+  "completedAt": "2026-11-08T17:56:22.114Z",
+  "runtime": {
+    "node": "v24.19.0",
+    "platform": "win32",
+    "arch": "x64"
+  },
+  "sourceManagerSha256": "230d16f2c885ac2934209eb526e76ea3286cb8c3d534d63c3a38c169bbdf1a81",
+  "sourceLockSha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18",
+  "fixtureRoot": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04",
+  "counts": {
+    "PASS": 5,
+    "FAIL": 0,
+    "NOT_RUN": 1
+  },
+  "results": [
+    {
+      "id": "SM-01",
+      "name": "Changed bytes are rejected after a valid bundled-file control",
+      "status": "PASS",
+      "startedAt": "2026-11-08T17:56:20.573Z",
+      "observations": [
+        {
+          "command": "verify",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\changed-bytes\\data",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\changed-bytes\\locks\\sources.lock.json",
+          "exitCode": 0,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"verify\",\n  \"status\": \"PASS\",\n  \"root\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\changed-bytes\\\\data\",\n  \"lock\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\changed-bytes\\\\locks\\\\sources.lock.json\",\n  \"checked\": 1,\n  \"passed\": 1,\n  \"failed\": 0,\n  \"files\": [\n    {\n      \"source\": \"test-source\",\n      \"path\": \"asset.txt\",\n      \"expectedGitBlobSha\": \"4b48deed3a433909bfd6b6ab3d4b91348b6af464\",\n      \"actualGitBlobSha\": \"4b48deed3a433909bfd6b6ab3d4b91348b6af464\",\n      \"bytes\": 9,\n      \"status\": \"PASS\"\n    }\n  ]\n}\n",
+          "stderr": "",
+          "error": null
+        },
+        {
+          "command": "verify",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\changed-bytes\\data",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\changed-bytes\\locks\\sources.lock.json",
+          "exitCode": 1,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"verify\",\n  \"status\": \"FAIL\",\n  \"root\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\changed-bytes\\\\data\",\n  \"lock\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\changed-bytes\\\\locks\\\\sources.lock.json\",\n  \"checked\": 1,\n  \"passed\": 0,\n  \"failed\": 1,\n  \"files\": [\n    {\n      \"source\": \"test-source\",\n      \"path\": \"asset.txt\",\n      \"expectedGitBlobSha\": \"4b48deed3a433909bfd6b6ab3d4b91348b6af464\",\n      \"actualGitBlobSha\": \"f1cb3138f9a4f88441cbf007235255c644d7fe0a\",\n      \"bytes\": 9,\n      \"status\": \"FAIL\",\n      \"error\": \"Git blob SHA mismatch\"\n    }\n  ]\n}\n",
+          "stderr": "",
+          "error": null
+        }
+      ],
+      "completedAt": "2026-11-08T17:56:20.981Z"
+    },
+    {
+      "id": "SM-02",
+      "name": "Missing bundled file is rejected",
+      "status": "PASS",
+      "startedAt": "2026-11-08T17:56:20.983Z",
+      "observations": [
+        {
+          "command": "verify",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\missing-file\\data",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\missing-file\\locks\\sources.lock.json",
+          "exitCode": 1,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"verify\",\n  \"status\": \"FAIL\",\n  \"root\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\missing-file\\\\data\",\n  \"lock\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\missing-file\\\\locks\\\\sources.lock.json\",\n  \"checked\": 1,\n  \"passed\": 0,\n  \"failed\": 1,\n  \"files\": [\n    {\n      \"source\": \"test-source\",\n      \"path\": \"absent.txt\",\n      \"expectedGitBlobSha\": \"a3ed351b7e47a04ac2d29104a19948580f3f969f\",\n      \"status\": \"FAIL\",\n      \"error\": \"ENOENT: no such file or directory, lstat 'C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\missing-file\\\\data\\\\absent.txt'\"\n    }\n  ]\n}\n",
+          "stderr": "",
+          "error": null
+        }
+      ],
+      "completedAt": "2026-11-08T17:56:21.191Z"
+    },
+    {
+      "id": "SM-03",
+      "name": "Lock path traversal is rejected before reading outside root",
+      "status": "PASS",
+      "startedAt": "2026-11-08T17:56:21.192Z",
+      "observations": [
+        {
+          "command": "verify",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\traversal\\data",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\traversal\\locks\\sources.lock.json",
+          "exitCode": 1,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"verify\",\n  \"status\": \"FAIL\",\n  \"error\": \"Unsafe localPath\"\n}\n",
+          "stderr": "",
+          "error": null
+        }
+      ],
+      "completedAt": "2026-11-08T17:56:21.400Z"
+    },
+    {
+      "id": "SM-04",
+      "name": "Symlink or Windows junction escaping root is rejected",
+      "status": "NOT_RUN",
+      "startedAt": "2026-11-08T17:56:21.400Z",
+      "observations": [],
+      "reason": "Environment rejected link creation: EPERM: EPERM: operation not permitted, symlink 'C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\link-escape\\outside' -> 'C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\link-escape\\data\\escape'",
+      "completedAt": "2026-11-08T17:56:21.413Z"
+    },
+    {
+      "id": "SM-05",
+      "name": "Actual external cache verifies all four pinned upstream files",
+      "status": "PASS",
+      "startedAt": "2026-11-08T17:56:21.414Z",
+      "observations": [
+        {
+          "command": "verify-remote",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel-external",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\sources.lock.json",
+          "exitCode": 0,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"verify-remote\",\n  \"status\": \"PASS\",\n  \"root\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\saitodel-external\",\n  \"lock\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\saitodel\\\\sources.lock.json\",\n  \"checked\": 4,\n  \"passed\": 4,\n  \"failed\": 0,\n  \"files\": [\n    {\n      \"source\": \"web-design-engineer\",\n      \"path\": \"web-design-engineer/SKILL.md\",\n      \"expectedGitBlobSha\": \"f4503b5d0238481128fdfbf8ab9256c26f890531\",\n      \"actualGitBlobSha\": \"f4503b5d0238481128fdfbf8ab9256c26f890531\",\n      \"bytes\": 24283,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"web-design-engineer\",\n      \"path\": \"web-design-engineer/agents/openai.yaml\",\n      \"expectedGitBlobSha\": \"5b367b14908e79335cc81cb067cc66b799dbd181\",\n      \"actualGitBlobSha\": \"5b367b14908e79335cc81cb067cc66b799dbd181\",\n      \"bytes\": 265,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"web-design-engineer\",\n      \"path\": \"web-design-engineer/explanation.html\",\n      \"expectedGitBlobSha\": \"721184a0424e49ff46439db2e278573a3b740787\",\n      \"actualGitBlobSha\": \"721184a0424e49ff46439db2e278573a3b740787\",\n      \"bytes\": 12145,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"web-design-engineer\",\n      \"path\": \"web-design-engineer/references/advanced-patterns.md\",\n      \"expectedGitBlobSha\": \"43c775c1a962e544814edef83815ea672d26fd63\",\n      \"actualGitBlobSha\": \"43c775c1a962e544814edef83815ea672d26fd63\",\n      \"bytes\": 14722,\n      \"status\": \"PASS\"\n    }\n  ]\n}\n",
+          "stderr": "",
+          "error": null
+        }
+      ],
+      "completedAt": "2026-11-08T17:56:21.640Z"
+    },
+    {
+      "id": "SM-06",
+      "name": "Preparing an existing mismatched external cache refuses overwrite",
+      "status": "PASS",
+      "startedAt": "2026-11-08T17:56:21.640Z",
+      "observations": [
+        {
+          "command": "verify-remote",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\existing-cache\\data",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\existing-cache\\locks\\sources.lock.json",
+          "exitCode": 0,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"verify-remote\",\n  \"status\": \"PASS\",\n  \"root\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\existing-cache\\\\data\",\n  \"lock\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\existing-cache\\\\locks\\\\sources.lock.json\",\n  \"checked\": 4,\n  \"passed\": 4,\n  \"failed\": 0,\n  \"files\": [\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/SKILL.md\",\n      \"expectedGitBlobSha\": \"50f3da85ec3cc7ccddd25b3f8fa7d3911ed1436c\",\n      \"actualGitBlobSha\": \"50f3da85ec3cc7ccddd25b3f8fa7d3911ed1436c\",\n      \"bytes\": 22,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/agents/openai.yaml\",\n      \"expectedGitBlobSha\": \"6179fb88d7fe4326d92009fcfa1bb85b740d5451\",\n      \"actualGitBlobSha\": \"6179fb88d7fe4326d92009fcfa1bb85b740d5451\",\n      \"bytes\": 19,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/explanation.html\",\n      \"expectedGitBlobSha\": \"4e8fd280991ed06f2b0e0868b02bc2a949064873\",\n      \"actualGitBlobSha\": \"4e8fd280991ed06f2b0e0868b02bc2a949064873\",\n      \"bytes\": 25,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/references/advanced-patterns.md\",\n      \"expectedGitBlobSha\": \"4e0e0550a1f06c42843ac3360d8398e3eac10f54\",\n      \"actualGitBlobSha\": \"4e0e0550a1f06c42843ac3360d8398e3eac10f54\",\n      \"bytes\": 20,\n      \"status\": \"PASS\"\n    }\n  ]\n}\n",
+          "stderr": "",
+          "error": null
+        },
+        {
+          "command": "prepare-remote",
+          "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\existing-cache\\data",
+          "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\.source-manager-tests-XWdz04\\existing-cache\\locks\\sources.lock.json",
+          "exitCode": 1,
+          "signal": null,
+          "stdout": "{\n  \"command\": \"prepare-remote\",\n  \"status\": \"FAIL\",\n  \"root\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\existing-cache\\\\data\",\n  \"lock\": \"C:\\\\Users\\\\rust\\\\Documents\\\\ChatGPT\\\\INBOX - идеи, статьи, посты, ссылки, файлы\\\\work\\\\.source-manager-tests-XWdz04\\\\existing-cache\\\\locks\\\\sources.lock.json\",\n  \"checked\": 4,\n  \"passed\": 3,\n  \"failed\": 1,\n  \"cached\": true,\n  \"files\": [\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/SKILL.md\",\n      \"expectedGitBlobSha\": \"50f3da85ec3cc7ccddd25b3f8fa7d3911ed1436c\",\n      \"actualGitBlobSha\": \"385b6d49b429af674f82cc85dd4b8fb4dbe8abf9\",\n      \"bytes\": 47,\n      \"status\": \"FAIL\",\n      \"error\": \"Git blob SHA mismatch\"\n    },\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/agents/openai.yaml\",\n      \"expectedGitBlobSha\": \"6179fb88d7fe4326d92009fcfa1bb85b740d5451\",\n      \"actualGitBlobSha\": \"6179fb88d7fe4326d92009fcfa1bb85b740d5451\",\n      \"bytes\": 19,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/explanation.html\",\n      \"expectedGitBlobSha\": \"4e8fd280991ed06f2b0e0868b02bc2a949064873\",\n      \"actualGitBlobSha\": \"4e8fd280991ed06f2b0e0868b02bc2a949064873\",\n      \"bytes\": 25,\n      \"status\": \"PASS\"\n    },\n    {\n      \"source\": \"test-source\",\n      \"path\": \"web-design-engineer/references/advanced-patterns.md\",\n      \"expectedGitBlobSha\": \"4e0e0550a1f06c42843ac3360d8398e3eac10f54\",\n      \"actualGitBlobSha\": \"4e0e0550a1f06c42843ac3360d8398e3eac10f54\",\n      \"bytes\": 20,\n      \"status\": \"PASS\"\n    }\n  ]\n}\n",
+          "stderr": "",
+          "error": null
+        }
+      ],
+      "completedAt": "2026-11-08T17:56:22.111Z"
+    }
+  ],
+  "limitations": [
+    "No source download/network behavior is exercised by this suite.",
+    "A hash match establishes source integrity, not successful agent application of the skill."
+  ]
+}
