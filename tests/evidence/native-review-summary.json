@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "reviewedDate": "2026-11-08",
+  "timeZone": "Europe/Samara",
+  "candidate": "1.0.2",
+  "kind": "Coordinator summary of user-submitted process output and independent agents' observed local evidence; not a reconstructed raw transcript",
+  "run": "tests/artifacts/codex-run-20261108-224935-8cebd374",
+  "installation": "build/install-evidence-20261108-224926-f2026f98",
+  "rawLocalEvidenceUploaded": false,
+  "rawLocalEvidenceUploadBlocker": "Local Windows execution environment became unavailable before export; original logs remain on the laptop. Logs also require filtering for upstream content and private configuration before publication.",
+  "nativeReview": {
+    "agent": "/root/codex_trace_review",
+    "reportedFiles": [
+      {
+        "path": "tests/evidence/codex-native-review.json",
+        "sha256": "3bb478dcdb9f64e72cc310b52bfd32073a911cade434aeda3185c0baa1c75b55"
+      },
+      {
+        "path": "tests/evidence/codex-native-review.md",
+        "sha256": "0c801f1a9b2d5ff7b91e023010b2d7aae86a08dd8358e8c8e65c5dff2b6d7af5"
+      }
+    ],
+    "verifiedEventReferences": 118,
+    "verifiedFileHashes": 57,
+    "installedPayloadMatched": 68,
+    "installedPayloadTotal": 68,
+    "fullWdeFilesMatched": 4,
+    "findings": {
+      "B05": "BLOCKED",
+      "B06": "BLOCKED",
+      "B07": "FAIL",
+      "B08": "PASS",
+      "I05": "PASS",
+      "I06": "PASS",
+      "I07": "PASS",
+      "I08": "PASS"
+    }
+  },
+  "websiteReview": {
+    "agent": "/root/codex_site_review",
+    "confirmedSaved": "tests/artifacts/codex-independent-review/review.json",
+    "markdownReportSaveConfirmed": false,
+    "recommendations": {
+      "R01": "BLOCKED",
+      "R02": "BLOCKED",
+      "R03": "BLOCKED",
+      "R04": "BLOCKED",
+      "R05": "BLOCKED",
+      "R06": "BLOCKED",
+      "R07": "BLOCKED",
+      "R08": "BLOCKED",
+      "R09": "BLOCKED",
+      "R10": "BLOCKED"
+    },
+    "modelTests": {
+      "passed": 29,
+      "total": 29
+    },
+    "runtimeHashes": {
+      "matched": 9,
+      "total": 9
+    },
+    "unchangedFiles": 88,
+    "archiveEntries": {
+      "matched": 86,
+      "total": 86
+    },
+    "codexScreenshots": 0,
+    "workPreviouslyViewedImageHashes": {
+      "matched": 29,
+      "total": 29
+    },
+    "historicalFocusBug": {
+      "failedBefore": 3,
+      "passedBefore": 13,
+      "totalBefore": 16,
+      "current": "PASS_MODEL_TESTS"
+    },
+    "openFinding": {
+      "id": "CIR-01",
+      "severity": "P2",
+      "source": "index.html:67; styles.css:143",
+      "description": "Mobile .scroll-link declared40×40px; selected Vercel rule requires44×44px. Source finding, not measured browser rectangle.",
+      "fixed": false
+    }
+  },
+  "browserDenial": {
+    "exactError": "MCP tool call requires approval, but approval policy is never",
+    "locations": [
+      "P1-stdout.log:56 (chrome-devtools.new_page)",
+      "P1-stdout.log:65 (page_reader_free.browser_navigate)",
+      "P2-stdout.log:37 (navigate_page)",
+      "P2-stdout.log:39 (resize_page)",
+      "P3-stdout.log:35 (new_page)"
+    ],
+    "secondary": "The browser access host is unavailable",
+    "permissionBypassAttemptedByThisReview": false
+  },
+  "workDiscovery": {
+    "catalogObserved": true,
+    "skillReadObserved": true,
+    "version": "1.0.2",
+    "package": "skill://plugins_6af0b6fc62bc81918d18cb8ee0227cea/saitodel",
+    "newNativeSessionVerified": false
+  },
+  "unverifiedFix": {
+    "version": "1.0.3",
+    "branch": "codex/audit-routing-1.0.3",
+    "commit": "ba454f5640b68e6d4b5b020d7ac00560137f3cf0",
+    "installed": false,
+    "behaviorTested": false,
+    "updateExistingInstallerImplemented": false,
+    "interactiveContinuationScriptImplemented": false,
+    "localYamlNeedsReconciliation": true
+  },
+  "remaining": [
+    "Restore access to local execution environment; preserve original run unchanged.",
+    "Reconcile local1.0.3 with quoted YAML description in candidate branch; validate package and targeted routing regression.",
+    "Complete opt-in update for identified same plugin only, preserve previous package; no duplicated installation.",
+    "Use an explicitly authorized interactive browser session with normal per-action approval; do not bypass policy or substitute tools.",
+    "Check exact375/768/1440 viewports and remaining browser scenarios with viewed screenshots.",
+    "Verify native Work discovery and explicit/implicit invocation in separate fresh sessions."
+  ]
+}

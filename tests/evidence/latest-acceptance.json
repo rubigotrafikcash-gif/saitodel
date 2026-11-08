@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "reviewedDate": "2026-11-08",
+  "candidate": "1.0.2",
+  "criteria": {
+    "path": "tests/acceptance.json",
+    "version": 1,
+    "sha256": "f1cfce37b0df1a54575ae39b2dbd309054177ed7eefc980a3ab68e69e0e70339",
+    "unchanged": true,
+    "threshold": 97,
+    "denominator": 34,
+    "minimum_passes": 33,
+    "all_critical_required": true
+  },
+  "summary": {
+    "counts": {
+      "PASS": 18,
+      "FAIL": 1,
+      "BLOCKED": 15,
+      "NOT_RUN": 0
+    },
+    "passed": 18,
+    "total": 34,
+    "percent": 52.94117647058824,
+    "threshold": 97,
+    "threshold_met": false,
+    "critical_total": 30,
+    "critical_passed": 15,
+    "missing_critical": [
+      "B05",
+      "B06",
+      "B07",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R10",
+      "I02",
+      "I03",
+      "I04"
+    ],
+    "accepted": false,
+    "verdict": "NOT_ACCEPTED"
+  },
+  "checks": [
+    {
+      "id": "S01",
+      "critical": true,
+      "criterion": "Для четырёх источников указаны точные URL, ревизии, выбранные пути и условия использования; локальное содержимое сопоставлено с ними.",
+      "status": "PASS",
+      "reason": "Для четырёх источников зафиксированы repository/ref, пути, контрольные суммы и условия распространения. В текущей сборке 1.0.2 независимо перепроверены 55 bundled файлов; во внешнем кэше — 4 файла.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_EXTERNAL",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S02",
+      "critical": true,
+      "criterion": "Полный содержательный пакет web-design-engineer и необходимые ему материалы доступны через внешний источник с закреплённой ревизией. Копирование в поставку не требуется и не допускается без разрешения правообладателя. Одна ссылка или пересказ без подтверждённого получения полного содержимого и необходимых материалов проверку не закрывает; фактическое применение отдельно подтверждается B01 и B05.",
+      "status": "PASS",
+      "reason": "Четыре полных файла web-design-engineer получены по закреплённой ревизии; Git blob SHA совпадают. SKILL.md и advanced-patterns.md доступны. Содержимое не включено в распространяемый пакет.",
+      "evidence": [
+        "E_STATIC",
+        "E_EXTERNAL",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S03",
+      "critical": true,
+      "criterion": "Подключён содержательный пакет motionsites-skill и необходимые ему материалы; одной ссылки или пересказа недостаточно.",
+      "status": "PASS",
+      "reason": "Полный выбранный пакет MotionSites и обязательные материалы присутствуют: 23 закреплённых файла соответствуют lock.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S04",
+      "critical": true,
+      "criterion": "Зафиксированы конкретные выбранные пакеты TheGoat395 и назначение каждого; проверены их содержимое и необходимые материалы.",
+      "status": "PASS",
+      "reason": "Семь выбранных пакетов TheGoat и их назначения зафиксированы; 28 файлов с лицензией соответствуют lock. Обязательные локальные ссылки проверены.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S05",
+      "critical": true,
+      "criterion": "Подключены действующие web-interface-guidelines либо проверяемый способ получения правил, предусмотренный источником.",
+      "status": "PASS",
+      "reason": "Четыре файла закреплённого Vercel Web Interface Guidelines, включая AGENTS.md и command.md, доступны и соответствуют lock.",
+      "evidence": [
+        "E_STATIC",
+        "E_BUNDLED",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S06",
+      "critical": true,
+      "criterion": "Все обязательные ссылки, ресурсы и зависимости выбранных пакетов разрешаются из поставляемого комплекта, включая предусмотренное в S02 получение внешнего источника с закреплённой ревизией.",
+      "status": "PASS",
+      "reason": "Обязательные локальные ссылки и материалы разрешаются. Исправленная база относительных путей, orchestration, шаблон записи и ресурсы включены в сборку 1.0.2; внешний источник доступен и проверен.",
+      "evidence": [
+        "E_STATIC",
+        "E_LOCK",
+        "E_SOURCE_REVIEW"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S07",
+      "critical": true,
+      "criterion": "Поставки Work и Codex соответствуют одной заявленной версии и одному содержательному набору источников.",
+      "status": "PASS",
+      "reason": "Независимо пересчитаны SHA-256 всех 68 файлов локальной поставки skills/saitodel/: они совпали с localSha256 и remoteSha256 полного обратного чтения аккаунтной поставки 1.0.2. Пропусков и расхождений не обнаружено.",
+      "evidence": [
+        "E_STATIC",
+        "E_ACCOUNT",
+        "E_WORK_ACCOUNT_SESSION"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "S08",
+      "critical": false,
+      "criterion": "Нет лишних пакетов, противоречащих правил, дублирующихся входных точек и обещаний неподтверждённых возможностей.",
+      "status": "PASS",
+      "reason": "Подтверждённых лишних пакетов, конфликтов маршрутизации и обещаний отсутствующих возможностей не обнаружено. Загрузка входов TheGoat сохраняет их условные правила и не требует заново создавать согласованную дизайн-систему.",
+      "evidence": [
+        "E_SOURCE_REVIEW",
+        "E_LOCK"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B01",
+      "critical": true,
+      "criterion": "Work: по P1 наблюдаемо применены web-design-engineer и соответствующие заранее выбранные пакеты TheGoat395; создан запускаемый сайт.",
+      "status": "PASS",
+      "reason": "В отдельном Work fork_none /root/website_work_p1 выполнен P1; создан и открыт реальный автономный сайт. Применение WDE и шести соответствующих TheGoat подтверждено сохранёнными наблюдениями координатора о чтениях инструментами, источниками и артефактами. Это испытание исходника по явному пути, а не проверка нативного обнаружения плагина.",
+      "evidence": [
+        "E_WORK_P1_SESSION",
+        "E_P1_SOURCES",
+        "E_P1_CHECKS",
+        "E_P1_INITIAL",
+        "E_P1_REPEAT",
+        "E_P1_TARGETED"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B02",
+      "critical": true,
+      "criterion": "Work: по P2 наблюдаемо применён motionsites; изменение выполнено в реальном сайте.",
+      "status": "PASS",
+      "reason": "В отдельном Work fork_none /root/website_work_p2 выполнен P2: реальному сайту добавлены entrance/reveal/button motion и reduced motion. Чтение MotionSites, применимых recipes, browser-inspection и visual-regression подтверждено наблюдениями координатора; артефакты и 285+9 компонентных проверок сохранены.",
+      "evidence": [
+        "E_WORK_P2_SESSION",
+        "E_P2_RUN",
+        "E_P2_MAIN",
+        "E_P2_EDGE"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B03",
+      "critical": true,
+      "criterion": "Work: по P3 наблюдаемо применены web-interface-guidelines; выводы привязаны к фактам сайта.",
+      "status": "PASS",
+      "reason": "Независимый Work P3 /root/website_independent_qa применил полные Vercel AGENTS.md/command.md: воспроизведена QA-01 о сенсорной зоне «Услуги», координатор добавил min-width:44px, независимый целевой ретест 320/375/768/1440 прошёл. Выводы связаны с реальными исходниками, геометрией и просмотренными снимками.",
+      "evidence": [
+        "E_WORK_P3_SESSION",
+        "E_QA_REPORT",
+        "E_QA_SUMMARY",
+        "E_QA_RAW",
+        "E_QA_SUPPLEMENT",
+        "E_QA_RETEST"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B04",
+      "critical": false,
+      "criterion": "Work: по P4 выполнена только требуемая редактура без запуска ненужного полного веб-процесса.",
+      "status": "PASS",
+      "reason": "Свежий Work fork_none /root/work_copy_scope вернул только требуемое исправленное предложение. По наблюдению координатора вызовов инструментов не было; завершённый ответ также прочитан оценщиком через список агентов. Сырой transcript не экспортирован.",
+      "evidence": [
+        "E_WORK_P4_SESSION"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B05",
+      "critical": true,
+      "criterion": "Codex: по P1 наблюдаемо применены web-design-engineer и соответствующие заранее выбранные пакеты TheGoat395; создан запускаемый сайт. Это самостоятельный запуск в Codex.",
+      "status": "BLOCKED",
+      "reason": "Codex P1 прочитал установленный Сайтодел и получил полный WDE (4 blob SHA совпали с lock), создал HTTP-сайт. Обязательные browser-inspection/visual-regression не завершены: браузерные MCP-вызовы отклонены шлюзом разрешений.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B06",
+      "critical": true,
+      "criterion": "Codex: по P2 наблюдаемо применён motionsites; изменение выполнено в реальном сайте. Это самостоятельный запуск в Codex.",
+      "status": "BLOCKED",
+      "reason": "Codex P2 действительно прочитал MotionSites и изменил сайт. Визуальная регрессия прочитана, но baseline screenshots/diff отсутствуют; браузерная проверка заблокирована.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B07",
+      "critical": true,
+      "criterion": "Codex: по P3 наблюдаемо применены web-interface-guidelines; выводы привязаны к фактам сайта. Это самостоятельный запуск в Codex.",
+      "status": "FAIL",
+      "reason": "В полном P3 JSONL нет загрузки Сайтодела или Vercel AGENTS.md/command.md. Применены ECC accessibility, verification-loop и WCAG; историческое упоминание Vercel в SOURCES.md не подтверждает выполнение требуемого источника.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "B08",
+      "critical": false,
+      "criterion": "Codex: по P4 выполнена только требуемая редактура без запуска ненужного полного веб-процесса. Это самостоятельный запуск в Codex.",
+      "status": "PASS",
+      "reason": "Отдельный Codex P4 вернул только исправленное предложение; инструментов в журнале не вызвано.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "R01",
+      "critical": true,
+      "criterion": "Оба сайта действительно открыты в браузере; обязательная сборка проекта, если она предусмотрена, завершилась успешно.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: реальная страница открыта в Chrome 156.0.8078.80 через file://; автономный HTML не требует сборки. Доступность HTTP localhost не подтверждена, ERR_NETWORK_ACCESS_DENIED сохранён."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R02",
+      "critical": true,
+      "criterion": "Оба сайта содержат все согласованные разделы и сведения P1; отсутствуют выдуманные отзывы, клиенты и показатели.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены hero, услуги, этапы, FAQ, форма, молочно-зелёная концепция и честный деморежим. Выдуманных клиентов, цен, показателей и отзывов не обнаружено."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R03",
+      "critical": true,
+      "criterion": "Оба сайта проверены при ширине 375, 768 и 1440 px: нет горизонтального переполнения, перекрытия текста и недоступных элементов.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены 375/768/1440, дополнительные размеры; переполнения и перекрытий в проверенном объёме не обнаружено. После правки header выполнен целевой ретест 320/375/768/1440."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R04",
+      "critical": true,
+      "criterion": "Навигация и CTA обоих сайтов доводят до заявленной формы или раздела; нет пустых ссылок и мёртвых кнопок.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: CTA ведёт к contact, меню/якоря и возврат работают; после правки отдельно перепроверена ссылка services и её keyboard activation."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R05",
+      "critical": true,
+      "criterion": "Реально проверены пустой ввод, ошибочный email и корректный ввод; сообщения понятны, серверная отправка не имитируется.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены пустые поля, неверный email, корректный ввод/Enter, сообщения и фокус. Демоформа не заявляет реальную отправку, сетевых запросов отправки не наблюдалось."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R06",
+      "critical": true,
+      "criterion": "Оба сайта полностью проходимы клавиатурой: видимый фокус, логичный порядок, работающие интерактивные элементы, отсутствие ловушек.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: проверены skip-link, последовательность Tab, видимость фокуса после завершения прокрутки, FAQ через Enter/Space и элементы формы. Header отдельно перепроверен после правки."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R07",
+      "critical": true,
+      "criterion": "При включённом reduced motion на обоих сайтах прекращаются необязательные значительные перемещения; контент и действия доступны.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: при reduced motion на 375/1440 нет запусков WAAPI, кнопочные transition 0s, прокрутка auto; текст и действия доступны. Исходный P2 также содержит проверку динамической смены preference."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R08",
+      "critical": true,
+      "criterion": "Основной сценарий в обоих сайтах не вызывает необработанных исключений, отсутствующих обязательных ресурсов и ошибок загрузки страницы.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: первоначальные локальные прогоны без console warning/error, pageerror, failed requests и ошибок загрузки; целевой ретест без pageerror. Это проверка file://, не опубликованного HTTP."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R09",
+      "critical": false,
+      "criterion": "Независимый просмотр всех контрольных размеров подтверждает читаемую иерархию, заметный главный CTA, последовательные отступы и отсутствие визуальных дефектов. Каждый пункт подтверждён скриншотом.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. ",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: независимый QA просмотрел 29 снимков, включая основные 375/768/1440 и изменённый header; подтверждены иерархия, CTA, читаемость и отсутствие дефектов в проверенном объёме. Ultra-wide снят, но визуально не принят."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "R10",
+      "critical": true,
+      "criterion": "Для каждого критического/высокого замечания P3 есть воспроизведение; исправления повторно проверены. Нет объявленных выполненными непроведённых проверок.",
+      "status": "BLOCKED",
+      "reason": "Работа Work-демо подтверждена прежним независимым QA. Для Codex нет браузерных действий и скриншотов; модельные/HTTP/статические проверки не закрывают этот frozen критерий. F1–F3 воспроизведены модельными/контрастными проверками, но браузерный ретест отсутствует.",
+      "evidence": [
+        "native-review-summary.json",
+        "../artifacts/independent-qa/report.md"
+      ],
+      "assessment_date": "2026-11-08",
+      "environment_results": {
+        "Work": {
+          "status": "PASS",
+          "scope": "Только проверенная локальная демонстрация; первичный QA плюс доказанная узкая правка и целевой ретест.",
+          "note": "Work: единственная подтверждённая P1-находка QA-01 воспроизведена, исправлена и повторно проверена; exactDelta подтверждает узкую правку. Исходные неудачи и ошибки измерителя сохранены и объяснены, непроведённые проверки не объявлены выполненными."
+        },
+        "Codex": {
+          "status": "BLOCKED",
+          "reason": "Самостоятельная Codex-сессия не началась; отдельного сайта нет."
+        }
+      }
+    },
+    {
+      "id": "I01",
+      "critical": true,
+      "criterion": "Work: есть подтверждение фактической установки/обновления нужного Сайтодела с идентификатором и версией.",
+      "status": "PASS",
+      "reason": "Создана новая аккаунтная поставка plugins_6af0b6fc62bc81918d18cb8ee0227cea версии 1.0.2, выполнено полное обратное чтение 68 файлов; Plugin Management сообщил already_installed. Ответ Management сохранён только в наблюдениях текущей сессии и документации, не как сырой ответ инструмента.",
+      "evidence": [
+        "E_ACCOUNT",
+        "E_WORK_ACCOUNT_SESSION",
+        "E_INTEGRATION_STATUS"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I02",
+      "critical": true,
+      "criterion": "В новой сессии Work установленный Сайтодел обнаруживается штатным способом, без передачи его инструкций вручную.",
+      "status": "BLOCKED",
+      "reason": "В продолжающемся Work-чате навыки API теперь обнаруживают аккаунтный Сайтодел1.0.2; это новое положительное свидетельство доступности. Требуемая отдельная новая Work-сессия ещё не проверена.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I03",
+      "critical": true,
+      "criterion": "Новая сессия Work принимает явный вызов Сайтодела и получает доступ к его настоящим материалам.",
+      "status": "BLOCKED",
+      "reason": "В текущем Work-чате SKILL.md1.0.2 реально прочитан через штатный skills.read. Явный вызов в отдельной новой Work-сессии остаётся непроверенным.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I04",
+      "critical": true,
+      "criterion": "В новой сессии Work подходящий запрос без названия Сайтодела действительно приводит к его применению; это подтверждено трассировкой.",
+      "status": "BLOCKED",
+      "reason": "Неявное применение по запросу без названия навыка в отдельной новой Work-сессии не проверено.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I05",
+      "critical": true,
+      "criterion": "Codex: есть подтверждение фактической установки/обновления нужного Сайтодела с идентификатором и версией.",
+      "status": "PASS",
+      "reason": "Фактическая установка saitodel@personal-saitodel 1.0.2 enabled/installed подтверждена CLI; независимый проверяющий сопоставил 68/68 файлов установленного payload с installation hashes.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I06",
+      "critical": true,
+      "criterion": "В новой сессии Codex установленный Сайтодел обнаруживается штатным способом, без передачи его инструкций вручную.",
+      "status": "PASS",
+      "reason": "Новый Codex exec P1 имеет отдельный thread ID и штатно читает установленный SKILL.md из cache/personal-saitodel/saitodel/1.0.2/skills/saitodel.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I07",
+      "critical": true,
+      "criterion": "Новая сессия Codex принимает явный вызов Сайтодела и получает доступ к его настоящим материалам.",
+      "status": "PASS",
+      "reason": "Отдельный explicit Codex exec прочитал установленный Сайтодел1.0.2 и его материалы; дал требуемый порядок без изменений сайта.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    },
+    {
+      "id": "I08",
+      "critical": true,
+      "criterion": "В новой сессии Codex подходящий запрос без названия Сайтодела действительно приводит к его применению; это подтверждено трассировкой.",
+      "status": "PASS",
+      "reason": "P1 запущен отдельным Codex-процессом с frozen prompt без названия Сайтодела; журнал подтверждает выбор и чтение установленного навыка.",
+      "evidence": [
+        "native-review-summary.json"
+      ],
+      "assessment_date": "2026-11-08"
+    }
+  ],
+  "evidenceIndex": [
+    "native-review-summary.json"
+  ],
+  "previousAssessmentCommit": "354c3f5ce8a1ed600e0163ecaefda7c490e19491",
+  "note": "Old13/34 assessment remains preserved. This is assessment of actual installed1.0.2; untested1.0.3 is separate and receives no transferred behavioral PASS."
+}
