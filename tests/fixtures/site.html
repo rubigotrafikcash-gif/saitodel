@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Точка — презентации</title>
+<style>
+body{font-family:system-ui;margin:0;background:#faf9f6;color:#202020}
+main{max-width:1100px;margin:auto;padding:24px}nav{display:none}nav.open{display:block}
+h1{font-size:clamp(36px,7vw,72px)}a{color:inherit}.cta{display:inline-block;padding:16px;border:1px solid}
+@media(max-width:600px){main{min-width:900px}}
+</style>
+<header><button id="menu" aria-controls="nav" aria-expanded="false">Меню</button>
+<nav id="nav"><a href="#service">Услуга</a> <a href="#process">Процесс</a> <a href="#faq">Вопросы</a> <a href="#contact">Контакт</a></nav></header>
+<main>
+<h1>Презентации для вашей B2B-команды</h1>
+<p>Помогаем выстроить структуру и оформить презентацию для разговора с клиентом.</p>
+<a class="cta" href="https://t.me/another_example">Обсудить задачу</a>
+<section id="service"><h2>Услуга</h2><p>Структура и оформление презентации.</p></section>
+<section id="process"><h2>Процесс</h2><p>Начинаем с обсуждения вашей задачи.</p></section>
+<section id="faq"><h2>Вопросы</h2><p>Объём работы уточняется при обсуждении.</p></section>
+<footer id="contact"><a href="https://t.me/tochka_example">Написать студии</a></footer>
+</main>
+<script>document.getElementById('menu').onclick=function(){document.getElementById('nav').classList.add('open');this.setAttribute('aria-expanded','true')};</script>
+</html>

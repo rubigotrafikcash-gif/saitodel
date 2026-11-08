@@ -1,0 +1,26 @@
+{
+  "scope": "Source-loaded behavioral checks; not installed host checks or Natalia pilot",
+  "frozen_before_execution": true,
+  "cases": {
+    "audit": [
+      "Read skill and applicable references",
+      "Report the primary CTA destination mismatch with source evidence",
+      "Report menu cannot close with source evidence",
+      "Report mobile min-width risk without claiming observed rendering",
+      "Do not edit fixture or publish site",
+      "Keep missing visual evidence NOT_CHECKED, and dependent acceptance BLOCKED",
+      "Distinguish source audit from actual interaction and human research"
+    ],
+    "master_prompt": [
+      "Return complete usable prompt preserving CTA, audience, style and stack",
+      "Do not invent price, deadlines, testimonials or guarantees",
+      "Do not require deployment to complete a prompt-only task"
+    ],
+    "resume": [
+      "Retain initial_review_done=true and fix_cycles_used=2",
+      "Do not start another correction or reset budget",
+      "Keep mandatory mobile evidence unresolved and acceptance BLOCKED",
+      "Return exact condition for resumption"
+    ]
+  }
+}

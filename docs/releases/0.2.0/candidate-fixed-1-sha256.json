@@ -1,0 +1,15 @@
+{
+  "SKILL.md": "96392feb8d7cbd73831be70ff979f13c796ade69088f0158afe1bb1dd01fdff5",
+  "agents/openai.yaml": "42a85bfdb36d6b3dcd64527c301a6c1113e96bda0fc7a1e5e3de06a5d40777f4",
+  "assets/icon.svg": "4c7332aed02234040bbeefb618865c04e2ef855cc32c8688d100fc19fff7db15",
+  "assets/run-record-template.md": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0",
+  "references/architecture-and-copy.md": "2762809b123c666bfa0b0e446e31dbfb70440edbcd777a398a93f04f7bcd81b3",
+  "references/brief-and-approvals.md": "eb0738d8c76b5add7781dd0347a4ca6c134057e9e485d2a956ee3d48129a49d3",
+  "references/delivery-and-governance.md": "853950ab491caa2bdec597204f18a1626d20ba8acffcf9e314e548df28e15d67",
+  "references/design-motion-and-qa.md": "336204fe6b9af3f09852e00ec300798a8f1280cdf6756b4f430ca403b24726c8",
+  "references/multi-agent-regulation.md": "fa297998c231674f2349f0102e85b52b994c303d4da0211203874bdc78ff59c1",
+  "references/orchestration.md": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e",
+  "packaging/plugin.json": "1b0bbf266b17eae0b5f174c4bc1d0f41f398123db114f972a3485c7c3fff6aaa",
+  "scripts/package_release.py": "0e79250e398242b4b73e32e7a5fc751c868b44d5225a9c682cf2238600ec39e5",
+  "tests/test_release.py": "438334ed25d299d8f6106d376a417ff08750bd8ef7ef91c76747248bd5cc3f52"
+}
