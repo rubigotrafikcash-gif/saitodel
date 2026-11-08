@@ -1,0 +1,451 @@
+{
+  "command": "verify",
+  "status": "PASS",
+  "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\build\\v1.0.1\\saitodel\\skills\\saitodel",
+  "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\sources.lock.json",
+  "checked": 55,
+  "passed": 55,
+  "failed": 0,
+  "files": [
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/LICENSE",
+      "expectedGitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48",
+      "actualGitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48",
+      "bytes": 1097,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/NOTICE.md",
+      "expectedGitBlobSha": "e98688a99657c09f6a143b71f545299b2fcf6f8d",
+      "actualGitBlobSha": "e98688a99657c09f6a143b71f545299b2fcf6f8d",
+      "bytes": 1075,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/UPSTREAM_LICENSE",
+      "expectedGitBlobSha": "a3d8ddfaa8798fbd4d12b91b10701e4da1124ac4",
+      "actualGitBlobSha": "a3d8ddfaa8798fbd4d12b91b10701e4da1124ac4",
+      "bytes": 1614,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/LICENSE",
+      "expectedGitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48",
+      "actualGitBlobSha": "fe42276a42c30d5ee85e929f25c990cb43509b48",
+      "bytes": 1097,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/SKILL.md",
+      "expectedGitBlobSha": "8264d608270e0a3e6ee84aded70eca3bb597ecd6",
+      "actualGitBlobSha": "8264d608270e0a3e6ee84aded70eca3bb597ecd6",
+      "bytes": 5408,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/agents/openai.yaml",
+      "expectedGitBlobSha": "babcc6490a6d9685f55eafac9afee476e825cee5",
+      "actualGitBlobSha": "babcc6490a6d9685f55eafac9afee476e825cee5",
+      "bytes": 227,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/assets.md",
+      "expectedGitBlobSha": "08f26124af757d8e59bf139ea529adf540d87f69",
+      "actualGitBlobSha": "08f26124af757d8e59bf139ea529adf540d87f69",
+      "bytes": 6848,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/builders.md",
+      "expectedGitBlobSha": "c6b4c6d306dea29c1a5a3264ad961aacc4e30688",
+      "actualGitBlobSha": "c6b4c6d306dea29c1a5a3264ad961aacc4e30688",
+      "bytes": 2237,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/craft.md",
+      "expectedGitBlobSha": "be79172c61b2723e7781aef25b31bf1a0a0c9acd",
+      "actualGitBlobSha": "be79172c61b2723e7781aef25b31bf1a0a0c9acd",
+      "bytes": 17316,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/resources.md",
+      "expectedGitBlobSha": "46edf0e51fd740e9b4f586515c7b1430646a453d",
+      "actualGitBlobSha": "46edf0e51fd740e9b4f586515c7b1430646a453d",
+      "bytes": 1486,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/review.md",
+      "expectedGitBlobSha": "8a446399cc6337e854886ed7bdde4d5c4146aaa4",
+      "actualGitBlobSha": "8a446399cc6337e854886ed7bdde4d5c4146aaa4",
+      "bytes": 4462,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/spec-template.md",
+      "expectedGitBlobSha": "32365e7055daee20ef5497d35d25faf72b6cfca7",
+      "actualGitBlobSha": "32365e7055daee20ef5497d35d25faf72b6cfca7",
+      "bytes": 7525,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/3d-and-webgl.md",
+      "expectedGitBlobSha": "6498725c43df43a1a1f48272a8193e1d77fc6957",
+      "actualGitBlobSha": "6498725c43df43a1a1f48272a8193e1d77fc6957",
+      "bytes": 27837,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/INDEX.md",
+      "expectedGitBlobSha": "e42e5b3b189fda171867171574e21116843a45be",
+      "actualGitBlobSha": "e42e5b3b189fda171867171574e21116843a45be",
+      "bytes": 9535,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/depth-and-interaction.md",
+      "expectedGitBlobSha": "ef1b1ef1ab2861cda4216d4fd2acabd2fe461ccb",
+      "actualGitBlobSha": "ef1b1ef1ab2861cda4216d4fd2acabd2fe461ccb",
+      "bytes": 32730,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/layout-and-ui.md",
+      "expectedGitBlobSha": "b4993ed295c1aebdc9cd7bf780eb38e69c85fe75",
+      "actualGitBlobSha": "b4993ed295c1aebdc9cd7bf780eb38e69c85fe75",
+      "bytes": 55079,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/scroll.md",
+      "expectedGitBlobSha": "307105e60aca9d290518cbefb06bc3df16cc6f39",
+      "actualGitBlobSha": "307105e60aca9d290518cbefb06bc3df16cc6f39",
+      "bytes": 35595,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/surfaces-and-buttons.md",
+      "expectedGitBlobSha": "fa6c8a5c259ac615d70d9e42fce5a36a3eab95d0",
+      "actualGitBlobSha": "fa6c8a5c259ac615d70d9e42fce5a36a3eab95d0",
+      "bytes": 33111,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/type-and-text-motion.md",
+      "expectedGitBlobSha": "6a820d903e0ffca669963af532eef3f99ffeb182",
+      "actualGitBlobSha": "6a820d903e0ffca669963af532eef3f99ffeb182",
+      "bytes": 52672,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/techniques/video-and-media.md",
+      "expectedGitBlobSha": "22b70cf5c5477988fde6c7f9dc137cacfad2badb",
+      "actualGitBlobSha": "22b70cf5c5477988fde6c7f9dc137cacfad2badb",
+      "bytes": 38644,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/references/upstream.json",
+      "expectedGitBlobSha": "16146c4ccfe755381ea6c1d0f38dbb81bc552cf0",
+      "actualGitBlobSha": "16146c4ccfe755381ea6c1d0f38dbb81bc552cf0",
+      "bytes": 211,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/scripts/fetch_resources.py",
+      "expectedGitBlobSha": "cc3615e31e771d195369844e2adc8cc423b95dae",
+      "actualGitBlobSha": "cc3615e31e771d195369844e2adc8cc423b95dae",
+      "bytes": 3239,
+      "status": "PASS"
+    },
+    {
+      "source": "motionsites",
+      "path": "vendor/motionsites/skills/motionsites-web-builder/scripts/shoot.py",
+      "expectedGitBlobSha": "13c8a0266b45962babfa782b097e83f5890d26c8",
+      "actualGitBlobSha": "13c8a0266b45962babfa782b097e83f5890d26c8",
+      "bytes": 6405,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/LICENSE",
+      "expectedGitBlobSha": "50962414b3b617579f06fc51a2e3135cfcc0da15",
+      "actualGitBlobSha": "50962414b3b617579f06fc51a2e3135cfcc0da15",
+      "bytes": 1084,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/THIRD_PARTY_NOTICES.md",
+      "expectedGitBlobSha": "bbb6ea936726274c98ce576773994602651864c8",
+      "actualGitBlobSha": "bbb6ea936726274c98ce576773994602651864c8",
+      "bytes": 1451,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/browser-inspection-workflow/SKILL.md",
+      "expectedGitBlobSha": "957fd6c2f2df903b96e100c0492846de623f8bee",
+      "actualGitBlobSha": "957fd6c2f2df903b96e100c0492846de623f8bee",
+      "bytes": 1741,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/browser-inspection-workflow/agents/openai.yaml",
+      "expectedGitBlobSha": "d3dbfaf2c5ae14b295cf4d246bee5a151e7f5586",
+      "actualGitBlobSha": "d3dbfaf2c5ae14b295cf4d246bee5a151e7f5586",
+      "bytes": 251,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/browser-inspection-workflow/references/browser-inspection-workflow-guide.md",
+      "expectedGitBlobSha": "d609212cf6399fa156ba78f0137e4cf5dd534df5",
+      "actualGitBlobSha": "d609212cf6399fa156ba78f0137e4cf5dd534df5",
+      "bytes": 2367,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/frontend-quality-auditor/SKILL.md",
+      "expectedGitBlobSha": "169fa2ef02afa1feecd0678d639aa8b8f3125b0b",
+      "actualGitBlobSha": "169fa2ef02afa1feecd0678d639aa8b8f3125b0b",
+      "bytes": 4251,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/frontend-quality-auditor/agents/openai.yaml",
+      "expectedGitBlobSha": "a242a801d10b11756f6c2f9f66a107247545ae74",
+      "actualGitBlobSha": "a242a801d10b11756f6c2f9f66a107247545ae74",
+      "bytes": 252,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/frontend-quality-auditor/references/audit-checklist.md",
+      "expectedGitBlobSha": "45f8fd6727820817928c0ea0baeb577f61aaf23b",
+      "actualGitBlobSha": "45f8fd6727820817928c0ea0baeb577f61aaf23b",
+      "bytes": 3916,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/visual-regression-lab/SKILL.md",
+      "expectedGitBlobSha": "b6daf422b9b27fd6be0deaaa62d55188d6fa213f",
+      "actualGitBlobSha": "b6daf422b9b27fd6be0deaaa62d55188d6fa213f",
+      "bytes": 2061,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/visual-regression-lab/agents/openai.yaml",
+      "expectedGitBlobSha": "e3711c465e0d7c4eeceb9d414c5a1a4b10567d31",
+      "actualGitBlobSha": "e3711c465e0d7c4eeceb9d414c5a1a4b10567d31",
+      "bytes": 250,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/visual-regression-lab/references/baseline-contract.md",
+      "expectedGitBlobSha": "0c5749a552413a5245cec8aed666090791745155",
+      "actualGitBlobSha": "0c5749a552413a5245cec8aed666090791745155",
+      "bytes": 1229,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/visual-regression-lab/references/stitched-full-page-capture.md",
+      "expectedGitBlobSha": "1693d7547fa059ddd55a0e3c1a5f22f5918f3eb6",
+      "actualGitBlobSha": "1693d7547fa059ddd55a0e3c1a5f22f5918f3eb6",
+      "bytes": 3440,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/visual-regression-lab/scripts/capture-settled-baseline.mjs",
+      "expectedGitBlobSha": "c5e785a1ad2d55fd98d95891ed9feaa431525b97",
+      "actualGitBlobSha": "c5e785a1ad2d55fd98d95891ed9feaa431525b97",
+      "bytes": 6387,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/visual-regression-lab/scripts/capture-stitched-full-page.mjs",
+      "expectedGitBlobSha": "48b5bd9e1ce4ae4de974b43bc6d347e5e752fe01",
+      "actualGitBlobSha": "48b5bd9e1ce4ae4de974b43bc6d347e5e752fe01",
+      "bytes": 16008,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/web-design-direction-system/SKILL.md",
+      "expectedGitBlobSha": "635f05254b2fa9bc38af5deea337fb9911768f81",
+      "actualGitBlobSha": "635f05254b2fa9bc38af5deea337fb9911768f81",
+      "bytes": 6968,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/web-design-direction-system/agents/openai.yaml",
+      "expectedGitBlobSha": "f919530227a7f857e35a3ba93a6db5f85ebe639e",
+      "actualGitBlobSha": "f919530227a7f857e35a3ba93a6db5f85ebe639e",
+      "bytes": 305,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/web-design-direction-system/references/design-guidance-evidence-loop-guide.md",
+      "expectedGitBlobSha": "e1ad1e6a3b5aef59c712bf9172da7b1059b02339",
+      "actualGitBlobSha": "e1ad1e6a3b5aef59c712bf9172da7b1059b02339",
+      "bytes": 4790,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/web-design-vocabulary/SKILL.md",
+      "expectedGitBlobSha": "ddb936e74df0c974b5df44ee1c22d1758d6083f6",
+      "actualGitBlobSha": "ddb936e74df0c974b5df44ee1c22d1758d6083f6",
+      "bytes": 764,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/web-design-vocabulary/agents/openai.yaml",
+      "expectedGitBlobSha": "bd5af7a523d5e0202d278635d82d9e70ebc6612b",
+      "actualGitBlobSha": "bd5af7a523d5e0202d278635d82d9e70ebc6612b",
+      "bytes": 243,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/web-design-vocabulary/references/web-design-vocabulary-guide.md",
+      "expectedGitBlobSha": "268083f77452518a8ad89b55cf3db941ddd3170d",
+      "actualGitBlobSha": "268083f77452518a8ad89b55cf3db941ddd3170d",
+      "bytes": 3244,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-blueprint-first/SKILL.md",
+      "expectedGitBlobSha": "f3f6a9f5eb7af6b464ad7cba7fa1d546f85c5f8e",
+      "actualGitBlobSha": "f3f6a9f5eb7af6b464ad7cba7fa1d546f85c5f8e",
+      "bytes": 1030,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-blueprint-first/agents/openai.yaml",
+      "expectedGitBlobSha": "7331668c460dd75673af02d1b61bb5a227e59d47",
+      "actualGitBlobSha": "7331668c460dd75673af02d1b61bb5a227e59d47",
+      "bytes": 258,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-blueprint-first/references/website-blueprint-first-guide.md",
+      "expectedGitBlobSha": "a48ed96ba26036a8702b8fbafbb219c5a474f718",
+      "actualGitBlobSha": "a48ed96ba26036a8702b8fbafbb219c5a474f718",
+      "bytes": 2802,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-operating-rules/SKILL.md",
+      "expectedGitBlobSha": "4e94ced24fec993080012037b74d37bdd967d37b",
+      "actualGitBlobSha": "4e94ced24fec993080012037b74d37bdd967d37b",
+      "bytes": 775,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-operating-rules/agents/openai.yaml",
+      "expectedGitBlobSha": "d79b17bf2a9bfb10c2f1a7420034032942e47124",
+      "actualGitBlobSha": "d79b17bf2a9bfb10c2f1a7420034032942e47124",
+      "bytes": 252,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-operating-rules/references/scoped-web-contract.md",
+      "expectedGitBlobSha": "e4bb6568d55c97192c899d59c43f90e4fb3599df",
+      "actualGitBlobSha": "e4bb6568d55c97192c899d59c43f90e4fb3599df",
+      "bytes": 6525,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-operating-rules/references/website-operating-rules-guide.md",
+      "expectedGitBlobSha": "3cb7f2e96f6512cfee462574ccc87ff220d8f347",
+      "actualGitBlobSha": "3cb7f2e96f6512cfee462574ccc87ff220d8f347",
+      "bytes": 3688,
+      "status": "PASS"
+    },
+    {
+      "source": "thegoat",
+      "path": "vendor/thegoat/skills/website-operating-rules/references/website-quality-tiers.md",
+      "expectedGitBlobSha": "4ec7e7126202fe427a604bb48261f1d0cd9b7cd6",
+      "actualGitBlobSha": "4ec7e7126202fe427a604bb48261f1d0cd9b7cd6",
+      "bytes": 4247,
+      "status": "PASS"
+    },
+    {
+      "source": "vercel",
+      "path": "vendor/vercel/LICENSE",
+      "expectedGitBlobSha": "b3575a3c1358eac4b9ee36a4c851872d81417760",
+      "actualGitBlobSha": "b3575a3c1358eac4b9ee36a4c851872d81417760",
+      "bytes": 1068,
+      "status": "PASS"
+    },
+    {
+      "source": "vercel",
+      "path": "vendor/vercel/README.md",
+      "expectedGitBlobSha": "50a75237d11f9ea6d6ed576d4e494759e67b48f4",
+      "actualGitBlobSha": "50a75237d11f9ea6d6ed576d4e494759e67b48f4",
+      "bytes": 19239,
+      "status": "PASS"
+    },
+    {
+      "source": "vercel",
+      "path": "vendor/vercel/command.md",
+      "expectedGitBlobSha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5",
+      "actualGitBlobSha": "3eb3a212b7b89493922ea418489d4c6f67ae8bd5",
+      "bytes": 8055,
+      "status": "PASS"
+    },
+    {
+      "source": "vercel",
+      "path": "vendor/vercel/AGENTS.md",
+      "expectedGitBlobSha": "2785de041ab86453abcdbedd999084e6c207d6df",
+      "actualGitBlobSha": "2785de041ab86453abcdbedd999084e6c207d6df",
+      "bytes": 7995,
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "saitodel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Создание и проверка сайтов с подключёнными дизайн-навыками и независимой приёмкой.",
   "author": {
     "name": "TairPromo"

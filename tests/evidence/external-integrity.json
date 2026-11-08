@@ -1,0 +1,43 @@
+{
+  "command": "verify-remote",
+  "status": "PASS",
+  "root": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel-external",
+  "lock": "C:\\Users\\rust\\Documents\\ChatGPT\\INBOX - идеи, статьи, посты, ссылки, файлы\\work\\saitodel\\sources.lock.json",
+  "checked": 4,
+  "passed": 4,
+  "failed": 0,
+  "files": [
+    {
+      "source": "web-design-engineer",
+      "path": "web-design-engineer/SKILL.md",
+      "expectedGitBlobSha": "f4503b5d0238481128fdfbf8ab9256c26f890531",
+      "actualGitBlobSha": "f4503b5d0238481128fdfbf8ab9256c26f890531",
+      "bytes": 24283,
+      "status": "PASS"
+    },
+    {
+      "source": "web-design-engineer",
+      "path": "web-design-engineer/agents/openai.yaml",
+      "expectedGitBlobSha": "5b367b14908e79335cc81cb067cc66b799dbd181",
+      "actualGitBlobSha": "5b367b14908e79335cc81cb067cc66b799dbd181",
+      "bytes": 265,
+      "status": "PASS"
+    },
+    {
+      "source": "web-design-engineer",
+      "path": "web-design-engineer/explanation.html",
+      "expectedGitBlobSha": "721184a0424e49ff46439db2e278573a3b740787",
+      "actualGitBlobSha": "721184a0424e49ff46439db2e278573a3b740787",
+      "bytes": 12145,
+      "status": "PASS"
+    },
+    {
+      "source": "web-design-engineer",
+      "path": "web-design-engineer/references/advanced-patterns.md",
+      "expectedGitBlobSha": "43c775c1a962e544814edef83815ea672d26fd63",
+      "actualGitBlobSha": "43c775c1a962e544814edef83815ea672d26fd63",
+      "bytes": 14722,
+      "status": "PASS"
+    }
+  ]
+}

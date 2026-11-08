@@ -1,0 +1,416 @@
+{
+  "version": "1.0.2",
+  "release": "pluginrel_6af0b95fcb5481919996104dea84dd10",
+  "checked": 68,
+  "passed": 68,
+  "checks": [
+    {
+      "path": "skills/saitodel/SKILL.md",
+      "equal": true,
+      "localSha256": "595a969335fd9d7c655f6fd041adc857a41bbcfe5f95212b6d3a2a229a9ecef9",
+      "remoteSha256": "595a969335fd9d7c655f6fd041adc857a41bbcfe5f95212b6d3a2a229a9ecef9"
+    },
+    {
+      "path": "skills/saitodel/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "f2721592854a703294618b58e18bbd304f61192ced15ea22a8beb3ecbfbcee15",
+      "remoteSha256": "f2721592854a703294618b58e18bbd304f61192ced15ea22a8beb3ecbfbcee15"
+    },
+    {
+      "path": "skills/saitodel/assets/icon.svg",
+      "equal": true,
+      "localSha256": "4c7332aed02234040bbeefb618865c04e2ef855cc32c8688d100fc19fff7db15",
+      "remoteSha256": "4c7332aed02234040bbeefb618865c04e2ef855cc32c8688d100fc19fff7db15"
+    },
+    {
+      "path": "skills/saitodel/assets/run-record-template.md",
+      "equal": true,
+      "localSha256": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0",
+      "remoteSha256": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0"
+    },
+    {
+      "path": "skills/saitodel/references/architecture-and-copy.md",
+      "equal": true,
+      "localSha256": "2762809b123c666bfa0b0e446e31dbfb70440edbcd777a398a93f04f7bcd81b3",
+      "remoteSha256": "2762809b123c666bfa0b0e446e31dbfb70440edbcd777a398a93f04f7bcd81b3"
+    },
+    {
+      "path": "skills/saitodel/references/brief-and-approvals.md",
+      "equal": true,
+      "localSha256": "eb0738d8c76b5add7781dd0347a4ca6c134057e9e485d2a956ee3d48129a49d3",
+      "remoteSha256": "eb0738d8c76b5add7781dd0347a4ca6c134057e9e485d2a956ee3d48129a49d3"
+    },
+    {
+      "path": "skills/saitodel/references/delivery-and-governance.md",
+      "equal": true,
+      "localSha256": "853950ab491caa2bdec597204f18a1626d20ba8acffcf9e314e548df28e15d67",
+      "remoteSha256": "853950ab491caa2bdec597204f18a1626d20ba8acffcf9e314e548df28e15d67"
+    },
+    {
+      "path": "skills/saitodel/references/design-motion-and-qa.md",
+      "equal": true,
+      "localSha256": "336204fe6b9af3f09852e00ec300798a8f1280cdf6756b4f430ca403b24726c8",
+      "remoteSha256": "336204fe6b9af3f09852e00ec300798a8f1280cdf6756b4f430ca403b24726c8"
+    },
+    {
+      "path": "skills/saitodel/references/integrated-skills.md",
+      "equal": true,
+      "localSha256": "f008a2dd580d284c77ea096060cd25d209c468ba72346b140b90b096255edff3",
+      "remoteSha256": "f008a2dd580d284c77ea096060cd25d209c468ba72346b140b90b096255edff3"
+    },
+    {
+      "path": "skills/saitodel/references/multi-agent-regulation.md",
+      "equal": true,
+      "localSha256": "799e68a270e2c68ddc1be8ec17bd6e48387f32ce955546762b463d58460c7ee2",
+      "remoteSha256": "799e68a270e2c68ddc1be8ec17bd6e48387f32ce955546762b463d58460c7ee2"
+    },
+    {
+      "path": "skills/saitodel/references/orchestration.md",
+      "equal": true,
+      "localSha256": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e",
+      "remoteSha256": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e"
+    },
+    {
+      "path": "skills/saitodel/scripts/source-manager.mjs",
+      "equal": true,
+      "localSha256": "230d16f2c885ac2934209eb526e76ea3286cb8c3d534d63c3a38c169bbdf1a81",
+      "remoteSha256": "230d16f2c885ac2934209eb526e76ea3286cb8c3d534d63c3a38c169bbdf1a81"
+    },
+    {
+      "path": "skills/saitodel/sources.lock.json",
+      "equal": true,
+      "localSha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18",
+      "remoteSha256": "03f11e16c037f261fc73fc7bb8363279e967044e0c858dfa97973ae18d27db18"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/LICENSE",
+      "equal": true,
+      "localSha256": "cd278c29907afd70e1658447bb5cc200564cf306365b421f117f03ae593799ed",
+      "remoteSha256": "cd278c29907afd70e1658447bb5cc200564cf306365b421f117f03ae593799ed"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/NOTICE.md",
+      "equal": true,
+      "localSha256": "30b3ee0f63b569675693106e1553ae0085fd1e63f515120d8bf9e6d48303ecc4",
+      "remoteSha256": "30b3ee0f63b569675693106e1553ae0085fd1e63f515120d8bf9e6d48303ecc4"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/UPSTREAM_LICENSE",
+      "equal": true,
+      "localSha256": "6cd724256c3089086ad084e840fc9de970e59a9f1a72acf776ef937cec53a806",
+      "remoteSha256": "6cd724256c3089086ad084e840fc9de970e59a9f1a72acf776ef937cec53a806"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/LICENSE",
+      "equal": true,
+      "localSha256": "cd278c29907afd70e1658447bb5cc200564cf306365b421f117f03ae593799ed",
+      "remoteSha256": "cd278c29907afd70e1658447bb5cc200564cf306365b421f117f03ae593799ed"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/SKILL.md",
+      "equal": true,
+      "localSha256": "06c684e9d15180d89119efd53df482e565fed1a3bdffc780e6eb833bb03e309c",
+      "remoteSha256": "06c684e9d15180d89119efd53df482e565fed1a3bdffc780e6eb833bb03e309c"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "2b1d199d8a5b7b6bf66cd0ba1614d0eb33c5c33fcb9eb2a1911f6fba4b727864",
+      "remoteSha256": "2b1d199d8a5b7b6bf66cd0ba1614d0eb33c5c33fcb9eb2a1911f6fba4b727864"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/assets.md",
+      "equal": true,
+      "localSha256": "feeaf6a763e3bb169f991e35bce421ed08e84c385a5dcf50d4dab1efeaba7c47",
+      "remoteSha256": "feeaf6a763e3bb169f991e35bce421ed08e84c385a5dcf50d4dab1efeaba7c47"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/builders.md",
+      "equal": true,
+      "localSha256": "d7f6e7d719513b51dadc2b1913241e028b655d099c1cadeb0fd205640bb5cec6",
+      "remoteSha256": "d7f6e7d719513b51dadc2b1913241e028b655d099c1cadeb0fd205640bb5cec6"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/craft.md",
+      "equal": true,
+      "localSha256": "30650c2c7e922a77204b8ee36720a790d665be65bbbbbb3e8374e6f5d5b900c7",
+      "remoteSha256": "30650c2c7e922a77204b8ee36720a790d665be65bbbbbb3e8374e6f5d5b900c7"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/resources.md",
+      "equal": true,
+      "localSha256": "7d45ffc02d28fc5624c6a6e1e88729e72bff4a5f140207576aad0b15a0a25e7a",
+      "remoteSha256": "7d45ffc02d28fc5624c6a6e1e88729e72bff4a5f140207576aad0b15a0a25e7a"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/review.md",
+      "equal": true,
+      "localSha256": "97584e0ef75b6da4ab478a5c6c87d89a7e10d1f3f23f8ceab775c41d13380ed5",
+      "remoteSha256": "97584e0ef75b6da4ab478a5c6c87d89a7e10d1f3f23f8ceab775c41d13380ed5"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/spec-template.md",
+      "equal": true,
+      "localSha256": "e38f4069284e361201fa32d6171b6184a5051d3c7f8b138c5df79a3a805c3c7d",
+      "remoteSha256": "e38f4069284e361201fa32d6171b6184a5051d3c7f8b138c5df79a3a805c3c7d"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/3d-and-webgl.md",
+      "equal": true,
+      "localSha256": "ce8fdd7f79d2a2793393589305c5f00200a23427767f232aadd3c7c6d374af5e",
+      "remoteSha256": "ce8fdd7f79d2a2793393589305c5f00200a23427767f232aadd3c7c6d374af5e"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/INDEX.md",
+      "equal": true,
+      "localSha256": "5bb76f0e2abcf27178f7356ec0f67a2038efd0d88b050f7d2186d14cf54d6c86",
+      "remoteSha256": "5bb76f0e2abcf27178f7356ec0f67a2038efd0d88b050f7d2186d14cf54d6c86"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/depth-and-interaction.md",
+      "equal": true,
+      "localSha256": "76af94cdc8b6491e54f47c3690df93f6ae31321fb4c6606670c573a73e44c2eb",
+      "remoteSha256": "76af94cdc8b6491e54f47c3690df93f6ae31321fb4c6606670c573a73e44c2eb"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/layout-and-ui.md",
+      "equal": true,
+      "localSha256": "31f976e7c11f41a27f5692838fd246b33307ebd806783b9581aae5abe3dd9738",
+      "remoteSha256": "31f976e7c11f41a27f5692838fd246b33307ebd806783b9581aae5abe3dd9738"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/scroll.md",
+      "equal": true,
+      "localSha256": "5e0c8ee2da9decd8f0014259ce86384b64642d0e0b7a56a54d13675a2fac5423",
+      "remoteSha256": "5e0c8ee2da9decd8f0014259ce86384b64642d0e0b7a56a54d13675a2fac5423"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/surfaces-and-buttons.md",
+      "equal": true,
+      "localSha256": "2923de3d50f4971a8c7a7c5abe8e57813831efe2baa9194061dcefd8b83e8936",
+      "remoteSha256": "2923de3d50f4971a8c7a7c5abe8e57813831efe2baa9194061dcefd8b83e8936"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/type-and-text-motion.md",
+      "equal": true,
+      "localSha256": "c1c8fedfe88ba0a85a1612ef3ae6f18909aac040e78dbd77451d548fd687bff7",
+      "remoteSha256": "c1c8fedfe88ba0a85a1612ef3ae6f18909aac040e78dbd77451d548fd687bff7"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/techniques/video-and-media.md",
+      "equal": true,
+      "localSha256": "7f1ab104b64539de041018f7d915ecb8e3a4d9c8a18b3181592814bff3af05cf",
+      "remoteSha256": "7f1ab104b64539de041018f7d915ecb8e3a4d9c8a18b3181592814bff3af05cf"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/references/upstream.json",
+      "equal": true,
+      "localSha256": "24e9e3102f845e71af6581b9a041f45020bd646b763f2eab6f40972eb4d96cf9",
+      "remoteSha256": "24e9e3102f845e71af6581b9a041f45020bd646b763f2eab6f40972eb4d96cf9"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/scripts/fetch_resources.py",
+      "equal": true,
+      "localSha256": "8e70853fd9dd8dafbdcc341f6cd53a63fec7b8364c2932f2557869a6993ff430",
+      "remoteSha256": "8e70853fd9dd8dafbdcc341f6cd53a63fec7b8364c2932f2557869a6993ff430"
+    },
+    {
+      "path": "skills/saitodel/vendor/motionsites/skills/motionsites-web-builder/scripts/shoot.py",
+      "equal": true,
+      "localSha256": "0f3966f7a055044222d3583614c077ed46969109d801ee33aceb63850cf57eb0",
+      "remoteSha256": "0f3966f7a055044222d3583614c077ed46969109d801ee33aceb63850cf57eb0"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/LICENSE",
+      "equal": true,
+      "localSha256": "f819c99baed06580a7ac29b8e4b7dbd685471470a7acf96f26d38be181611749",
+      "remoteSha256": "f819c99baed06580a7ac29b8e4b7dbd685471470a7acf96f26d38be181611749"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/THIRD_PARTY_NOTICES.md",
+      "equal": true,
+      "localSha256": "440728ea886e72ba733dff99154aba0ef594706ee79dc69a7987e1559ce292f6",
+      "remoteSha256": "440728ea886e72ba733dff99154aba0ef594706ee79dc69a7987e1559ce292f6"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/browser-inspection-workflow/SKILL.md",
+      "equal": true,
+      "localSha256": "fc1e557a8acb776f66683860e63f038adb225c8089b4a7f2f6e6a1cd29790ed0",
+      "remoteSha256": "fc1e557a8acb776f66683860e63f038adb225c8089b4a7f2f6e6a1cd29790ed0"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/browser-inspection-workflow/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "f19694984aa893d4d971afbac8c3bac917ae773a05871b6fe5baaddbf97c7027",
+      "remoteSha256": "f19694984aa893d4d971afbac8c3bac917ae773a05871b6fe5baaddbf97c7027"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/browser-inspection-workflow/references/browser-inspection-workflow-guide.md",
+      "equal": true,
+      "localSha256": "7b3225898ffd91306da63069ab638c7f80ed0fd62370505ca2262f685b102206",
+      "remoteSha256": "7b3225898ffd91306da63069ab638c7f80ed0fd62370505ca2262f685b102206"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/frontend-quality-auditor/SKILL.md",
+      "equal": true,
+      "localSha256": "0616f5c19b5ad85a13bac485a0e2c9bc6c8cce5ed549e4387f1513777009ecf4",
+      "remoteSha256": "0616f5c19b5ad85a13bac485a0e2c9bc6c8cce5ed549e4387f1513777009ecf4"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/frontend-quality-auditor/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "b346936002c2ecbfe570365b68533eb7c7c6a36390839c9e6af64c63861f1fb5",
+      "remoteSha256": "b346936002c2ecbfe570365b68533eb7c7c6a36390839c9e6af64c63861f1fb5"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/frontend-quality-auditor/references/audit-checklist.md",
+      "equal": true,
+      "localSha256": "7c0048d72e05e4fa16f392a1daaa822a8e130ab63f93876a139a2747eb9d0f34",
+      "remoteSha256": "7c0048d72e05e4fa16f392a1daaa822a8e130ab63f93876a139a2747eb9d0f34"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/SKILL.md",
+      "equal": true,
+      "localSha256": "80e2e679c415ab35190960661456992bbfe4bdd063c17e7ea492e979f99e3b32",
+      "remoteSha256": "80e2e679c415ab35190960661456992bbfe4bdd063c17e7ea492e979f99e3b32"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "4c8e58d51e50a80b73cf319a06aaebee3b29062589b1b6981707db0c04ad7fad",
+      "remoteSha256": "4c8e58d51e50a80b73cf319a06aaebee3b29062589b1b6981707db0c04ad7fad"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/references/baseline-contract.md",
+      "equal": true,
+      "localSha256": "e18258ce112f59e45cd4aceb923b95a5f691c611751e0f8b2cdb08d6f1550672",
+      "remoteSha256": "e18258ce112f59e45cd4aceb923b95a5f691c611751e0f8b2cdb08d6f1550672"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/references/stitched-full-page-capture.md",
+      "equal": true,
+      "localSha256": "03d25921086d183d654974e79bfb5a2623eec0b70910b714b8a759ae8538d3c7",
+      "remoteSha256": "03d25921086d183d654974e79bfb5a2623eec0b70910b714b8a759ae8538d3c7"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/scripts/capture-settled-baseline.mjs",
+      "equal": true,
+      "localSha256": "275e0c876403a8000b4b221d4cccde8a0c16fa80d3915ce6e722bc595dbac809",
+      "remoteSha256": "275e0c876403a8000b4b221d4cccde8a0c16fa80d3915ce6e722bc595dbac809"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/visual-regression-lab/scripts/capture-stitched-full-page.mjs",
+      "equal": true,
+      "localSha256": "ad953cec69b57ce5f4eb9af1973a9f60ed06ab90935092030ea06950eb13eca9",
+      "remoteSha256": "ad953cec69b57ce5f4eb9af1973a9f60ed06ab90935092030ea06950eb13eca9"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/web-design-direction-system/SKILL.md",
+      "equal": true,
+      "localSha256": "e131161512748ea4437b3fde76569827216716df22d89b59de9313e0869fbf5a",
+      "remoteSha256": "e131161512748ea4437b3fde76569827216716df22d89b59de9313e0869fbf5a"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/web-design-direction-system/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "99b45c835698dd3b89981e91ae32a8ac7508835e29c0edd30719182e998fa4fb",
+      "remoteSha256": "99b45c835698dd3b89981e91ae32a8ac7508835e29c0edd30719182e998fa4fb"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/web-design-direction-system/references/design-guidance-evidence-loop-guide.md",
+      "equal": true,
+      "localSha256": "82427822e3cf801d12bbfe4cca9d34325451a48d3bbbfc16544476427ec98762",
+      "remoteSha256": "82427822e3cf801d12bbfe4cca9d34325451a48d3bbbfc16544476427ec98762"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/web-design-vocabulary/SKILL.md",
+      "equal": true,
+      "localSha256": "48aac26ea43befbe5635c58974594466cea3d9ccfa5d9a78bbafcecb55f6f728",
+      "remoteSha256": "48aac26ea43befbe5635c58974594466cea3d9ccfa5d9a78bbafcecb55f6f728"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/web-design-vocabulary/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "5c4371ccf7d27e98490c2ffd436275a35f8b1ca34c938f78be4455ddc10265c8",
+      "remoteSha256": "5c4371ccf7d27e98490c2ffd436275a35f8b1ca34c938f78be4455ddc10265c8"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/web-design-vocabulary/references/web-design-vocabulary-guide.md",
+      "equal": true,
+      "localSha256": "952ebcf624835e1622c505d2e8f6b651e7cccaf501a58bd3c94840dcfa4f2059",
+      "remoteSha256": "952ebcf624835e1622c505d2e8f6b651e7cccaf501a58bd3c94840dcfa4f2059"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-blueprint-first/SKILL.md",
+      "equal": true,
+      "localSha256": "893cb109955a7c5f8a621c022d84be7faa57d80ac738d1d2ed2463877193ca00",
+      "remoteSha256": "893cb109955a7c5f8a621c022d84be7faa57d80ac738d1d2ed2463877193ca00"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-blueprint-first/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "fca4476710cc8b5ad31a9e4a6bcb343e21c72b861b3b04d0e28697a8dcaf8f2b",
+      "remoteSha256": "fca4476710cc8b5ad31a9e4a6bcb343e21c72b861b3b04d0e28697a8dcaf8f2b"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-blueprint-first/references/website-blueprint-first-guide.md",
+      "equal": true,
+      "localSha256": "8ee6c4e6cef4f439c2e59f684bf66ec96669ca40d82c21ea73c19a5a8f18b808",
+      "remoteSha256": "8ee6c4e6cef4f439c2e59f684bf66ec96669ca40d82c21ea73c19a5a8f18b808"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/SKILL.md",
+      "equal": true,
+      "localSha256": "4cf3607e6471d77178faab9df159be68c4c1d1632bfe5e0b575408c8cc0a628e",
+      "remoteSha256": "4cf3607e6471d77178faab9df159be68c4c1d1632bfe5e0b575408c8cc0a628e"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/agents/openai.yaml",
+      "equal": true,
+      "localSha256": "16b5fbbf5aee10e14f38f52c4034be165f98cd1392002bcc9d920d37601ede63",
+      "remoteSha256": "16b5fbbf5aee10e14f38f52c4034be165f98cd1392002bcc9d920d37601ede63"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/references/scoped-web-contract.md",
+      "equal": true,
+      "localSha256": "f3c0e6a56c3d5986075181d16228c75d32ecdbf61254ab5f4d54a301bfa2b7a8",
+      "remoteSha256": "f3c0e6a56c3d5986075181d16228c75d32ecdbf61254ab5f4d54a301bfa2b7a8"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/references/website-operating-rules-guide.md",
+      "equal": true,
+      "localSha256": "09c889bd0a952db5e3ec3853fc75bba491fd8ca608e16e712be1d42316c964e9",
+      "remoteSha256": "09c889bd0a952db5e3ec3853fc75bba491fd8ca608e16e712be1d42316c964e9"
+    },
+    {
+      "path": "skills/saitodel/vendor/thegoat/skills/website-operating-rules/references/website-quality-tiers.md",
+      "equal": true,
+      "localSha256": "e7b95a5130fdc87229229d329c608318c2cabdc081afdd8883785013b228de36",
+      "remoteSha256": "e7b95a5130fdc87229229d329c608318c2cabdc081afdd8883785013b228de36"
+    },
+    {
+      "path": "skills/saitodel/vendor/vercel/AGENTS.md",
+      "equal": true,
+      "localSha256": "35411b4a2dcfa651fd33706a92cc860947364b521643107fbf3116abe3826d44",
+      "remoteSha256": "35411b4a2dcfa651fd33706a92cc860947364b521643107fbf3116abe3826d44"
+    },
+    {
+      "path": "skills/saitodel/vendor/vercel/LICENSE",
+      "equal": true,
+      "localSha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2",
+      "remoteSha256": "6cd1609c9c12233507cdd2ce0d32e9a721e3c27494951be06b90090deeeb7af2"
+    },
+    {
+      "path": "skills/saitodel/vendor/vercel/README.md",
+      "equal": true,
+      "localSha256": "eda7dfa9998215267c7f920475d1773ea4129cb08ed088276ca598dd45d20aa5",
+      "remoteSha256": "eda7dfa9998215267c7f920475d1773ea4129cb08ed088276ca598dd45d20aa5"
+    },
+    {
+      "path": "skills/saitodel/vendor/vercel/command.md",
+      "equal": true,
+      "localSha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234",
+      "remoteSha256": "d246b026f4f29b5823a9cc857f9edf3d2507002e055e32040cadeaf3b38e0234"
+    }
+  ]
+}
