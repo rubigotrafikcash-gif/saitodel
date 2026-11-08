@@ -1,0 +1,54 @@
+{
+  "version": "0.2.0",
+  "source_files": 10,
+  "relative_links_checked": 15,
+  "source_sha256": {
+    "SKILL.md": "96392feb8d7cbd73831be70ff979f13c796ade69088f0158afe1bb1dd01fdff5",
+    "agents/openai.yaml": "42a85bfdb36d6b3dcd64527c301a6c1113e96bda0fc7a1e5e3de06a5d40777f4",
+    "assets/icon.svg": "4c7332aed02234040bbeefb618865c04e2ef855cc32c8688d100fc19fff7db15",
+    "assets/run-record-template.md": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0",
+    "references/architecture-and-copy.md": "2762809b123c666bfa0b0e446e31dbfb70440edbcd777a398a93f04f7bcd81b3",
+    "references/brief-and-approvals.md": "eb0738d8c76b5add7781dd0347a4ca6c134057e9e485d2a956ee3d48129a49d3",
+    "references/delivery-and-governance.md": "853950ab491caa2bdec597204f18a1626d20ba8acffcf9e314e548df28e15d67",
+    "references/design-motion-and-qa.md": "336204fe6b9af3f09852e00ec300798a8f1280cdf6756b4f430ca403b24726c8",
+    "references/multi-agent-regulation.md": "fa297998c231674f2349f0102e85b52b994c303d4da0211203874bdc78ff59c1",
+    "references/orchestration.md": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e"
+  },
+  "archives": {
+    "saitodel-skill-0.2.0.zip": {
+      "sha256": "97507f95c25e186d4dfc27eecd7ceabbf754b5a566c217f650ba5255451e065a",
+      "size_bytes": 80043,
+      "entries": [
+        "saitodel/SKILL.md",
+        "saitodel/agents/openai.yaml",
+        "saitodel/assets/icon.svg",
+        "saitodel/assets/run-record-template.md",
+        "saitodel/references/architecture-and-copy.md",
+        "saitodel/references/brief-and-approvals.md",
+        "saitodel/references/delivery-and-governance.md",
+        "saitodel/references/design-motion-and-qa.md",
+        "saitodel/references/multi-agent-regulation.md",
+        "saitodel/references/orchestration.md"
+      ]
+    },
+    "saitodel-plugin-0.2.0.zip": {
+      "sha256": "7e6eb57bee388ddd1fe2b0234f9844d61fef39385d11aad0b6d2d7cc42f603f6",
+      "size_bytes": 82264,
+      "entries": [
+        "saitodel/plugin.json",
+        "saitodel/skills/saitodel/SKILL.md",
+        "saitodel/skills/saitodel/agents/openai.yaml",
+        "saitodel/skills/saitodel/assets/icon.svg",
+        "saitodel/skills/saitodel/assets/run-record-template.md",
+        "saitodel/skills/saitodel/references/architecture-and-copy.md",
+        "saitodel/skills/saitodel/references/brief-and-approvals.md",
+        "saitodel/skills/saitodel/references/delivery-and-governance.md",
+        "saitodel/skills/saitodel/references/design-motion-and-qa.md",
+        "saitodel/skills/saitodel/references/multi-agent-regulation.md",
+        "saitodel/skills/saitodel/references/orchestration.md"
+      ]
+    }
+  },
+  "validation": "project_contract_not_full_json_schema",
+  "host_installation": "not_tested"
+}

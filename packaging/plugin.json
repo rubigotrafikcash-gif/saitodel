@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "saitodel",
+  "version": "0.2.0",
+  "description": "Проектирование, создание и проверка сайтов: от брифа и концепции до адаптива и подтверждённого результата.",
+  "author": {
+    "name": "TairPromo",
+    "url": "https://github.com/rubigotrafikcash-gif"
+  },
+  "homepage": "https://github.com/rubigotrafikcash-gif/saitodel",
+  "repository": "https://github.com/rubigotrafikcash-gif/saitodel",
+  "keywords": [
+    "web-design",
+    "web-development",
+    "saitodel"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Сайтодел",
+        "shortDescription": "Создание и проверка сайтов",
+        "longDescription": "Помогает создавать и перерабатывать сайты, проводить аудит и готовить мастер-промпты. Сохраняет единый бриф, выбранную концепцию и стек. Для существенной работы распределяет задачи между координатором, исполнителем и независимым проверяющим, если среда поддерживает делегирование.",
+        "developerName": "TairPromo",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "defaultPrompt": "Используй Сайтодел, чтобы спроектировать и собрать сайт для моего проекта.",
+        "logo": "./skills/saitodel/assets/icon.svg",
+        "composerIcon": "./skills/saitodel/assets/icon.svg"
+      }
+    }
+  }
+}

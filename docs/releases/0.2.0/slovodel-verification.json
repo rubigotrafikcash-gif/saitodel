@@ -1,0 +1,460 @@
+{
+  "tool": "Slovodel Core",
+  "version": "0.8.5",
+  "mode": "create",
+  "scope": "Mechanical text analysis and execution verification, not automatic semantic acceptance",
+  "semantic_review": "Source text inspected by coordinator; technical claims independently reviewed separately",
+  "placeholder_interpretation": {
+    "skill": "Markdown labels and quoted forbidden placeholder example",
+    "orchestration": "Markdown link labels only",
+    "template": "Intentional fields of the reusable run-record template",
+    "architecture": "Markdown link labels only",
+    "readme": "Markdown link labels only",
+    "surfaces": "Markdown labels, numbered source references and intentional empty rollout table row",
+    "report": "Markdown link labels only"
+  },
+  "files": {
+    "SKILL.md": {
+      "source_sha256": "96392feb8d7cbd73831be70ff979f13c796ade69088f0158afe1bb1dd01fdff5",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:14:27.361278+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:14:28.032920+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "96392feb8d7cbd73831be70ff979f13c796ade69088f0158afe1bb1dd01fdff5"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "ace7e3d4aa7c9b9847286a45aa68c50bfbac7b59542ccec6b31bed59bf36ac55"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": [
+        "[ЗАГЛУШКИ]"
+      ]
+    },
+    "references/orchestration.md": {
+      "source_sha256": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:14:48.112755+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:14:48.893327+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "c27462145fec113262eee2a4a49e221e9b9f63809bd03ba936d2375f05d9b25e"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "57a702d2b554614b0393ecaca88a1e9ddcde71223bfd2f3420cc8b5bad8c2447"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": []
+    },
+    "assets/run-record-template.md": {
+      "source_sha256": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:14:48.099526+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:14:48.853994+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "68f84988312ec4c3a8d6f98f55a923debd296ae53cc5094b53fc2d4eec9bfae0"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "bca2df2f51853aaa062175900ec5e97ecd5df0d600795ca7d8c69d76ee32404b"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": [
+        "[ссылка и точная цель]",
+        "[новый сайт / переработка / аудит / мастер-промпт]",
+        "[сайт, документ или развитие пакета]",
+        "[что поручено выполнить и где сохранить]",
+        "[READY / IMPLEMENTING / REVIEWING / FIXING_1 / FIXING_2 / ACCEPTED / BLOCKED]",
+        "[commit или SHA-256 ведомость файлов]",
+        "[commit или ведомость; URL и deployment при необходимости]",
+        "[общий измеримый лимит, включая всех агентов, проверки и исправления]",
+        "[модель/effort, доступные инструменты; неизвестное отметить]",
+        "[данные]",
+        "[данные]",
+        "[подпись, URL/действие, следующий шаг]",
+        "[что подтверждено; что запрещено придумывать]",
+        "[пути/ссылки, версии, лицензии при включении]",
+        "[решение пользователя, композиция, цвета, типографика, движение]",
+        "[существующий стек, целевая среда, разрешённые действия]",
+        "[согласованный охват]",
+        "[границы файлов, доступов, контента]",
+        "[решение, дата/ссылка, разрешённый объём]",
+        "[что неизвестно и что от этого зависит]",
+        "[существующая задача и условие возврата]",
+        "[ID]",
+        "[запись и назначенные файлы]",
+        "[результат]",
+        "[ID либо не запущен]",
+        "[точные пути или изолированная копия]",
+        "[артефакт]",
+        "[ID либо недоступен]",
+        "[только каталог своих свидетельств]",
+        "[review]",
+        "[путь, от кого, кому, когда]",
+        "[проверяющий не автор; какие исходники получил]",
+        "[конкретный результат]",
+        "[исходный запрос, бриф, версии и необходимые файлы]",
+        "[пути и действия]",
+        "[что сохранить]",
+        "[идентификаторы из таблицы ниже]",
+        "[версия, изменения, команды, свидетельства, ограничения]",
+        "[A1]",
+        "[да/нет]",
+        "[утверждённое требование]",
+        "[наблюдаемый результат]",
+        "[шаги/команда]",
+        "[A1]",
+        "[версия]",
+        "[ID]",
+        "[фактические действия]",
+        "[наблюдения]",
+        "[лог/URL/просмотренный скриншот]",
+        "[PASS / FAIL / NOT_CHECKED / N/A; причина]",
+        "[ID]",
+        "[приоритет]",
+        "[ID]",
+        "[ссылка]",
+        "[исправление]",
+        "[способ и результат]",
+        "[номер 1/2, версия до/после, дефекты, повторно проверенные критерии]",
+        "[отдельно от независимого результата]",
+        "[выполнен с доказательством / не проведён / неприменим]",
+        "[отдельный вывод]",
+        "[версия]",
+        "[технические проверки либо причина неприменимости]",
+        "[версия]",
+        "[просмотр, viewport, состояние]",
+        "[версия]",
+        "[выполненные взаимодействия]",
+        "[версия]",
+        "[целевой URL и подтверждение нужной версии]",
+        "[версия/неизвестно]",
+        "[статус]",
+        "[статус]",
+        "[статус]",
+        "[статус]",
+        "[ссылки]",
+        "[клиент и версия/неизвестно]",
+        "[статус]",
+        "[статус]",
+        "[статус]",
+        "[статус]",
+        "[ссылки]",
+        "[ACCEPTED / BLOCKED / работа продолжается; основание]",
+        "[точная причина, свидетельство, затронутые критерии]",
+        "[что должно измениться; не повторять ту же попытку без причины]",
+        "[одно действие в разрешённых границах]"
+      ]
+    },
+    "docs/plugin-architecture-proposal.md": {
+      "source_sha256": "874b6ecd19be25484b4027b845e109021ac53647b64edca7b4c0539475c9f151",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:25:31.801048+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:25:32.416063+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "874b6ecd19be25484b4027b845e109021ac53647b64edca7b4c0539475c9f151"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "5c19f5bc6c2f9debfee6b5197948d3a03c7601d62306ebeacdd060e1c56d956c"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": []
+    },
+    "README.md": {
+      "source_sha256": "ab614b76451891e0063d4ca72bd8001396e13a739c155c64cb6874ec24cce05b",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:16:12.950742+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:16:13.699103+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "ab614b76451891e0063d4ca72bd8001396e13a739c155c64cb6874ec24cce05b"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "5bab5c81f2c7a6997df425f9403b71f23dfd23b36325bb0ca5dcf00ee8a26acf"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": []
+    },
+    "docs/cross-surface-rollout.md": {
+      "source_sha256": "d7aa1fc28426ccf89682c92219d42120f6f830ec8faa8fa291ba0a0a9be63867",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:16:12.972652+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:16:13.758263+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "d7aa1fc28426ccf89682c92219d42120f6f830ec8faa8fa291ba0a0a9be63867"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "4fd927b7c04d32482775c14df272ea3e57ac7421bb827d232894b2984d17b8f3"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": [
+        "[1]",
+        "[2]",
+        "[1]",
+        "[2]",
+        "[1]",
+        "[2]",
+        "[1]",
+        "[3]",
+        "[1]",
+        "[1]",
+        "[3]",
+        "[3]",
+        "[4]",
+        "[5]",
+        "[3]",
+        "[4]",
+        "[5]",
+        "[1]",
+        "[1]",
+        "[1]",
+        "[6]",
+        "[конкретный клиент]",
+        "[ID/путь]",
+        "[версия]",
+        "[ссылка/причина]"
+      ]
+    },
+    "docs/releases/0.2.0/report.md": {
+      "source_sha256": "68ad7fc146223744032a16b07f552f625d30d9358bdc00bde7d448b216b86958",
+      "execution": {
+        "execution_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "python_executable": "C:\\Users\\rust\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+        "python_version": "3.12.14",
+        "started_at": "2026-11-08T17:25:31.802056+00:00",
+        "core_exit_code": 0,
+        "verification": "passed",
+        "word_limits": null,
+        "configured_model": null,
+        "configured_effort": null,
+        "publication_ready": false,
+        "finished_at": "2026-11-08T17:25:32.339337+00:00",
+        "runner_exit_code": 0
+      },
+      "verification": {
+        "verification_version": "1.0.0",
+        "tool_version": "0.8.5",
+        "mode": "create",
+        "structural_checks": "passed",
+        "input_hashes": {
+          "input": "68ad7fc146223744032a16b07f552f625d30d9358bdc00bde7d448b216b86958"
+        },
+        "hash_checks": 1,
+        "core_exit_code": 0,
+        "core_decision": "draft_requires_review",
+        "schema_validation": "unavailable",
+        "schema_instances": [
+          "workflow",
+          "analysis"
+        ],
+        "schema_unavailable_reason": "JSONSCHEMA_NOT_INSTALLED",
+        "semantic_review": "not_performed_by_verifier",
+        "publication_ready": false,
+        "report_sha256": "1e7a1bc299f7e09ca4210ef36a2d6a5813a17e026ec6940e4b5c93bf8a06c6a9"
+      },
+      "core_warnings": [
+        "NO_AUTO_PUBLICATION",
+        "NO_SEMANTIC_EQUIVALENCE_PROVEN",
+        "UNRESOLVED_PLACEHOLDER_DETECTED",
+        "BRIEF_FACTS_NOT_AUTOMATICALLY_VERIFIED"
+      ],
+      "non_link_brackets": []
+    }
+  }
+}

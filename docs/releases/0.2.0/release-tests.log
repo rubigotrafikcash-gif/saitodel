@@ -1,0 +1,18 @@
+test_broken_or_escaping_link_prevents_release (test_release.ReleaseTests.test_broken_or_escaping_link_prevents_release) ... ok
+test_crlf_and_lf_have_identical_payloads (test_release.ReleaseTests.test_crlf_and_lf_have_identical_payloads) ... ok
+test_duplicate_keys_cannot_mask_metadata (test_release.ReleaseTests.test_duplicate_keys_cannot_mask_metadata) ... ok
+test_invalid_svg_prevents_release (test_release.ReleaseTests.test_invalid_svg_prevents_release) ... ok
+test_missing_material_prevents_release (test_release.ReleaseTests.test_missing_material_prevents_release) ... ok
+test_old_product_metadata_is_rejected (test_release.ReleaseTests.test_old_product_metadata_is_rejected) ... ok
+test_oversized_subtitle_prevents_release (test_release.ReleaseTests.test_oversized_subtitle_prevents_release) ... ok
+test_reproducible_roundtrip_and_exact_inventory (test_release.ReleaseTests.test_reproducible_roundtrip_and_exact_inventory) ... ok
+test_runtime_binding_prevents_release (test_release.ReleaseTests.test_runtime_binding_prevents_release) ... ok
+test_small_or_nonsquare_icon_prevents_release (test_release.ReleaseTests.test_small_or_nonsquare_icon_prevents_release) ... ok
+test_tampered_archive_is_rejected (test_release.ReleaseTests.test_tampered_archive_is_rejected) ... ok
+test_unrelated_files_never_enter_packages (test_release.ReleaseTests.test_unrelated_files_never_enter_packages) ... ok
+test_version_mismatch_prevents_release (test_release.ReleaseTests.test_version_mismatch_prevents_release) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.439s
+
+OK
