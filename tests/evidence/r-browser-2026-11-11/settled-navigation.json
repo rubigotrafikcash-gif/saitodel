@@ -1,0 +1,1986 @@
+[
+  {
+    "site": "work",
+    "width": 375,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "Услуги",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#process",
+        "text": "Процесс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#faq",
+        "text": "Вопросы",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно для начала?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2686
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "А если пока нет текстов и фотографий?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2686
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Как определяются стоимость и сроки?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2686
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Сайт будет работать на телефоне?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2686
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Эта форма отправляет заявку?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2686
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3395
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3566
+      },
+      {
+        "tag": "BUTTON",
+        "id": "demo-button",
+        "href": null,
+        "text": "Проверить демоформу ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3566
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3566
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "В начало ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3566
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    линия↗\n    \n      Услуги\n      Процесс\n      Вопросы\n      Обс",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3566
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "В начало ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "viewport": true,
+      "scrollY": 3566
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -2492,
+        "visible": true,
+        "scrollY": 2588
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 48,
+        "visible": true,
+        "scrollY": 48
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 422.15625,
+        "visible": true,
+        "scrollY": 802
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 116.484375,
+        "visible": true,
+        "scrollY": 2032
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 232.296875,
+        "visible": true,
+        "scrollY": 2720
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": false,
+        "hash": "",
+        "top": 605.8125,
+        "visible": true,
+        "scrollY": 2904
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 370.8125,
+        "visible": true,
+        "scrollY": 3139
+      },
+      {
+        "index": 7,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -272,
+        "visible": true,
+        "scrollY": 368
+      },
+      {
+        "index": 8,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -303,
+        "visible": true,
+        "scrollY": 399
+      }
+    ]
+  },
+  {
+    "site": "work",
+    "width": 768,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "Услуги",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#process",
+        "text": "Процесс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#faq",
+        "text": "Вопросы",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно для начала?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2395
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "А если пока нет текстов и фотографий?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2395
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Как определяются стоимость и сроки?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2395
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Сайт будет работать на телефоне?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2395
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Эта форма отправляет заявку?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2395
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2959
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3044
+      },
+      {
+        "tag": "BUTTON",
+        "id": "demo-button",
+        "href": null,
+        "text": "Проверить демоформу ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3044
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3044
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "В начало ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3044
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    линия↗\n    \n      Услуги\n      Процесс\n      Вопросы\n      Обс",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3044
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "В начало ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "viewport": true,
+      "scrollY": 3044
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -1867,
+        "visible": true,
+        "scrollY": 1975
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 48,
+        "visible": true,
+        "scrollY": 60
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 288.46875,
+        "visible": true,
+        "scrollY": 876
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 798.75,
+        "visible": true,
+        "scrollY": 1207
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 186.9375,
+        "visible": true,
+        "scrollY": 2539
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 447.9375,
+        "visible": true,
+        "scrollY": 2837
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 472.9375,
+        "visible": true,
+        "scrollY": 2812
+      },
+      {
+        "index": 7,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -130,
+        "visible": true,
+        "scrollY": 238
+      },
+      {
+        "index": 8,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -152,
+        "visible": true,
+        "scrollY": 260
+      }
+    ]
+  },
+  {
+    "site": "work",
+    "width": 1440,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "Услуги",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#process",
+        "text": "Процесс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#faq",
+        "text": "Вопросы",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно для начала?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2407
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "А если пока нет текстов и фотографий?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2407
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Как определяются стоимость и сроки?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2407
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Сайт будет работать на телефоне?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2407
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Эта форма отправляет заявку?+",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2407
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2974
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3061
+      },
+      {
+        "tag": "BUTTON",
+        "id": "demo-button",
+        "href": null,
+        "text": "Проверить демоформу ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3061
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3094
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "В начало ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3094
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    линия↗\n    \n      Услуги\n      Процесс\n      Вопросы\n      Обс",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3094
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "В начало ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "viewport": true,
+      "scrollY": 3094
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -1924,
+        "visible": true,
+        "scrollY": 2032
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 48,
+        "visible": true,
+        "scrollY": 60
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 353.9375,
+        "visible": true,
+        "scrollY": 945
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 894.875,
+        "visible": true,
+        "scrollY": 1240
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 188.203125,
+        "visible": true,
+        "scrollY": 2549
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 393.203125,
+        "visible": true,
+        "scrollY": 2903
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 372.203125,
+        "visible": true,
+        "scrollY": 2924
+      },
+      {
+        "index": 7,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -198,
+        "visible": true,
+        "scrollY": 306
+      },
+      {
+        "index": 8,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -169,
+        "visible": true,
+        "scrollY": 277
+      }
+    ]
+  },
+  {
+    "site": "codex",
+    "width": 375,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "href": null,
+        "text": "Меню",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "↓",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 38
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "01ЛендингОдна страница с главным: что вы делаете, почему к вам стоит прийти и как связатьс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 773
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "02Сайт компанииБольше места для ваших услуг, подхода и деталей, которые помогают сделать в",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 964
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "03Обновление сайтаПереосмысливаем структуру, освежаем дизайн и делаем привычный сайт удобн",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 1026
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Пока не знаю, какой сайт нужен. Это нормально?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2904
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Можно обновить существующий сайт?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2904
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно подготовить с моей стороны?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2904
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "От чего зависят стоимость и сроки?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2904
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Форма на этом сайте отправляет заявку?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 2947
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "viewport": true,
+        "scrollY": 3797
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "viewport": true,
+        "scrollY": 3961
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "href": null,
+        "text": "Проверить форму ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3961
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3961
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "Наверх ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3961
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    \n      \n      линия.\n    \n    \n      Меню\n    \n    \n      Услу",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3961
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "Наверх ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "viewport": true,
+      "scrollY": 3961
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -2963,
+        "visible": true,
+        "scrollY": 3051
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 0,
+        "visible": true,
+        "scrollY": 0
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 189.5625,
+        "visible": true,
+        "scrollY": 775
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 74.390625,
+        "visible": true,
+        "scrollY": 1978
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 244.09375,
+        "visible": true,
+        "scrollY": 2858
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 406.046875,
+        "visible": true,
+        "scrollY": 3514
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 440.046875,
+        "visible": true,
+        "scrollY": 3480
+      },
+      {
+        "index": 7,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 61.5625,
+        "visible": true,
+        "scrollY": 903
+      },
+      {
+        "index": 8,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 214.046875,
+        "visible": true,
+        "scrollY": 3706
+      },
+      {
+        "index": 9,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 219.046875,
+        "visible": true,
+        "scrollY": 3701
+      },
+      {
+        "index": 10,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 159.046875,
+        "visible": true,
+        "scrollY": 3761
+      },
+      {
+        "index": 11,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -27,
+        "visible": true,
+        "scrollY": 27
+      },
+      {
+        "index": 12,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -34,
+        "visible": true,
+        "scrollY": 34
+      }
+    ]
+  },
+  {
+    "site": "codex",
+    "width": 768,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "Услуги",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#process",
+        "text": "Как работаем",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#faq",
+        "text": "Вопросы",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "↓",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "01ЛендингОдна страница с главным: что вы делаете, почему к вам стоит прийти и как связатьс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 590
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "02Сайт компанииБольше места для ваших услуг, подхода и деталей, которые помогают сделать в",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 687
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "03Обновление сайтаПереосмысливаем структуру, освежаем дизайн и делаем привычный сайт удобн",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 687
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Пока не знаю, какой сайт нужен. Это нормально?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2162
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Можно обновить существующий сайт?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2162
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно подготовить с моей стороны?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2162
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "От чего зависят стоимость и сроки?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2162
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Форма на этом сайте отправляет заявку?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2208
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "viewport": true,
+        "scrollY": 2869
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "viewport": true,
+        "scrollY": 3007
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "href": null,
+        "text": "Проверить форму ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3007
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3007
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "Наверх ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3007
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    \n      \n      линия.\n    \n    \n      Меню\n    \n    \n      Услу",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3007
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "Наверх ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "viewport": true,
+      "scrollY": 3007
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -1839,
+        "visible": true,
+        "scrollY": 1934
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 0,
+        "visible": true,
+        "scrollY": 0
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 139,
+        "visible": true,
+        "scrollY": 620
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 660.671875,
+        "visible": true,
+        "scrollY": 1035
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 130.8125,
+        "visible": true,
+        "scrollY": 2365
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 287.953125,
+        "visible": true,
+        "scrollY": 2906
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 301.953125,
+        "visible": true,
+        "scrollY": 2892
+      },
+      {
+        "index": 7,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 63,
+        "visible": true,
+        "scrollY": 696
+      },
+      {
+        "index": 8,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 191.953125,
+        "visible": true,
+        "scrollY": 3002
+      },
+      {
+        "index": 9,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 182.953125,
+        "visible": true,
+        "scrollY": 3011
+      },
+      {
+        "index": 10,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 158.953125,
+        "visible": true,
+        "scrollY": 3035
+      },
+      {
+        "index": 11,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 0,
+        "visible": true,
+        "scrollY": 0
+      },
+      {
+        "index": 12,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 0,
+        "visible": true,
+        "scrollY": 0
+      }
+    ]
+  },
+  {
+    "site": "codex",
+    "width": 1440,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "Услуги",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#process",
+        "text": "Как работаем",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#faq",
+        "text": "Вопросы",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "↓",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "01ЛендингОдна страница с главным: что вы делаете, почему к вам стоит прийти и как связатьс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 685
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "02Сайт компанииБольше места для ваших услуг, подхода и деталей, которые помогают сделать в",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 838
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "03Обновление сайтаПереосмысливаем структуру, освежаем дизайн и делаем привычный сайт удобн",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 838
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Пока не знаю, какой сайт нужен. Это нормально?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Можно обновить существующий сайт?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно подготовить с моей стороны?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "От чего зависят стоимость и сроки?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Форма на этом сайте отправляет заявку?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 2342
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "viewport": true,
+        "scrollY": 3052
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "viewport": true,
+        "scrollY": 3178
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "href": null,
+        "text": "Проверить форму ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": true,
+        "scrollY": 3178
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3211
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "Наверх ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3211
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    \n      \n      линия.\n    \n    \n      Меню\n    \n    \n      Услу",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "viewport": false,
+        "scrollY": 3211
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "Наверх ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "viewport": false,
+      "scrollY": 3211
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -2056,
+        "visible": true,
+        "scrollY": 2168
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 0,
+        "visible": true,
+        "scrollY": 0
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 186.15625,
+        "visible": true,
+        "scrollY": 695
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 778.203125,
+        "visible": true,
+        "scrollY": 1071
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 149.78125,
+        "visible": true,
+        "scrollY": 2469
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 322.875,
+        "visible": true,
+        "scrollY": 3040
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 278.875,
+        "visible": true,
+        "scrollY": 3084
+      },
+      {
+        "index": 7,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 63.15625,
+        "visible": true,
+        "scrollY": 818
+      },
+      {
+        "index": 8,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 178.875,
+        "visible": true,
+        "scrollY": 3184
+      },
+      {
+        "index": 9,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 137.875,
+        "visible": true,
+        "scrollY": 3225
+      },
+      {
+        "index": 10,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 117.875,
+        "visible": true,
+        "scrollY": 3245
+      },
+      {
+        "index": 11,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -2,
+        "visible": true,
+        "scrollY": 2
+      },
+      {
+        "index": 12,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -2,
+        "visible": true,
+        "scrollY": 2
+      }
+    ]
+  }
+]

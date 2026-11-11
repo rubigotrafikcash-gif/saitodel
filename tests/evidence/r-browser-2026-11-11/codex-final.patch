@@ -1,0 +1,65 @@
+diff --git a/index.html b/index.html
+index 29b92de..4b16bad 100644
+--- a/index.html
++++ b/index.html
+@@ -30,7 +30,7 @@
+       <a href="#services">Услуги</a>
+       <a href="#process">Как работаем</a>
+       <a href="#faq">Вопросы</a>
+-      <a class="nav-contact" href="#contact">Открыть демоформу <span aria-hidden="true">↗</span></a>
++      <a class="nav-contact" href="#contact">Обсудить проект <span aria-hidden="true">↗</span></a>
+     </nav>
+   </header>
+ 
+@@ -40,8 +40,8 @@
+         <p class="eyebrow" data-entrance><span class="status-dot" aria-hidden="true"></span> Небольшая студия. Внимание к вашему делу.</p>
+         <h1 id="hero-title" data-entrance>Сайты, которые<br>делают бизнес<br><em>ближе.</em></h1>
+         <p class="hero-description" data-entrance>Создаём сайты для кафе, салонов и&nbsp;локальных сервисов. Чтобы вас было легко найти, понять и&nbsp;выбрать.</p>
+-        <a class="button button-dark" href="#contact">Открыть демоформу <span aria-hidden="true">↗</span></a>
+-        <p class="hero-note">Можно проверить форму с тестовыми данными.</p>
++        <a class="button button-dark" href="#contact">Обсудить проект <span aria-hidden="true">↗</span></a>
++        <p class="hero-note">Откроется демоформа. Данные никуда не отправляются.</p>
+       </div>
+       <figure class="hero-art" data-entrance>
+         <div class="art-topline"><span>Из смысла — в форму</span><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 1v30M1 16h30M5.4 5.4l21.2 21.2M26.6 5.4 5.4 26.6"/></svg></div>
+diff --git a/script.js b/script.js
+index ec71369..dee004e 100644
+--- a/script.js
++++ b/script.js
+@@ -15,8 +15,11 @@ function closeMenu(returnFocus = false) {
+ siteHeader.classList.add("js-nav");
+ menuToggle.hidden = !mobileQuery.matches;
+ mobileQuery.addEventListener("change", (event) => {
++  const navHadFocus = mainNav.contains(document.activeElement);
++  const toggleHadFocus = document.activeElement === menuToggle;
+   menuToggle.hidden = !event.matches;
+-  closeMenu();
++  closeMenu(event.matches && navHadFocus);
++  if (!event.matches && toggleHadFocus) mainNav.querySelector("a").focus();
+ });
+ menuToggle.addEventListener("click", () => {
+   const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+@@ -39,7 +42,9 @@ document.addEventListener("keydown", (event) => {
+   if (event.key === "Escape" && menuToggle.getAttribute("aria-expanded") === "true") closeMenu(true);
+ });
+ function closeMenuOutsideHeader(event) {
+-  if (!siteHeader.contains(event.target) && menuToggle.getAttribute("aria-expanded") === "true") closeMenu();
++  if (!siteHeader.contains(event.target) && menuToggle.getAttribute("aria-expanded") === "true") {
++    closeMenu(mobileQuery.matches && mainNav.contains(document.activeElement));
++  }
+ }
+ document.addEventListener("click", closeMenuOutsideHeader);
+ document.addEventListener("focusin", closeMenuOutsideHeader);
+diff --git a/styles.css b/styles.css
+index 9f5f46e..c8d7cfe 100644
+--- a/styles.css
++++ b/styles.css
+@@ -114,7 +114,7 @@ fieldset{margin:0;padding:0;border:0;min-inline-size:0}
+ .field label{display:block;font-size:12px;font-weight:600;margin-bottom:9px}
+ .field label>span{font-size:10px;font-weight:400;color:var(--muted);margin-left:5px}
+ .field input{width:100%;border:1px solid #738171;border-radius:0;background:#f6f5ee;min-height:55px;padding:14px 16px;color:var(--ink);font-size:16px;line-height:1.5;transition:border-color .2s}
+-.field input::placeholder{font-size:14px;color:#6c756a;opacity:1}
++.field input::placeholder{font-size:14px;color:#657060;opacity:1}
+ .field input:hover{border-color:var(--green)}
+ .field input:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+ .field input[aria-invalid="true"]{border-color:var(--error)}

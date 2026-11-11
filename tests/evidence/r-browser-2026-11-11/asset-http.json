@@ -1,0 +1,27 @@
+[
+  {
+    "url": "http://127.0.0.1:48917/social-preview.svg",
+    "status": 200,
+    "bytes": 607
+  },
+  {
+    "url": "http://127.0.0.1:48918/assets/social-preview.svg",
+    "status": 200,
+    "bytes": 920
+  },
+  {
+    "url": "http://127.0.0.1:48917/favicon.svg",
+    "status": 200,
+    "bytes": 202
+  },
+  {
+    "url": "http://127.0.0.1:48918/assets/favicon.svg",
+    "status": 200,
+    "bytes": 209
+  },
+  {
+    "url": "http://127.0.0.1:48918/assets/manrope.ttf",
+    "status": 200,
+    "bytes": 164700
+  }
+]

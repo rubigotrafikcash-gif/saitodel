@@ -1,0 +1,180 @@
+[
+  {
+    "site": "work-before",
+    "findings": [
+      {
+        "width": 375,
+        "nav": 36.046875,
+        "navHeight": 44,
+        "placeholder": "rgb(23, 60, 50)",
+        "border": "rgb(123, 141, 124)",
+        "inputBackground": "rgba(0, 0, 0, 0)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 768,
+        "nav": 42.0625,
+        "navHeight": 44,
+        "placeholder": "rgb(23, 60, 50)",
+        "border": "rgb(123, 141, 124)",
+        "inputBackground": "rgba(0, 0, 0, 0)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 1440,
+        "nav": 42.0625,
+        "navHeight": 44,
+        "placeholder": "rgb(23, 60, 50)",
+        "border": "rgb(123, 141, 124)",
+        "inputBackground": "rgba(0, 0, 0, 0)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      }
+    ]
+  },
+  {
+    "site": "work",
+    "findings": [
+      {
+        "width": 375,
+        "nav": 44,
+        "navHeight": 44,
+        "placeholder": "rgb(23, 60, 50)",
+        "border": "rgb(123, 141, 124)",
+        "inputBackground": "rgba(0, 0, 0, 0)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 768,
+        "nav": 44,
+        "navHeight": 44,
+        "placeholder": "rgb(23, 60, 50)",
+        "border": "rgb(123, 141, 124)",
+        "inputBackground": "rgba(0, 0, 0, 0)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 1440,
+        "nav": 44,
+        "navHeight": 44,
+        "placeholder": "rgb(23, 60, 50)",
+        "border": "rgb(123, 141, 124)",
+        "inputBackground": "rgba(0, 0, 0, 0)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      }
+    ]
+  },
+  {
+    "site": "codex-before",
+    "findings": [
+      {
+        "width": 375,
+        "nav": 0,
+        "navHeight": 0,
+        "scroll": 40,
+        "placeholder": "rgb(108, 117, 106)",
+        "border": "rgb(175, 188, 169)",
+        "inputBackground": "rgb(246, 245, 238)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 768,
+        "nav": 43.15625,
+        "navHeight": 45.4375,
+        "scroll": 44,
+        "placeholder": "rgb(108, 117, 106)",
+        "border": "rgb(175, 188, 169)",
+        "inputBackground": "rgb(246, 245, 238)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 1440,
+        "nav": 43.15625,
+        "navHeight": 45.4375,
+        "scroll": 44,
+        "placeholder": "rgb(108, 117, 106)",
+        "border": "rgb(175, 188, 169)",
+        "inputBackground": "rgb(246, 245, 238)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mobile": {
+      "focusout": {
+        "open": "true",
+        "active": "button button-dark",
+        "activeHref": "#contact"
+      },
+      "escape": {
+        "open": "false",
+        "active": "menu-toggle",
+        "activeHref": null
+      },
+      "shrink": {
+        "open": "false",
+        "active": "",
+        "activeHref": null
+      },
+      "grow": {
+        "open": "false",
+        "active": "",
+        "activeHref": null
+      }
+    }
+  },
+  {
+    "site": "codex",
+    "findings": [
+      {
+        "width": 375,
+        "nav": 0,
+        "navHeight": 0,
+        "scroll": 44,
+        "placeholder": "rgb(101, 112, 96)",
+        "border": "rgb(115, 129, 113)",
+        "inputBackground": "rgb(246, 245, 238)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 768,
+        "nav": 43.15625,
+        "navHeight": 45.4375,
+        "scroll": 44,
+        "placeholder": "rgb(101, 112, 96)",
+        "border": "rgb(115, 129, 113)",
+        "inputBackground": "rgb(246, 245, 238)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      },
+      {
+        "width": 1440,
+        "nav": 43.15625,
+        "navHeight": 45.4375,
+        "scroll": 44,
+        "placeholder": "rgb(101, 112, 96)",
+        "border": "rgb(115, 129, 113)",
+        "inputBackground": "rgb(246, 245, 238)",
+        "panelBackground": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "mobile": {
+      "focusout": {
+        "open": "false",
+        "active": "button button-dark",
+        "activeHref": "#contact"
+      },
+      "escape": {
+        "open": "false",
+        "active": "menu-toggle",
+        "activeHref": null
+      },
+      "shrink": {
+        "open": "false",
+        "active": "menu-toggle",
+        "activeHref": null
+      },
+      "grow": {
+        "open": "false",
+        "active": "",
+        "activeHref": "#services"
+      }
+    }
+  }
+]

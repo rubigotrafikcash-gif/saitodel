@@ -1,0 +1,62 @@
+[
+  {
+    "path": "work/app.js",
+    "sha256": "e94350141ec67e603df64e1f9d0fba26905a663543cfef34d02f88350abc87e8"
+  },
+  {
+    "path": "work/favicon.svg",
+    "sha256": "b28f2a9719ffa0578f2781aec08e8ca7487241be78c9480ab1395021ded54445"
+  },
+  {
+    "path": "work/index.html",
+    "sha256": "4c5b270ca2ecc4ad389c193b2f017d6fd6c8c39395e1904cde2aaa4ef5df653c"
+  },
+  {
+    "path": "work/server.cjs",
+    "sha256": "e1827999a98c7988c57e17fc138c8603cc3c2b039200e06b48a46a19a1476cc7"
+  },
+  {
+    "path": "work/social-preview.svg",
+    "sha256": "0cbf9106cb6ecc510936c8d626542fd0c8debb4769fa376ec8c99f013997b654"
+  },
+  {
+    "path": "work/styles.css",
+    "sha256": "cc4dfe45ea135af7870f7bd72c3d55d8e00c1615f3a54d8a57ec91db7287f101"
+  },
+  {
+    "path": "codex/index.html",
+    "sha256": "2f1af0788deec0bf865e04275c3546ca15ba710f953f4d732ca3d84ba8ef386a"
+  },
+  {
+    "path": "codex/package.json",
+    "sha256": "cbc35b1b33309f2d768c890214f4dd26bde2a816fb25973bc17a297f1ba56878"
+  },
+  {
+    "path": "codex/script.js",
+    "sha256": "413d66579389130ca5410664a271754174483983531286559ce33cda734fa93f"
+  },
+  {
+    "path": "codex/server.mjs",
+    "sha256": "e0d3df1a53176b522675cee0ebec65da8baa07d696cc6618a46e5f25dff95db3"
+  },
+  {
+    "path": "codex/styles.css",
+    "sha256": "5d7d4fb68f61e1786466adcb76c8653783f7db2b734d13d3f9f5342d03a4ed1e"
+  },
+  {
+    "path": "codex/assets/favicon.svg",
+    "sha256": "102fd91882861c3120cd882a580118ef71bc95371e54ab5e8b219efe73ffb548"
+  },
+  {
+    "path": "codex/assets/manrope.ttf",
+    "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+  },
+  {
+    "path": "codex/assets/OFL-Manrope.txt",
+    "sha256": "4f67b767d602edc0065ca540cfb36d15e3d5e41eecb4c32f768a5f6d396d56fb"
+  },
+  {
+    "path": "codex/assets/social-preview.svg",
+    "sha256": "09d924c954df078091187f2579a16b53dd32332dea84576f1f0f0007852a7a67"
+  }
+]

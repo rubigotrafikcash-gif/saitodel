@@ -1,0 +1,633 @@
+[
+  {
+    "site": "codex",
+    "width": 1440,
+    "keyPath": [
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#main",
+        "text": "Перейти к содержанию",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 10,
+          "y": 10,
+          "width": 194.890625,
+          "height": 47.09375,
+          "top": 10,
+          "right": 204.890625,
+          "bottom": 57.09375,
+          "left": 10
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 79.90625,
+          "y": 34,
+          "width": 146.3125,
+          "height": 44,
+          "top": 34,
+          "right": 226.21875,
+          "bottom": 78,
+          "left": 79.90625
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "Услуги",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 898.828125,
+          "y": 33.28125,
+          "width": 43.15625,
+          "height": 45.4375,
+          "top": 33.28125,
+          "right": 941.984375,
+          "bottom": 78.71875,
+          "left": 898.828125
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#process",
+        "text": "Как работаем",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 977.984375,
+          "y": 33.28125,
+          "width": 86.65625,
+          "height": 45.4375,
+          "top": 33.28125,
+          "right": 1064.640625,
+          "bottom": 78.71875,
+          "left": 977.984375
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#faq",
+        "text": "Вопросы",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 1100.640625,
+          "y": 33.28125,
+          "width": 56.3125,
+          "height": 45.4375,
+          "top": 33.28125,
+          "right": 1156.953125,
+          "bottom": 78.71875,
+          "left": 1100.640625
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 1208.953125,
+          "y": 36.78125,
+          "width": 151.140625,
+          "height": 38.4375,
+          "top": 36.78125,
+          "right": 1360.09375,
+          "bottom": 75.21875,
+          "left": 1208.953125
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "Обсудить проект ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 79.90625,
+          "y": 630.15625,
+          "width": 210.875,
+          "height": 58,
+          "top": 630.15625,
+          "right": 290.78125,
+          "bottom": 688.15625,
+          "left": 79.90625
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#services",
+        "text": "↓",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 1316.09375,
+          "y": 812.15625,
+          "width": 44,
+          "height": 44,
+          "top": 812.15625,
+          "right": 1360.09375,
+          "bottom": 856.15625,
+          "left": 1316.09375
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 0
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "01ЛендингОдна страница с главным: что вы делаете, почему к вам стоит прийти и как связатьс",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 79.90625,
+          "y": 536.4375,
+          "width": 1280.1875,
+          "height": 158.875,
+          "top": 536.4375,
+          "right": 1360.09375,
+          "bottom": 695.3125,
+          "left": 79.90625
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 685
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "02Сайт компанииБольше места для ваших услуг, подхода и деталей, которые помогают сделать в",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 79.90625,
+          "y": 542.3125,
+          "width": 1280.1875,
+          "height": 158.875,
+          "top": 542.3125,
+          "right": 1360.09375,
+          "bottom": 701.1875,
+          "left": 79.90625
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 838
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#contact",
+        "text": "03Обновление сайтаПереосмысливаем структуру, освежаем дизайн и делаем привычный сайт удобн",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 79.90625,
+          "y": 701.1875,
+          "width": 1280.1875,
+          "height": 158.875,
+          "top": 701.1875,
+          "right": 1360.09375,
+          "bottom": 860.0625,
+          "left": 79.90625
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 838
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Пока не знаю, какой сайт нужен. Это нормально?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 673.046875,
+          "y": 419.78125,
+          "width": 687.03125,
+          "height": 85,
+          "top": 419.78125,
+          "right": 1360.078125,
+          "bottom": 504.78125,
+          "left": 673.046875
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Можно обновить существующий сайт?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 673.046875,
+          "y": 578.875,
+          "width": 687.03125,
+          "height": 85,
+          "top": 578.875,
+          "right": 1360.078125,
+          "bottom": 663.875,
+          "left": 673.046875
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Что нужно подготовить с моей стороны?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 673.046875,
+          "y": 664.875,
+          "width": 687.03125,
+          "height": 85,
+          "top": 664.875,
+          "right": 1360.078125,
+          "bottom": 749.875,
+          "left": 673.046875
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "От чего зависят стоимость и сроки?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 673.046875,
+          "y": 750.875,
+          "width": 687.03125,
+          "height": 85,
+          "top": 750.875,
+          "right": 1360.078125,
+          "bottom": 835.875,
+          "left": 673.046875
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 2320
+      },
+      {
+        "tag": "SUMMARY",
+        "id": "",
+        "href": null,
+        "text": "Форма на этом сайте отправляет заявку?",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 673.046875,
+          "y": 814.875,
+          "width": 687.03125,
+          "height": 85,
+          "top": 814.875,
+          "right": 1360.078125,
+          "bottom": 899.875,
+          "left": 673.046875
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 2342
+      },
+      {
+        "tag": "INPUT",
+        "id": "name",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "rect": {
+          "x": 784,
+          "y": 588.1875,
+          "width": 576.09375,
+          "height": 55,
+          "top": 588.1875,
+          "right": 1360.09375,
+          "bottom": 643.1875,
+          "left": 784
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 3025
+      },
+      {
+        "tag": "INPUT",
+        "id": "email",
+        "href": null,
+        "text": "",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "2px",
+        "rect": {
+          "x": 784,
+          "y": 536.984375,
+          "width": 576.09375,
+          "height": 55,
+          "top": 536.984375,
+          "right": 1360.09375,
+          "bottom": 591.984375,
+          "left": 784
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 3178
+      },
+      {
+        "tag": "BUTTON",
+        "id": "",
+        "href": null,
+        "text": "Проверить форму ↗",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 784,
+          "y": 616.984375,
+          "width": 576.09375,
+          "height": 58,
+          "top": 616.984375,
+          "right": 1360.09375,
+          "bottom": 674.984375,
+          "left": 784
+        },
+        "intersects": true,
+        "viewport": true,
+        "scrollY": 3178
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "линия.",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 79.90625,
+          "y": 856.03125,
+          "width": 123.84375,
+          "height": 44,
+          "top": 856.03125,
+          "right": 203.75,
+          "bottom": 900.03125,
+          "left": 79.90625
+        },
+        "intersects": true,
+        "viewport": false,
+        "scrollY": 3211
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "href": "#top",
+        "text": "Наверх ↑",
+        "visible": true,
+        "outline": "solid",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 1281.671875,
+          "y": 856.03125,
+          "width": 78.421875,
+          "height": 44,
+          "top": 856.03125,
+          "right": 1360.09375,
+          "bottom": 900.03125,
+          "left": 1281.671875
+        },
+        "intersects": true,
+        "viewport": false,
+        "scrollY": 3211
+      },
+      {
+        "tag": "BODY",
+        "id": "",
+        "href": null,
+        "text": "Перейти к содержанию\n  \n    \n      \n      линия.\n    \n    \n      Меню\n    \n    \n      Услу",
+        "visible": false,
+        "outline": "none",
+        "outlineWidth": "3px",
+        "rect": {
+          "x": 0,
+          "y": -3211,
+          "width": 1440,
+          "height": 4208.53125,
+          "top": -3211,
+          "right": 1440,
+          "bottom": 997.53125,
+          "left": 0
+        },
+        "intersects": true,
+        "viewport": false,
+        "scrollY": 3211
+      }
+    ],
+    "reverse": {
+      "tag": "A",
+      "id": "",
+      "href": "#top",
+      "text": "Наверх ↑",
+      "visible": true,
+      "outline": "solid",
+      "outlineWidth": "3px",
+      "rect": {
+        "x": 1281.671875,
+        "y": 856.03125,
+        "width": 78.421875,
+        "height": 44,
+        "top": 856.03125,
+        "right": 1360.09375,
+        "bottom": 900.03125,
+        "left": 1281.671875
+      },
+      "intersects": true,
+      "viewport": false,
+      "scrollY": 3211
+    },
+    "nav": [
+      {
+        "index": 0,
+        "target": "#main",
+        "focus": true,
+        "hash": "#main",
+        "top": -2057,
+        "visible": true,
+        "scrollY": 2169
+      },
+      {
+        "index": 1,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": 0,
+        "visible": true,
+        "scrollY": 0
+      },
+      {
+        "index": 2,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 186.15625,
+        "visible": true,
+        "scrollY": 695
+      },
+      {
+        "index": 3,
+        "target": "#process",
+        "focus": true,
+        "hash": "#process",
+        "top": 778.203125,
+        "visible": true,
+        "scrollY": 1071
+      },
+      {
+        "index": 4,
+        "target": "#faq",
+        "focus": true,
+        "hash": "#faq",
+        "top": 149.78125,
+        "visible": true,
+        "scrollY": 2469
+      },
+      {
+        "index": 5,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 352.875,
+        "visible": true,
+        "scrollY": 3010
+      },
+      {
+        "index": 6,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 277.875,
+        "visible": true,
+        "scrollY": 3085
+      },
+      {
+        "index": 7,
+        "target": "#services",
+        "focus": true,
+        "hash": "#services",
+        "top": 63.15625,
+        "visible": true,
+        "scrollY": 818
+      },
+      {
+        "index": 8,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 178.875,
+        "visible": true,
+        "scrollY": 3184
+      },
+      {
+        "index": 9,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 137.875,
+        "visible": true,
+        "scrollY": 3225
+      },
+      {
+        "index": 10,
+        "target": "#contact",
+        "focus": true,
+        "hash": "#contact",
+        "top": 117.875,
+        "visible": true,
+        "scrollY": 3245
+      },
+      {
+        "index": 11,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -8,
+        "visible": true,
+        "scrollY": 8
+      },
+      {
+        "index": 12,
+        "target": "#top",
+        "focus": true,
+        "hash": "#top",
+        "top": -7,
+        "visible": true,
+        "scrollY": 7
+      }
+    ]
+  }
+]
