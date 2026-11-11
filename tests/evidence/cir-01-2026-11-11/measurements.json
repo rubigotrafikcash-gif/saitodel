@@ -1,0 +1,188 @@
+[
+  {
+    "variant": "before",
+    "width": 375,
+    "screenshot": "before-375.png",
+    "measure": {
+      "viewport": 375,
+      "height": 900,
+      "devicePixelRatio": 1,
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "media760": true,
+      "width": 40,
+      "heightPx": 40,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "bodyScrollWidth": 375,
+      "focused": true,
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "3px",
+      "withinViewport": true,
+      "hit": true,
+      "href": "#services",
+      "label": "Перейти к услугам",
+      "hashBefore": ""
+    },
+    "activation": {
+      "hash": "#services",
+      "sectionTop": 24.5625,
+      "sectionVisible": true
+    }
+  },
+  {
+    "variant": "before",
+    "width": 768,
+    "screenshot": "before-768.png",
+    "measure": {
+      "viewport": 768,
+      "height": 900,
+      "devicePixelRatio": 1,
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "media760": false,
+      "width": 44,
+      "heightPx": 44,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "focused": true,
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "3px",
+      "withinViewport": true,
+      "hit": true,
+      "href": "#services",
+      "label": "Перейти к услугам",
+      "hashBefore": ""
+    },
+    "activation": {
+      "hash": "#services",
+      "sectionTop": 25,
+      "sectionVisible": true
+    }
+  },
+  {
+    "variant": "before",
+    "width": 1440,
+    "screenshot": "before-1440.png",
+    "measure": {
+      "viewport": 1440,
+      "height": 900,
+      "devicePixelRatio": 1,
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "media760": false,
+      "width": 44,
+      "heightPx": 44,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "focused": true,
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "3px",
+      "withinViewport": true,
+      "hit": true,
+      "href": "#services",
+      "label": "Перейти к услугам",
+      "hashBefore": ""
+    },
+    "activation": {
+      "hash": "#services",
+      "sectionTop": 25.15625,
+      "sectionVisible": true
+    }
+  },
+  {
+    "variant": "after",
+    "width": 375,
+    "screenshot": "after-375.png",
+    "measure": {
+      "viewport": 375,
+      "height": 900,
+      "devicePixelRatio": 1,
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "media760": true,
+      "width": 44,
+      "heightPx": 44,
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "bodyScrollWidth": 375,
+      "focused": true,
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "3px",
+      "withinViewport": true,
+      "hit": true,
+      "href": "#services",
+      "label": "Перейти к услугам",
+      "hashBefore": ""
+    },
+    "activation": {
+      "hash": "#services",
+      "sectionTop": 24.5625,
+      "sectionVisible": true
+    }
+  },
+  {
+    "variant": "after",
+    "width": 768,
+    "screenshot": "after-768.png",
+    "measure": {
+      "viewport": 768,
+      "height": 900,
+      "devicePixelRatio": 1,
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "media760": false,
+      "width": 44,
+      "heightPx": 44,
+      "clientWidth": 768,
+      "scrollWidth": 768,
+      "bodyScrollWidth": 768,
+      "focused": true,
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "3px",
+      "withinViewport": true,
+      "hit": true,
+      "href": "#services",
+      "label": "Перейти к услугам",
+      "hashBefore": ""
+    },
+    "activation": {
+      "hash": "#services",
+      "sectionTop": 25,
+      "sectionVisible": true
+    }
+  },
+  {
+    "variant": "after",
+    "width": 1440,
+    "screenshot": "after-1440.png",
+    "measure": {
+      "viewport": 1440,
+      "height": 900,
+      "devicePixelRatio": 1,
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "media760": false,
+      "width": 44,
+      "heightPx": 44,
+      "clientWidth": 1440,
+      "scrollWidth": 1440,
+      "bodyScrollWidth": 1440,
+      "focused": true,
+      "focusVisible": true,
+      "outlineStyle": "solid",
+      "outlineWidth": "3px",
+      "withinViewport": true,
+      "hit": true,
+      "href": "#services",
+      "label": "Перейти к услугам",
+      "hashBefore": ""
+    },
+    "activation": {
+      "hash": "#services",
+      "sectionTop": 25.15625,
+      "sectionVisible": true
+    }
+  }
+]
