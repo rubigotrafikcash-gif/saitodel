@@ -1,0 +1,213 @@
+[
+  {
+    "mode": "normal",
+    "width": 375,
+    "entry": {
+      "reduced": false,
+      "hero": true,
+      "headings": [],
+      "animations": [
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 360
+        },
+        {
+          "name": "frame-photo",
+          "state": "running",
+          "timing": 540
+        }
+      ],
+      "hash": ""
+    },
+    "settled": {
+      "reduced": false,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "hover": {
+      "matches": true,
+      "transition": "0.15s, 0.12s",
+      "background": "rgb(42, 81, 64)"
+    },
+    "first": {
+      "reduced": false,
+      "hero": false,
+      "headings": [
+        "Частые вопросы",
+        "Обсудим ваш проект?"
+      ],
+      "animations": [
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        },
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        }
+      ],
+      "hash": ""
+    },
+    "repeat": {
+      "reduced": false,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "anchor": {
+      "hash": "#contact",
+      "visible": true,
+      "heroEntry": false
+    },
+    "during": "P2-normal-375-entry.png"
+  },
+  {
+    "mode": "normal",
+    "width": 768,
+    "entry": {
+      "reduced": false,
+      "hero": true,
+      "headings": [
+        "Что мы делаем"
+      ],
+      "animations": [
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 360
+        },
+        {
+          "name": "frame-photo",
+          "state": "running",
+          "timing": 540
+        },
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        }
+      ],
+      "hash": ""
+    },
+    "settled": {
+      "reduced": false,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "hover": {
+      "matches": true,
+      "transition": "0.15s, 0.12s",
+      "background": "rgb(42, 81, 64)"
+    },
+    "first": {
+      "reduced": false,
+      "hero": false,
+      "headings": [
+        "Частые вопросы",
+        "Обсудим ваш проект?"
+      ],
+      "animations": [
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        },
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        }
+      ],
+      "hash": ""
+    },
+    "repeat": {
+      "reduced": false,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "anchor": {
+      "hash": "#contact",
+      "visible": true,
+      "heroEntry": false
+    },
+    "during": "P2-normal-768-entry.png"
+  },
+  {
+    "mode": "normal",
+    "width": 1440,
+    "entry": {
+      "reduced": false,
+      "hero": true,
+      "headings": [],
+      "animations": [
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 360
+        },
+        {
+          "name": "frame-photo",
+          "state": "running",
+          "timing": 540
+        }
+      ],
+      "hash": ""
+    },
+    "settled": {
+      "reduced": false,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "hover": {
+      "matches": true,
+      "transition": "0.15s, 0.12s",
+      "background": "rgb(42, 81, 64)"
+    },
+    "first": {
+      "reduced": false,
+      "hero": false,
+      "headings": [
+        "Частые вопросы",
+        "Обсудим ваш проект?"
+      ],
+      "animations": [
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        },
+        {
+          "name": "arrive",
+          "state": "running",
+          "timing": 320
+        }
+      ],
+      "hash": ""
+    },
+    "repeat": {
+      "reduced": false,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "anchor": {
+      "hash": "#contact",
+      "visible": true,
+      "heroEntry": false
+    },
+    "during": "P2-normal-1440-entry.png"
+  }
+]

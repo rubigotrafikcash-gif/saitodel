@@ -1,0 +1,131 @@
+[
+  {
+    "mode": "reduce",
+    "width": 375,
+    "entry": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "settled": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "hover": {
+      "matches": true,
+      "transition": "0s",
+      "background": "rgb(42, 81, 64)"
+    },
+    "first": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "repeat": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "anchor": {
+      "hash": "#contact",
+      "visible": true,
+      "heroEntry": false
+    },
+    "during": "P2-reduce-375-entry.png"
+  },
+  {
+    "mode": "reduce",
+    "width": 768,
+    "entry": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "settled": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "hover": {
+      "matches": true,
+      "transition": "0s",
+      "background": "rgb(42, 81, 64)"
+    },
+    "first": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "repeat": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "anchor": {
+      "hash": "#contact",
+      "visible": true,
+      "heroEntry": false
+    },
+    "during": "P2-reduce-768-entry.png"
+  },
+  {
+    "mode": "reduce",
+    "width": 1440,
+    "entry": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "settled": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "hover": {
+      "matches": true,
+      "transition": "0s",
+      "background": "rgb(42, 81, 64)"
+    },
+    "first": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "repeat": {
+      "reduced": true,
+      "hero": false,
+      "headings": [],
+      "animations": [],
+      "hash": ""
+    },
+    "anchor": {
+      "hash": "#contact",
+      "visible": true,
+      "heroEntry": false
+    },
+    "during": "P2-reduce-1440-entry.png"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "path": "AGENTS.md",
+    "sha256": "0f47fe4a22dddb108dcb5fe99b792021d16a5bf0f762d06ca6326d4fd9de8505"
+  },
+  {
+    "path": "cafe.jpg",
+    "sha256": "88716cd9f156786c0cf1c209f69339482d287197dd4b38a5902c96d6b267a1b6"
+  },
+  {
+    "path": "icon.png",
+    "sha256": "05f715be7a15395d66a3a0ae802b75614d32de5876ea151a7fc2f7596266cd36"
+  },
+  {
+    "path": "index.html",
+    "sha256": "15e03925740b86b1789a96fb4156875515a48dadd9acf5a94885127d77429322"
+  },
+  {
+    "path": "README.md",
+    "sha256": "3e9d8b2f126a3b1c29384c18b47f382712acc916d314e33e24ef704c2bde1698"
+  },
+  {
+    "path": "serve.mjs",
+    "sha256": "1a7ab832c02d7ba384cc813d89ca04682fd7be7fa176f33b79c9a00c965a2954"
+  },
+  {
+    "path": "site.js",
+    "sha256": "729279edf29de4802d1d550e1b91d1d19687108ff2e3d417b27e83603db12870"
+  },
+  {
+    "path": "styles.css",
+    "sha256": "b4e7579ecb9f94cf9c25af594cbc89ca26de3fd30b35ee641a1d604b2c82d7f3"
+  }
+]
